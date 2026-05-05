@@ -9,6 +9,8 @@ generating a repeatable scan prompt from it.
   Francisco.
 - A prompt builder for recurring scans over the next two weeks.
 - A sample profile based on Lisa's stated preferences and attendance history.
+- A polished static website in `docs/` for presenting the taste profile and
+  event-selection logic.
 
 ## Quick start
 
@@ -16,6 +18,8 @@ generating a repeatable scan prompt from it.
 python3 -m unittest
 python3 -c "from sf_tech_events import LISA_PROFILE, build_scan_prompt; print(build_scan_prompt(LISA_PROFILE))"
 ```
+
+To preview the static site locally, open `docs/index.html` in a browser.
 
 ## Profile summary
 

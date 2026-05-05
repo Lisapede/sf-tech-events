@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SF Tech Events</title>
+    <meta
+      name="description"
+      content="A high-signal San Francisco AI events taste profile focused on curated evening rooms with frontier-AI employees, technical operators, and serious builders."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <header class="site-header">
+      <div class="wordmark">
+        <span class="wordmark-mark">SF</span>
+        <div>
+          <p class="eyebrow">Private Signal Filter</p>
+          <h1>San Francisco Tech Events</h1>
+        </div>
+      </div>
+      <p class="header-note">
+        Built for AI career positioning, operator-quality rooms, and better
+        in-person signal after work.
+      </p>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Taste Profile</p>
+          <h2>Find the rooms where frontier-AI people actually want to stay.</h2>
+          <p class="lede">
+            This profile prioritizes high-trust, high-substance evening events in
+            San Francisco with a strong chance of meeting employees from OpenAI,
+            Anthropic, WorkOS, and adjacent AI or infrastructure companies.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#signal-rubric">See the rubric</a>
+            <a class="button button-secondary" href="#operating-rules">Review the rules</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel">
+          <p class="panel-label">Current operating frame</p>
+          <ul id="hero-filters" class="compact-list"></ul>
+        </aside>
+      </section>
+
+      <section class="score-strip" id="signal-rubric">
+        <div>
+          <p class="eyebrow">Signal Definition</p>
+          <h3>What makes an event worth the night?</h3>
+        </div>
+        <div id="score-grid" class="score-grid"></div>
+      </section>
+
+      <section class="section-grid">
+        <article class="card span-two">
+          <p class="eyebrow">Priority Companies</p>
+          <h3>Who the room should pull in</h3>
+          <div id="company-chips" class="chip-grid"></div>
+        </article>
+
+        <article class="card">
+          <p class="eyebrow">Timing</p>
+          <h3>Evening bias</h3>
+          <p class="body-copy">
+            Weeknight events should ideally start at or after
+            <strong>5:30 PM</strong>. Daytime programming is only useful if it is
+            exceptional, and this filter generally skips it.
+          </p>
+        </article>
+      </section>
+
+      <section class="section-grid">
+        <article class="card">
+          <p class="eyebrow">Prioritize</p>
+          <h3>Rooms that rise to the top</h3>
+          <ul id="prioritize-list" class="rich-list"></ul>
+        </article>
+
+        <article class="card">
+          <p class="eyebrow">Deprioritize</p>
+          <h3>Rooms that look busy but dilute signal</h3>
+          <ul id="deprioritize-list" class="rich-list"></ul>
+        </article>
+
+        <article class="card">
+          <p class="eyebrow">Hard Avoid</p>
+          <h3>Automatic filters</h3>
+          <ul id="avoid-list" class="rich-list"></ul>
+        </article>
+      </section>
+
+      <section class="section-grid">
+        <article class="card span-two">
+          <p class="eyebrow">Best-Fit Crowd</p>
+          <h3>The people most worth meeting</h3>
+          <div id="roles-grid" class="persona-grid"></div>
+        </article>
+
+        <article class="card">
+          <p class="eyebrow">Attendance Threshold</p>
+          <h3>Minimum room density</h3>
+          <p id="attendance-rule" class="body-copy"></p>
+        </article>
+      </section>
+
+      <section class="section-grid">
+        <article class="card">
+          <p class="eyebrow">Venue Preferences</p>
+          <h3>Places with better social geometry</h3>
+          <ul id="venues-list" class="rich-list"></ul>
+        </article>
+
+        <article class="card">
+          <p class="eyebrow">Community Signals</p>
+          <h3>Hosts and ecosystems that matter</h3>
+          <ul id="communities-list" class="rich-list"></ul>
+        </article>
+
+        <article class="card">
+          <p class="eyebrow">Favorite Topics</p>
+          <h3>Substance over buzzword fog</h3>
+          <ul id="topics-list" class="rich-list"></ul>
+        </article>
+      </section>
+
+      <section class="operating-rules" id="operating-rules">
+        <div class="rules-header">
+          <p class="eyebrow">Operating Rules</p>
+          <h3>How the scan behaves day to day</h3>
+        </div>
+        <div class="rules-grid">
+          <article class="rule-card">
+            <span class="rule-number">01</span>
+            <p id="recommendation-policy" class="body-copy"></p>
+          </article>
+          <article class="rule-card">
+            <span class="rule-number">02</span>
+            <p class="body-copy">
+              WorkOS events and WorkOS-adjacent devtools rooms get extra weight
+              when the crowd is likely to include product, engineering, and
+              operator talent rather than founder-heavy networking.
+            </p>
+          </article>
+          <article class="rule-card">
+            <span class="rule-number">03</span>
+            <p class="body-copy">
+              High-profile startup rooms do not get bonus points simply for being
+              crowded. Company-dense, technically credible, operator-heavy rooms
+              outrank startup theater.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="history-band">
+        <div>
+          <p class="eyebrow">Learned From Real Attendance</p>
+          <h3>What your recent history says about your taste</h3>
+        </div>
+        <div id="history-grid" class="history-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>SF Tech Events</p>
+      <p>Two-week horizon. San Francisco only. Evening signal first.</p>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
