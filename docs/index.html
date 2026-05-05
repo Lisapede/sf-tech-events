@@ -6,7 +6,7 @@
     <title>SF Tech Events</title>
     <meta
       name="description"
-      content="A high-signal San Francisco AI events taste profile focused on curated evening rooms with frontier-AI employees, technical operators, and serious builders."
+      content="Two-week San Francisco AI event recommendations focused on high-signal evening rooms with strong technical and frontier-AI attendance."
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -16,159 +16,68 @@
       <div class="wordmark">
         <span class="wordmark-mark">SF</span>
         <div>
-          <p class="eyebrow">Private Signal Filter</p>
+          <p class="eyebrow">Two-Week Scan</p>
           <h1>San Francisco Tech Events</h1>
         </div>
       </div>
       <p class="header-note">
-        Built for AI career positioning, operator-quality rooms, and better
-        in-person signal after work.
+        Live event recommendations for the next two weeks, filtered down to the
+        rooms most likely to be worth your evening.
       </p>
     </header>
 
     <main>
       <section class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">Taste Profile</p>
-          <h2>Find the rooms where frontier-AI people actually want to stay.</h2>
+          <p class="eyebrow">Updated May 4, 2026</p>
+          <h2>Only the events worth considering from May 4 through May 18.</h2>
           <p class="lede">
-            This profile prioritizes high-trust, high-substance evening events in
-            San Francisco with a strong chance of meeting employees from OpenAI,
-            Anthropic, WorkOS, and adjacent AI or infrastructure companies.
+            This page now shows the actual recommendation slate: direct event
+            links, day-by-day picks, and explicit “not worth attending” calls
+            when the calendar is weak.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#signal-rubric">See the rubric</a>
-            <a class="button button-secondary" href="#operating-rules">Review the rules</a>
+            <a class="button button-primary" href="#planner">See the full planner</a>
+            <a class="button button-secondary" href="#featured">Top picks first</a>
           </div>
         </div>
 
         <aside class="hero-panel">
-          <p class="panel-label">Current operating frame</p>
-          <ul id="hero-filters" class="compact-list"></ul>
+          <p class="panel-label">Window</p>
+          <p id="window-label" class="hero-stat"></p>
+          <p class="panel-label">Scan focus</p>
+          <p class="body-copy">
+            High-signal, in-person, after-work AI events in San Francisco with
+            strong odds of useful conversations and good attendee density.
+          </p>
+          <p class="panel-label">Link status</p>
+          <p class="body-copy">
+            Direct event links on this page were rechecked during the May 4,
+            2026 refresh.
+          </p>
         </aside>
       </section>
 
-      <section class="score-strip" id="signal-rubric">
-        <div>
-          <p class="eyebrow">Signal Definition</p>
-          <h3>What makes an event worth the night?</h3>
+      <section class="featured-strip" id="featured">
+        <div class="section-heading">
+          <p class="eyebrow">Best Bets</p>
+          <h3>Top events in the window</h3>
         </div>
-        <div id="score-grid" class="score-grid"></div>
+        <div id="featured-grid" class="featured-grid"></div>
       </section>
 
-      <section class="section-grid">
-        <article class="card span-two">
-          <p class="eyebrow">Priority Companies</p>
-          <h3>Who the room should pull in</h3>
-          <div id="company-chips" class="chip-grid"></div>
-        </article>
-
-        <article class="card">
-          <p class="eyebrow">Timing</p>
-          <h3>Evening bias</h3>
-          <p class="body-copy">
-            Weeknight events should ideally start at or after
-            <strong>5:30 PM</strong>. Daytime programming is only useful if it is
-            exceptional, and this filter generally skips it.
-          </p>
-        </article>
-      </section>
-
-      <section class="section-grid">
-        <article class="card">
-          <p class="eyebrow">Prioritize</p>
-          <h3>Rooms that rise to the top</h3>
-          <ul id="prioritize-list" class="rich-list"></ul>
-        </article>
-
-        <article class="card">
-          <p class="eyebrow">Deprioritize</p>
-          <h3>Rooms that look busy but dilute signal</h3>
-          <ul id="deprioritize-list" class="rich-list"></ul>
-        </article>
-
-        <article class="card">
-          <p class="eyebrow">Hard Avoid</p>
-          <h3>Automatic filters</h3>
-          <ul id="avoid-list" class="rich-list"></ul>
-        </article>
-      </section>
-
-      <section class="section-grid">
-        <article class="card span-two">
-          <p class="eyebrow">Best-Fit Crowd</p>
-          <h3>The people most worth meeting</h3>
-          <div id="roles-grid" class="persona-grid"></div>
-        </article>
-
-        <article class="card">
-          <p class="eyebrow">Attendance Threshold</p>
-          <h3>Minimum room density</h3>
-          <p id="attendance-rule" class="body-copy"></p>
-        </article>
-      </section>
-
-      <section class="section-grid">
-        <article class="card">
-          <p class="eyebrow">Venue Preferences</p>
-          <h3>Places with better social geometry</h3>
-          <ul id="venues-list" class="rich-list"></ul>
-        </article>
-
-        <article class="card">
-          <p class="eyebrow">Community Signals</p>
-          <h3>Hosts and ecosystems that matter</h3>
-          <ul id="communities-list" class="rich-list"></ul>
-        </article>
-
-        <article class="card">
-          <p class="eyebrow">Favorite Topics</p>
-          <h3>Substance over buzzword fog</h3>
-          <ul id="topics-list" class="rich-list"></ul>
-        </article>
-      </section>
-
-      <section class="operating-rules" id="operating-rules">
-        <div class="rules-header">
-          <p class="eyebrow">Operating Rules</p>
-          <h3>How the scan behaves day to day</h3>
+      <section class="planner-shell" id="planner">
+        <div class="section-heading">
+          <p class="eyebrow">Daily Planner</p>
+          <h3>Day-by-day recommendations</h3>
         </div>
-        <div class="rules-grid">
-          <article class="rule-card">
-            <span class="rule-number">01</span>
-            <p id="recommendation-policy" class="body-copy"></p>
-          </article>
-          <article class="rule-card">
-            <span class="rule-number">02</span>
-            <p class="body-copy">
-              WorkOS events and WorkOS-adjacent devtools rooms get extra weight
-              when the crowd is likely to include product, engineering, and
-              operator talent rather than founder-heavy networking.
-            </p>
-          </article>
-          <article class="rule-card">
-            <span class="rule-number">03</span>
-            <p class="body-copy">
-              High-profile startup rooms do not get bonus points simply for being
-              crowded. Company-dense, technically credible, operator-heavy rooms
-              outrank startup theater.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="history-band">
-        <div>
-          <p class="eyebrow">Learned From Real Attendance</p>
-          <h3>What your recent history says about your taste</h3>
-        </div>
-        <div id="history-grid" class="history-grid"></div>
+        <div id="planner-grid" class="planner-grid"></div>
       </section>
     </main>
 
     <footer class="site-footer">
       <p>SF Tech Events</p>
-      <p>Two-week horizon. San Francisco only. Evening signal first.</p>
+      <p>Window: May 4, 2026 through May 18, 2026</p>
     </footer>
 
     <script src="./app.js"></script>
