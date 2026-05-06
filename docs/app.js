@@ -1,88 +1,33 @@
 const scan = {
-  updatedAt: "May 4, 2026",
-  windowLabel: "May 4, 2026 → May 18, 2026",
+  updatedAt: "May 6, 2026",
+  windowLabel: "May 6, 2026 → May 20, 2026",
   featured: [
-    {
-      title: "Context is King #4 – Building AI Agents on Real Data",
-      date: "Tue, May 5",
-      recommendation: "Sign up now",
-      summary:
-        "Best pure context-engineering room in the window. Strong implementation energy, 164 going, and the right technical crowd profile.",
-      link: "https://luma.com/24jez9g5",
-    },
     {
       title: "Agentic + AI Coding Night SF",
       date: "Thu, May 7",
       recommendation: "Sign up now",
       summary:
-        "The strongest frontier-company lineup in the scan, with explicit OpenAI and Anthropic presence and real depth on coding agents.",
+        "The strongest direct frontier-company room in the current window, with explicit OpenAI and Anthropic presence and deep coding-agent substance.",
       link: "https://luma.com/agenticaiobsnightsf-5-7",
+    },
+    {
+      title: "AWS Builder Loft",
+      date: "Thu, May 7",
+      recommendation: "Consider",
+      summary:
+        "A more practical production-agents room with AWS, Dify, and TiDB. Less elite than the top pick, but still useful and after work.",
+      link: "https://luma.com/v9no5ytc",
     },
     {
       title: "AI Tinkerers Build Night: Agents w/ Real-time Data",
       date: "Wed, May 13",
       recommendation: "Sign up now",
       summary:
-        "Selective, builder-heavy, and already above the attendance floor. Strong fit for serious hands-on AI conversations.",
+        "Selective, builder-heavy, and still one of the best true hands-on rooms in the whole window.",
       link: "https://sf.aitinkerers.org/p/ai-tinkerers-build-night-agents-w-real-time-data",
     },
   ],
   days: [
-    {
-      date: "Monday, May 4",
-      verdict: "Not worth attending",
-      note: "Nothing in San Francisco tonight clears the bar strongly enough to recommend.",
-      events: [],
-    },
-    {
-      date: "Tuesday, May 5",
-      verdict: "Strong options",
-      note: "This is one of the best nights in the whole two-week window.",
-      events: [
-        {
-          title: "Context is King #4 – Building AI Agents on Real Data",
-          time: "5:15 PM to 9:00 PM PT",
-          venue: "San Francisco address shown after approval",
-          host: "Context is King",
-          link: "https://luma.com/24jez9g5",
-          recommendation: "Sign up now",
-          score: "9.3/10",
-          why:
-            "Concrete context-engineering, memory, retrieval, MCP, and harness talks from real builders rather than generic networking.",
-          signal:
-            "164 going. Sold-out history in San Francisco and the Nordics. Strong overlap with applied AI engineers and serious infrastructure people.",
-          notes: "Approval required.",
-        },
-        {
-          title: "Daytona AI Builders w/ WorkOS & Coder - SF, May 2026",
-          time: "5:30 PM onward",
-          venue: "San Francisco address shown after approval",
-          host: "Daytona, WorkOS, and Marco Martinez",
-          link: "https://web.luma.com/e1d5eql5",
-          recommendation: "Sign up now",
-          score: "9.1/10",
-          why:
-            "WorkOS is directly involved, and the agenda is tightly aligned with code agents, harnesses, self-driving codebases, and production AI workflows.",
-          signal:
-            "416 going on the Luma page. WorkOS engineer Matt Dzwonczyk is on the agenda, plus Coder, CodeRabbit, and CopilotKit.",
-          notes: "Approval required.",
-        },
-        {
-          title: "Transformers vs. Post-Transformers: The Deciding Round, with Lukasz Kaiser",
-          time: "Evening of May 5",
-          venue: "San Francisco address shown after approval",
-          host: "Pathway",
-          link: "https://web.luma.com/post-transformer-sf",
-          recommendation: "Consider",
-          score: "8.8/10",
-          why:
-            "A highly unusual research-heavy room with Lukasz Kaiser, Llion Jones, Mathias Lechner, and HumanLayer moderation.",
-          signal:
-            "Curated room with selected press, researchers, and builders. Strong intellectual upside even without a visible attendee count.",
-          notes: "Approval required. More research-heavy and less operator-practical than the top two.",
-        },
-      ],
-    },
     {
       date: "Wednesday, May 6",
       verdict: "Not worth attending",
@@ -109,18 +54,32 @@ const scan = {
           notes: "Approval required. Starts earlier than ideal, but the lineup justifies it.",
         },
         {
+          title: "AWS Builder Loft",
+          time: "5:00 PM to 8:30 PM PT",
+          venue: "AWS Builder Loft, 525 Market St, 2nd Floor, San Francisco",
+          host: "TiDB, AWS, and Dify",
+          link: "https://luma.com/v9no5ytc",
+          recommendation: "Consider",
+          score: "8.2/10",
+          why:
+            "Practical builder room on production-ready GenAI and agentic workflows, with useful overlap for infra-minded AI operators.",
+          signal:
+            "The agenda is concrete rather than fluffy: AWS, Dify, TiDB, AI memory, Bedrock, AgentCore, and production-grade workflows.",
+          notes: "Good technical backup if you miss the main coding-agents event. Public attendee count was not clearly visible on the page.",
+        },
+        {
           title: "Camp AI: Agents at Work //San Francisco//",
           time: "5:30 PM to 8:30 PM PT",
           venue: "Digital Jungle SF, 972 Mission St, San Francisco",
           host: "Auth0 Events - San Francisco",
           link: "https://luma.com/camp-ai-may-2026",
           recommendation: "Consider",
-          score: "8.4/10",
+          score: "7.9/10",
           why:
             "Good applied-agents room with useful operators from Fireworks AI, Browserbase, Mastra, Drata, Corridor, and Auth0.",
           signal:
-            "Better than a generic mixer, but the positioning still leans more startup-builder than frontier-employee dense.",
-          notes: "Approval required. Strong backup if you cannot make the coding night.",
+            "Partner roster is real, but the crowd is likely to skew more startup-builder than frontier-company dense. Mastra notes teams at Replit, WorkOS, and Sanity use the framework.",
+          notes: "Approval required. Still useful, but less targeted than the top two May 7 options.",
         },
       ],
     },
@@ -234,6 +193,18 @@ const scan = {
           notes: "Good if you want operator conversations, weaker if you want pure frontier-lab density.",
         },
       ],
+    },
+    {
+      date: "Tuesday, May 19",
+      verdict: "Not worth attending",
+      note: "No strong SF evening AI recommendation surfaced for tonight.",
+      events: [],
+    },
+    {
+      date: "Wednesday, May 20",
+      verdict: "Not worth attending",
+      note: "No strong SF evening AI recommendation surfaced for tonight.",
+      events: [],
     },
   ],
 };
