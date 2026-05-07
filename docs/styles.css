@@ -1,16 +1,16 @@
 :root {
-  --bg: #0f1211;
-  --bg-elevated: rgba(18, 24, 22, 0.84);
-  --panel: rgba(255, 248, 238, 0.08);
-  --panel-strong: rgba(255, 248, 238, 0.14);
-  --line: rgba(255, 244, 234, 0.14);
-  --text: #f5efe6;
-  --muted: #c8beaf;
-  --warm: #d98d5f;
-  --warm-soft: #f0be8f;
-  --teal: #85b8ac;
-  --red: #d87979;
-  --shadow: 0 32px 80px rgba(0, 0, 0, 0.36);
+  --bg: #f6f0e7;
+  --bg-elevated: rgba(255, 252, 247, 0.9);
+  --panel: rgba(255, 255, 255, 0.86);
+  --panel-strong: rgba(255, 255, 255, 0.95);
+  --line: rgba(102, 78, 58, 0.14);
+  --text: #241b14;
+  --muted: #655446;
+  --warm: #c86f3d;
+  --warm-soft: #9c4f24;
+  --teal: #4f8f86;
+  --red: #b25b5b;
+  --shadow: 0 24px 60px rgba(106, 83, 58, 0.12);
   --display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
   --body: "Avenir Next", "Segoe UI", sans-serif;
 }
@@ -27,9 +27,9 @@ body {
   margin: 0;
   font-family: var(--body);
   background:
-    radial-gradient(circle at top left, rgba(217, 141, 95, 0.16), transparent 28%),
-    radial-gradient(circle at top right, rgba(133, 184, 172, 0.12), transparent 24%),
-    linear-gradient(180deg, #171d1b 0%, var(--bg) 32%, #0a0d0c 100%);
+    radial-gradient(circle at top left, rgba(200, 111, 61, 0.12), transparent 28%),
+    radial-gradient(circle at top right, rgba(79, 143, 134, 0.12), transparent 24%),
+    linear-gradient(180deg, #fbf6ef 0%, var(--bg) 34%, #f0e6da 100%);
   color: var(--text);
   min-height: 100vh;
   position: relative;
@@ -40,8 +40,8 @@ body {
   inset: 0;
   pointer-events: none;
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+    linear-gradient(rgba(88, 68, 51, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(88, 68, 51, 0.025) 1px, transparent 1px);
   background-size: 26px 26px;
   mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.85), transparent 92%);
 }
@@ -74,9 +74,9 @@ main,
   width: 3.25rem;
   height: 3.25rem;
   border-radius: 999px;
-  border: 1px solid rgba(217, 141, 95, 0.45);
+  border: 1px solid rgba(200, 111, 61, 0.3);
   color: var(--warm-soft);
-  background: rgba(217, 141, 95, 0.1);
+  background: rgba(200, 111, 61, 0.08);
   font-size: 0.95rem;
   letter-spacing: 0.2em;
 }
@@ -180,13 +180,13 @@ h3 {
 
 .button-primary {
   background: linear-gradient(135deg, var(--warm), #bd6a40);
-  color: #150f0a;
+  color: #fffaf5;
   font-weight: 700;
 }
 
 .button-secondary {
-  border: 1px solid rgba(133, 184, 172, 0.45);
-  background: rgba(133, 184, 172, 0.08);
+  border: 1px solid rgba(79, 143, 134, 0.28);
+  background: rgba(79, 143, 134, 0.08);
   color: var(--text);
 }
 
@@ -289,8 +289,8 @@ h3 {
 }
 
 .chip {
-  border: 1px solid rgba(240, 190, 143, 0.3);
-  background: rgba(240, 190, 143, 0.08);
+  border: 1px solid rgba(200, 111, 61, 0.18);
+  background: rgba(200, 111, 61, 0.06);
   color: var(--text);
   padding: 0.55rem 0.8rem;
   border-radius: 999px;
@@ -306,8 +306,8 @@ h3 {
 
 .persona,
 .history-card {
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(102, 78, 58, 0.08);
+  background: rgba(255, 255, 255, 0.72);
   border-radius: 1.15rem;
   padding: 1rem;
 }
@@ -441,7 +441,7 @@ h3 {
 .no-event-card {
   border-radius: 1.15rem;
   padding: 1rem;
-  background: rgba(255, 255, 255, 0.035);
+  background: rgba(255, 255, 255, 0.72);
   box-shadow: none;
 }
 
@@ -461,7 +461,6 @@ h3 {
 
 .event-meta,
 .event-copy,
-.inline-link,
 .no-event-card p {
   line-height: 1.65;
 }
@@ -492,35 +491,64 @@ h3 {
 }
 
 .badge-hot {
-  background: rgba(217, 141, 95, 0.18);
+  background: rgba(200, 111, 61, 0.12);
   color: var(--warm-soft);
-  border-color: rgba(217, 141, 95, 0.38);
+  border-color: rgba(200, 111, 61, 0.28);
 }
 
 .badge-warm {
-  background: rgba(133, 184, 172, 0.12);
-  color: #d4efe8;
-  border-color: rgba(133, 184, 172, 0.38);
+  background: rgba(79, 143, 134, 0.12);
+  color: #2d5f58;
+  border-color: rgba(79, 143, 134, 0.28);
 }
 
 .badge-muted,
 .badge-score {
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(98, 82, 67, 0.06);
   color: var(--muted);
-  border-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(98, 82, 67, 0.1);
 }
 
-.inline-link {
+.event-button {
   display: inline-flex;
-  margin-top: 0.9rem;
-  color: var(--warm-soft);
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  margin-top: 1rem;
+  padding: 0.72rem 1rem;
+  border-radius: 999px;
   text-decoration: none;
-  border-bottom: 1px solid rgba(240, 190, 143, 0.28);
-  padding-bottom: 0.1rem;
+  font-weight: 600;
+  transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
 }
 
-.inline-link:hover {
-  border-color: rgba(240, 190, 143, 0.65);
+.event-button:hover {
+  transform: translateY(-1px);
+}
+
+.event-button-primary {
+  background: linear-gradient(135deg, var(--warm), #b9602f);
+  color: #fffaf5;
+  box-shadow: 0 10px 24px rgba(200, 111, 61, 0.18);
+}
+
+.event-button-secondary {
+  background: rgba(79, 143, 134, 0.08);
+  border: 1px solid rgba(79, 143, 134, 0.22);
+  color: #275952;
+}
+
+.no-event-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 6rem;
+}
+
+.no-event-card p {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 600;
 }
 
 .history-card span {
@@ -570,9 +598,9 @@ h3 {
 @media (max-width: 640px) {
   body {
     background:
-      radial-gradient(circle at top left, rgba(217, 141, 95, 0.16), transparent 34%),
-      radial-gradient(circle at top right, rgba(133, 184, 172, 0.12), transparent 26%),
-      linear-gradient(180deg, #171d1b 0%, var(--bg) 32%, #0a0d0c 100%);
+      radial-gradient(circle at top left, rgba(200, 111, 61, 0.12), transparent 34%),
+      radial-gradient(circle at top right, rgba(79, 143, 134, 0.12), transparent 26%),
+      linear-gradient(180deg, #fbf6ef 0%, var(--bg) 34%, #f0e6da 100%);
   }
 
   .site-header,

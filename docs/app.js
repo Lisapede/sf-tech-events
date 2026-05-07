@@ -216,6 +216,10 @@ function badgeClass(label) {
   return "badge badge-muted";
 }
 
+function ctaLabel(label) {
+  return label.toLowerCase().includes("sign up") ? "Sign up now" : "View event";
+}
+
 function renderFeatured() {
   const target = document.getElementById("featured-grid");
   target.innerHTML = scan.featured
@@ -226,7 +230,12 @@ function renderFeatured() {
           <h4>${event.title}</h4>
           <span class="${badgeClass(event.recommendation)}">${event.recommendation}</span>
           <p class="body-copy">${event.summary}</p>
-          <a class="inline-link" href="${event.link}" target="_blank" rel="noreferrer">Open event</a>
+          <a
+            class="event-button ${event.recommendation === "Sign up now" ? "event-button-primary" : "event-button-secondary"}"
+            href="${event.link}"
+            target="_blank"
+            rel="noreferrer"
+          >${ctaLabel(event.recommendation)}</a>
         </article>
       `,
     )
@@ -257,14 +266,18 @@ function renderPlanner() {
                   <p class="event-copy"><strong>Why it made the cut:</strong> ${event.why}</p>
                   <p class="event-copy"><strong>Signal:</strong> ${event.signal}</p>
                   <p class="event-copy"><strong>Notes:</strong> ${event.notes}</p>
-                  <a class="inline-link" href="${event.link}" target="_blank" rel="noreferrer">Review event</a>
+                  <a
+                    class="event-button ${event.recommendation === "Sign up now" ? "event-button-primary" : "event-button-secondary"}"
+                    href="${event.link}"
+                    target="_blank"
+                    rel="noreferrer"
+                  >${ctaLabel(event.recommendation)}</a>
                 </article>
               `,
             )
             .join("")
         : `<div class="no-event-card">
-             <span class="badge badge-muted">${day.verdict}</span>
-             <p>${day.note}</p>
+             <p>None worth attending</p>
            </div>`;
 
       return `
@@ -274,11 +287,9 @@ function renderPlanner() {
               <p class="eyebrow">Recommendation</p>
               <h3>${day.date}</h3>
             </div>
-            <div class="day-verdict">
-              <span class="${badgeClass(day.verdict)}">${day.verdict}</span>
-            </div>
+            ${day.events.length ? `<div class="day-verdict"><span class="${badgeClass(day.verdict)}">${day.verdict}</span></div>` : ""}
           </div>
-          <p class="day-note">${day.note}</p>
+          ${day.events.length ? `<p class="day-note">${day.note}</p>` : ""}
           <div class="event-stack">${cards}</div>
         </section>
       `;
