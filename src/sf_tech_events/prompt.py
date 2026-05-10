@@ -32,6 +32,8 @@ Avoid:
 
 Recommendation policy:
 - {profile.recommendation_policy}
+- Before marking a day as not worth attending, run a second-pass search across Luma city/AI/Tech listings and strong organizer calendars or official event pages to make sure the day is truly weak.
+- Prefer direct Luma links when available, but use the strongest direct official event link if the registration page lives elsewhere.
 
 For each event include:
 - Event name

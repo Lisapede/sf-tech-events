@@ -1,23 +1,7 @@
 const scan = {
-  updatedAt: "May 6, 2026",
-  windowLabel: "May 6, 2026 → May 20, 2026",
+  updatedAt: "May 10, 2026",
+  windowLabel: "May 10, 2026 → May 24, 2026",
   featured: [
-    {
-      title: "Agentic + AI Coding Night SF",
-      date: "Thu, May 7",
-      recommendation: "Sign up now",
-      summary:
-        "The strongest direct frontier-company room in the current window, with explicit OpenAI and Anthropic presence and deep coding-agent substance.",
-      link: "https://luma.com/agenticaiobsnightsf-5-7",
-    },
-    {
-      title: "AWS Builder Loft",
-      date: "Thu, May 7",
-      recommendation: "Consider",
-      summary:
-        "A more practical production-agents room with AWS, Dify, and TiDB. Less elite than the top pick, but still useful and after work.",
-      link: "https://luma.com/v9no5ytc",
-    },
     {
       title: "AI Tinkerers Build Night: Agents w/ Real-time Data",
       date: "Wed, May 13",
@@ -26,84 +10,33 @@ const scan = {
         "Selective, builder-heavy, and still one of the best true hands-on rooms in the whole window.",
       link: "https://sf.aitinkerers.org/p/ai-tinkerers-build-night-agents-w-real-time-data",
     },
+    {
+      title: "WorkOS MCP Night: Agent Mode",
+      date: "Thu, May 21",
+      recommendation: "Sign up now",
+      summary:
+        "Best late-window fit: WorkOS-hosted, agentic, and likely to draw exactly the enterprise AI builders you want to meet.",
+      link: "https://luma.com/mcp-night-4",
+    },
+    {
+      title: "Okta Workflows Community Meetup, San Francisco",
+      date: "Wed, May 20",
+      recommendation: "Consider",
+      summary:
+        "A credible enterprise-AI operator room with identity, AI-agent security, and workflow builders in one place.",
+      link: "https://luma.com/87n5or4m",
+    },
   ],
   days: [
     {
-      date: "Wednesday, May 6",
-      verdict: "Not worth attending",
-      note: "The visible SF options are too beginner-oriented or too weakly differentiated to recommend.",
-      events: [],
-    },
-    {
-      date: "Thursday, May 7",
-      verdict: "Strong options",
-      note: "Another high-quality night, especially if you want direct frontier-company overlap.",
-      events: [
-        {
-          title: "Agentic + AI Coding Night SF",
-          time: "3:30 PM to 9:00 PM PT",
-          venue: "Terra Gallery & Event Venue, 511 Harrison St, San Francisco",
-          host: "Agentic + AI Observability",
-          link: "https://luma.com/agenticaiobsnightsf-5-7",
-          recommendation: "Sign up now",
-          score: "9.5/10",
-          why:
-            "This is the strongest direct-fit room for coding agents, evals, governance, and enterprise deployment complexity.",
-          signal:
-            "OpenAI and Anthropic are explicitly on the agenda, alongside Databricks, 1Password, Datafold, and Factory.AI.",
-          notes: "Approval required. Starts earlier than ideal, but the lineup justifies it.",
-        },
-        {
-          title: "AWS Builder Loft",
-          time: "5:00 PM to 8:30 PM PT",
-          venue: "AWS Builder Loft, 525 Market St, 2nd Floor, San Francisco",
-          host: "TiDB, AWS, and Dify",
-          link: "https://luma.com/v9no5ytc",
-          recommendation: "Consider",
-          score: "8.2/10",
-          why:
-            "Practical builder room on production-ready GenAI and agentic workflows, with useful overlap for infra-minded AI operators.",
-          signal:
-            "The agenda is concrete rather than fluffy: AWS, Dify, TiDB, AI memory, Bedrock, AgentCore, and production-grade workflows.",
-          notes: "Good technical backup if you miss the main coding-agents event. Public attendee count was not clearly visible on the page.",
-        },
-        {
-          title: "Camp AI: Agents at Work //San Francisco//",
-          time: "5:30 PM to 8:30 PM PT",
-          venue: "Digital Jungle SF, 972 Mission St, San Francisco",
-          host: "Auth0 Events - San Francisco",
-          link: "https://luma.com/camp-ai-may-2026",
-          recommendation: "Consider",
-          score: "7.9/10",
-          why:
-            "Good applied-agents room with useful operators from Fireworks AI, Browserbase, Mastra, Drata, Corridor, and Auth0.",
-          signal:
-            "Partner roster is real, but the crowd is likely to skew more startup-builder than frontier-company dense. Mastra notes teams at Replit, WorkOS, and Sanity use the framework.",
-          notes: "Approval required. Still useful, but less targeted than the top two May 7 options.",
-        },
-      ],
-    },
-    {
-      date: "Friday, May 8",
-      verdict: "Not worth attending",
-      note: "No SF evening AI event tonight looks strong enough to beat staying selective.",
-      events: [],
-    },
-    {
-      date: "Saturday, May 9",
-      verdict: "Not worth attending",
-      note: "The visible options skew hackathon/daytime rather than the evening networking format you want.",
-      events: [],
-    },
-    {
       date: "Sunday, May 10",
-      verdict: "Not worth attending",
+      verdict: "Not recommended",
       note: "No relevant high-signal SF evening option surfaced.",
       events: [],
     },
     {
       date: "Monday, May 11",
-      verdict: "Not worth attending",
+      verdict: "Not recommended",
       note: "The visible AI events are broader or more conference-like than what is worth prioritizing for your goal.",
       events: [],
     },
@@ -151,25 +84,25 @@ const scan = {
     },
     {
       date: "Thursday, May 14",
-      verdict: "Not worth attending",
+      verdict: "Not recommended",
       note: "Nothing in the current SF slate clears the bar for an after-work recommendation.",
       events: [],
     },
     {
       date: "Friday, May 15",
-      verdict: "Not worth attending",
+      verdict: "Not recommended",
       note: "The visible options are either too daytime, too broad, or too startup-slanted.",
       events: [],
     },
     {
       date: "Saturday, May 16",
-      verdict: "Not worth attending",
+      verdict: "Not recommended",
       note: "No strong SF evening AI recommendation surfaced.",
       events: [],
     },
     {
       date: "Sunday, May 17",
-      verdict: "Not worth attending",
+      verdict: "Not recommended",
       note: "No strong SF evening AI recommendation surfaced.",
       events: [],
     },
@@ -196,13 +129,85 @@ const scan = {
     },
     {
       date: "Tuesday, May 19",
-      verdict: "Not worth attending",
-      note: "No strong SF evening AI recommendation surfaced for tonight.",
+      verdict: "Not recommended",
+      note: "After a second pass, the visible options are either daytime, too generic, or too weak on attendee quality to justify your evening.",
       events: [],
     },
     {
       date: "Wednesday, May 20",
-      verdict: "Not worth attending",
+      verdict: "Solid option",
+      note: "Not a frontier-lab room, but it clears the bar as a focused operator-heavy event with real AI-agent substance.",
+      events: [
+        {
+          title: "Okta Workflows Community Meetup, San Francisco",
+          time: "5:30 PM to 7:30 PM PT",
+          venue: "Okta HQ, 100 1st St, 6th Floor, San Francisco",
+          host: "Okta Workflows",
+          link: "https://luma.com/87n5or4m",
+          recommendation: "Consider",
+          score: "8.2/10",
+          why:
+            "Identity, governance, and securing AI agents are all directly relevant to enterprise AI deployment, solutions engineering, and forward-deployed operator conversations.",
+          signal:
+            "49+ going on the Meetup listing. Okta-hosted and WorkOS-adjacent enough to pull serious enterprise platform, auth, and AI workflow people instead of generic startup networking.",
+          notes:
+            "Stronger for product, solutions, and enterprise-architecture conversations than for pure research or frontier-model density.",
+        },
+      ],
+    },
+    {
+      date: "Thursday, May 21",
+      verdict: "Top pick",
+      note: "The strongest late-window event for your profile by a comfortable margin.",
+      events: [
+        {
+          title: "WorkOS MCP Night: Agent Mode",
+          time: "Approx. 5:30 PM to 10:00 PM PT",
+          venue: "The Regency Ballroom, 1300 Van Ness Ave, San Francisco",
+          host: "WorkOS Events",
+          link: "https://luma.com/mcp-night-4",
+          recommendation: "Sign up now",
+          score: "9.4/10",
+          why:
+            "This is the cleanest overlap with your preferences: WorkOS-hosted, deeply agentic, and likely to attract enterprise AI builders, product operators, and infrastructure-minded teams shipping real systems.",
+          signal:
+            "718+ going on the Luma page, with WorkOS describing customers such as OpenAI, Anthropic, Cursor, and Vercel on the official event page. That makes the attendee mix meaningfully stronger than a generic large crowd.",
+          notes:
+            "The exact local time is inferred from secondary listings because the Luma crawl does not surface it directly, and a large room can still be noisy if you do not target conversations intentionally.",
+        },
+      ],
+    },
+    {
+      date: "Friday, May 22",
+      verdict: "One decent option",
+      note: "A real builder room for Friday, though it skews broader than your ideal enterprise-AI operator crowd.",
+      events: [
+        {
+          title: "Build the Future: AI, Spatial & Android",
+          time: "5:00 PM to 8:00 PM PT",
+          venue: "Frontier Tower, 995 Market St, San Francisco",
+          host: "GDG SF and PICO",
+          link: "https://luma.com/gmlinjkg",
+          recommendation: "Consider",
+          score: "7.9/10",
+          why:
+            "It is still a real technical room with product demos, Google developer community backing, and a builder-heavy agenda rather than broad networking.",
+          signal:
+            "70+ going on Luma. The AI and platform angle is credible, even if the room will skew more toward Android, XR, and applied product builders than frontier-model teams.",
+          notes:
+            "Worth it if you want a live Friday room with actual engineers. Less ideal if you only want enterprise AI or frontier-company density.",
+        },
+      ],
+    },
+    {
+      date: "Saturday, May 23",
+      verdict: "Not recommended",
+      note: "No strong SF evening AI recommendation surfaced for tonight.",
+      events: [],
+    },
+    {
+      date: "Sunday, May 24",
+      verdict: "Not recommended",
       note: "No strong SF evening AI recommendation surfaced for tonight.",
       events: [],
     },
@@ -277,7 +282,7 @@ function renderPlanner() {
             )
             .join("")
         : `<div class="no-event-card">
-             <p>None worth attending</p>
+             <p>Not recommended</p>
            </div>`;
 
       return `
@@ -298,7 +303,10 @@ function renderPlanner() {
 }
 
 function render() {
-  document.getElementById("window-label").textContent = scan.windowLabel;
+  const windowLabel = document.getElementById("window-label");
+  if (windowLabel) {
+    windowLabel.textContent = scan.windowLabel;
+  }
   renderFeatured();
   renderPlanner();
 }

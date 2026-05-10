@@ -14,7 +14,13 @@
     <div class="noise"></div>
     <header class="site-header">
       <div class="wordmark">
-        <span class="wordmark-mark">SF</span>
+        <span class="wordmark-mark" aria-hidden="true">
+          <img
+            class="wordmark-image"
+            src="./golden_gate_bridge.jpg"
+            alt=""
+          />
+        </span>
         <div>
           <p class="eyebrow">Two-Week Scan</p>
           <h1>San Francisco Tech Events</h1>
@@ -27,37 +33,6 @@
     </header>
 
     <main>
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">Updated May 6, 2026</p>
-          <h2>Only the events worth considering from May 6 through May 20.</h2>
-          <p class="lede">
-            This page now shows the actual recommendation slate: direct event
-            links, day-by-day picks, and explicit “not worth attending” calls
-            when the calendar is weak.
-          </p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#planner">See the full planner</a>
-            <a class="button button-secondary" href="#featured">Top picks first</a>
-          </div>
-        </div>
-
-        <aside class="hero-panel">
-          <p class="panel-label">Window</p>
-          <p id="window-label" class="hero-stat"></p>
-          <p class="panel-label">Scan focus</p>
-          <p class="body-copy">
-            High-signal, in-person, after-work AI events in San Francisco with
-            strong odds of useful conversations and good attendee density.
-          </p>
-          <p class="panel-label">Link status</p>
-          <p class="body-copy">
-            Direct event links on this page were rechecked during the May 6,
-            2026 refresh.
-          </p>
-        </aside>
-      </section>
-
       <section class="featured-strip" id="featured">
         <div class="section-heading">
           <p class="eyebrow">Best Bets</p>
@@ -76,8 +51,10 @@
     </main>
 
     <footer class="site-footer">
-      <p>SF Tech Events</p>
-      <p>Window: May 6, 2026 through May 20, 2026</p>
+      <div class="site-footer-inner">
+        <p class="site-footer-location">San Francisco, CA</p>
+        <p class="site-footer-copy">© 2026 Lisa Pederson</p>
+      </div>
     </footer>
 
     <script src="./app.js"></script>

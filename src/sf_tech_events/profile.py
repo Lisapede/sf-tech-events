@@ -110,8 +110,10 @@ LISA_PROFILE = TasteProfile(
         "in its sign-up cycle."
     ),
     recommendation_policy=(
-        "Return a recommendation for each calendar day in the window, but "
-        "explicitly say when no event is worth attending. Rank at most three "
-        "events on the same day."
+        "Propose at least one event per calendar day whenever there is a "
+        "defensible option. Only use 'Not recommended' after a second-pass "
+        "search across Luma plus strong organizer calendars still fails to "
+        "find an event that clears the quality bar. Rank at most three events "
+        "on the same day."
     ),
 )
