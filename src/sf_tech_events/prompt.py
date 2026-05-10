@@ -8,7 +8,7 @@ def _format_bullets(items: list[str]) -> str:
 def build_scan_prompt(profile: TasteProfile) -> str:
     return f"""Scan for new high-signal in-person evening AI events in {profile.city} occurring from today through the next {profile.time_window_days} days only.
 
-Return a recommendation for each calendar day in that window, but explicitly say when no event is worth attending.
+Return 1-3 recommendations for each calendar day in that window, but explicitly say when no event is worth attending.
 
 Optimize for this taste profile:
 - The user wants rooms with a high probability of meeting employees from {_comma_join(profile.preferred_companies)}.

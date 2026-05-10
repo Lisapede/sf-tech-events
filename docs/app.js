@@ -215,6 +215,7 @@ const scan = {
   profile: {
     description:
       "Our recommended events target high-signal, after-work gatherings across AI topics, prioritizing rooms with applied AI builders and technical PMs over generic networking. We favor curated venues and substantive topics like agents, evals, and AI infrastructure, while filtering out founder-heavy and novice-oriented events.",
+    sourceHeading: "Event Calendars",
     sources: [
       {
         label: "Discover tech events",
@@ -339,6 +340,7 @@ function renderTasteProfile() {
   target.innerHTML = `
     <article class="taste-card taste-card-summary">
       <p class="taste-copy">${scan.profile.description}</p>
+      <p class="eyebrow taste-sources-heading">${scan.profile.sourceHeading}</p>
       <div class="taste-promo-grid">${sourceCards}</div>
     </article>
   `;

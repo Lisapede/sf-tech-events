@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: sf-tech-events
+Version: 0.1.0
+Summary: Taste-profile and prompt builder for high-signal SF AI events
+Requires-Python: >=3.10

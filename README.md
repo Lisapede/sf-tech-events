@@ -38,6 +38,6 @@ The default profile avoids:
 
 - Founder-fundraising rooms
 - Startup-centric networking
-- Crypto, defense, recruiting, or sales events
+- Crypto, recruiting, or sales events
 - Beginner AI events
 - Events with fewer than 30 visible attendees unless clearly brand new
