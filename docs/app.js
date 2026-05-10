@@ -36,9 +36,25 @@ const scan = {
     },
     {
       date: "Monday, May 11",
-      verdict: "Not recommended",
-      note: "The visible AI events are broader or more conference-like than what is worth prioritizing for your goal.",
-      events: [],
+      verdict: "One polished option",
+      note: "A credible opener if you want a high-status room to start the week, though it is broader and more conference-like than your best-fit meetups.",
+      events: [
+        {
+          title: "Human+Tech Week 2026 Grand Opening",
+          time: "5:00 PM to 8:30 PM PT",
+          venue: "The Hibernia, 1 Jones St, San Francisco",
+          host: "Human+Tech Week 2026",
+          link: "https://luma.com/nc47m6jy",
+          recommendation: "Consider",
+          score: "7.6/10",
+          why:
+            "Useful if you want a polished room with builders, operators, researchers, and investors working across applied AI, work, health, and cities.",
+          signal:
+            "The public event page describes 5,000+ contributors and 100 partner events across the week, plus a Monday evening opening reception at The Hibernia. Attendance for the opening itself is not surfaced separately.",
+          notes:
+            "Worth it if you like cross-functional AI rooms and are comfortable with summit-ticket pricing. Less targeted than the agent and infrastructure events later in the window.",
+        },
+      ],
     },
     {
       date: "Tuesday, May 12",
@@ -77,7 +93,7 @@ const scan = {
           why:
             "Selective format, strong builder density, and an agenda centered on agents plus real-time data instead of networking fluff.",
           signal:
-            "73+ registered on the event page. AI Tinkerers has a strong repeat-attendee reputation and consistently technical rooms.",
+            "49+ registered on the direct event page. AI Tinkerers has a strong repeat-attendee reputation and consistently technical rooms.",
           notes: "Acceptance gated, which helps the signal.",
         },
       ],
@@ -122,7 +138,7 @@ const scan = {
           why:
             "Still more technically credible than a normal GTM event because it is demos-not-decks and explicitly selective.",
           signal:
-            "AI Tinkerers home page shows 61 attending. The room is vetted and high-trust, but the topic is more distribution architecture than frontier AI product.",
+            "AI Tinkerers' public events page shows 95 attending. The room is vetted and high-trust, but the topic is more distribution architecture than frontier AI product.",
           notes: "Good if you want operator conversations, weaker if you want pure frontier-lab density.",
         },
       ],
@@ -145,11 +161,11 @@ const scan = {
           host: "Okta Workflows",
           link: "https://luma.com/87n5or4m",
           recommendation: "Consider",
-          score: "8.2/10",
+          score: "7.9/10",
           why:
             "Identity, governance, and securing AI agents are all directly relevant to enterprise AI deployment, solutions engineering, and forward-deployed operator conversations.",
           signal:
-            "49+ going on the Meetup listing. Okta-hosted and WorkOS-adjacent enough to pull serious enterprise platform, auth, and AI workflow people instead of generic startup networking.",
+            "31 going on the direct Luma page. Okta-hosted and WorkOS-adjacent enough to pull serious enterprise platform, auth, and AI workflow people instead of generic startup networking.",
           notes:
             "Stronger for product, solutions, and enterprise-architecture conversations than for pure research or frontier-model density.",
         },
@@ -193,7 +209,7 @@ const scan = {
           why:
             "It is still a real technical room with product demos, Google developer community backing, and a builder-heavy agenda rather than broad networking.",
           signal:
-            "70+ going on Luma. The AI and platform angle is credible, even if the room will skew more toward Android, XR, and applied product builders than frontier-model teams.",
+            "65 going on the direct Luma page. The AI and platform angle is credible, even if the room will skew more toward Android, XR, and applied product builders than frontier-model teams.",
           notes:
             "Worth it if you want a live Friday room with actual engineers. Less ideal if you only want enterprise AI or frontier-company density.",
         },
