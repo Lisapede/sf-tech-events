@@ -212,6 +212,22 @@ const scan = {
       events: [],
     },
   ],
+  profile: {
+    description:
+      "Our recommended events target high-signal, after-work gatherings across AI topics, prioritizing rooms with applied AI builders and technical PMs over generic networking. We favor curated venues and substantive topics like agents, evals, and AI infrastructure, while filtering out founder-heavy and novice-oriented events.",
+    sources: [
+      {
+        label: "Discover tech events",
+        link: "https://luma.com/tech",
+        image: "./tech-square.png",
+      },
+      {
+        label: "Discover AI events",
+        link: "https://luma.com/ai",
+        image: "./ai-square.png",
+      },
+    ],
+  },
 };
 
 function badgeClass(label) {
@@ -302,6 +318,32 @@ function renderPlanner() {
     .join("");
 }
 
+function renderTasteProfile() {
+  const target = document.getElementById("taste-grid");
+  const sourceCards = scan.profile.sources
+    .map(
+      (source) => `
+        <a
+          class="taste-promo"
+          href="${source.link}"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="${source.label}"
+        >
+          <img class="taste-promo-image" src="${source.image}" alt="${source.label}" />
+        </a>
+      `,
+    )
+    .join("");
+
+  target.innerHTML = `
+    <article class="taste-card taste-card-summary">
+      <p class="taste-copy">${scan.profile.description}</p>
+      <div class="taste-promo-grid">${sourceCards}</div>
+    </article>
+  `;
+}
+
 function render() {
   const windowLabel = document.getElementById("window-label");
   if (windowLabel) {
@@ -309,6 +351,7 @@ function render() {
   }
   renderFeatured();
   renderPlanner();
+  renderTasteProfile();
 }
 
 render();
