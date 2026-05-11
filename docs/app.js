@@ -19,12 +19,12 @@ const scan = {
       link: "https://luma.com/mcp-night-4",
     },
     {
-      title: "Okta Workflows Community Meetup, San Francisco",
-      date: "Wed, May 20",
+      title: "AI Engineers Tech Talk: LLM Learning Patterns",
+      date: "Wed, May 13",
       recommendation: "Consider",
       summary:
-        "A credible enterprise-AI operator room with identity, AI-agent security, and workflow builders in one place.",
-      link: "https://luma.com/87n5or4m",
+        "A strong backup if you want an engineering-first room with agent-memory and AI compliance talks instead of a broader meetup.",
+      link: "https://luma.com/slikak8w",
     },
   ],
   days: [
@@ -58,8 +58,8 @@ const scan = {
     },
     {
       date: "Tuesday, May 12",
-      verdict: "One decent option",
-      note: "Useful if you want a lighter builder room, but not one of the elite nights in the window.",
+      verdict: "Two credible options",
+      note: "Not an elite night, but there are now two defensible rooms with different strengths: practical builders vs. curated deeptech.",
       events: [
         {
           title: "Built on Bedrock Demo Night - May 2026",
@@ -75,12 +75,27 @@ const scan = {
             "35+ going in current public listings. AWS Builder Loft venue helps the room quality, but the crowd is broader and more ecosystem-centric.",
           notes: "Good fallback night, not a must-attend.",
         },
+        {
+          title: "NETVA 2026 Pitch Reception",
+          time: "6:00 PM PT",
+          venue: "French Residence, 100 Edgewood Ave, San Francisco",
+          host: "Office for Science and Technology of the Embassy of France in the United States",
+          link: "https://luma.com/pbxmgsax",
+          recommendation: "Consider",
+          score: "7.5/10",
+          why:
+            "More curated than a generic mixer, with a diplomatic-host setting and deeptech startup presentations spanning AI, imaging, and applied science.",
+          signal:
+            "Visible attendance is not surfaced on the public page, so this relies on organizer quality, a selective guest list, and the French Residence setting rather than headline RSVP volume.",
+          notes:
+            "Better for curated conversation and cross-border deeptech exposure than for direct frontier-AI employee density.",
+        },
       ],
     },
     {
       date: "Wednesday, May 13",
-      verdict: "Strong option",
-      note: "One of the best builder-heavy nights in the whole two-week stretch.",
+      verdict: "Strong options",
+      note: "One of the best nights in the whole window, with a standout build night plus two strong engineering and product-adjacent backups.",
       events: [
         {
           title: "AI Tinkerers Build Night: Agents w/ Real-time Data",
@@ -96,13 +111,74 @@ const scan = {
             "49+ registered on the direct event page. AI Tinkerers has a strong repeat-attendee reputation and consistently technical rooms.",
           notes: "Acceptance gated, which helps the signal.",
         },
+        {
+          title: "AI Engineers Tech Talk: LLM Learning Patterns",
+          time: "6:00 PM to 8:00 PM PT",
+          venue: "House of AI, 40 Boardman Pl, San Francisco",
+          host: "AI Engineers - SF / Human+Tech Week",
+          link: "https://luma.com/slikak8w",
+          recommendation: "Consider",
+          score: "8.5/10",
+          why:
+            "This directly matches your taste for serious AI engineer rooms. Cleric and Puntt are speaking on operational memory and AI compliance workflows, which is the right level of substance.",
+          signal:
+            "The direct Luma page requires approval and does not show a clean public RSVP count, so the recommendation leans on the repeat quality of the SF AI Engineers community, your own history with similar rooms, and the engineer-focused agenda.",
+          notes:
+            "This is the direct Luma link for the room you flagged. Less selective than AI Tinkerers, but better targeted than a generic startup or founder event.",
+        },
+        {
+          title: "Fin x Metronome: Pricing Strategies for AI Agents",
+          time: "6:00 PM PT",
+          venue: "SF POPOS, 55 2nd St, San Francisco",
+          host: "Fin and Metronome",
+          link: "https://luma.com/finxmetronome",
+          recommendation: "Consider",
+          score: "8.0/10",
+          why:
+            "Not an engineering meetup in the narrow sense, but unusually relevant if you care about product strategy, enterprise packaging, and the real mechanics of selling agent outcomes.",
+          signal:
+            "Attendance is not surfaced on the public page. The draw here is the host quality: Fin from Intercom and Metronome, with an agenda focused on pricing architecture instead of generic AI chatter.",
+          notes:
+            "Best for product and monetization conversations. Lower frontier-lab density than the top two options that night.",
+        },
       ],
     },
     {
       date: "Thursday, May 14",
-      verdict: "Not recommended",
-      note: "Nothing in the current SF slate clears the bar for an after-work recommendation.",
-      events: [],
+      verdict: "Two credible options",
+      note: "This day is weaker than May 13, but there are now two after-work rooms worth a look if you want to stay active in the week.",
+      events: [
+        {
+          title: "LLM Inside - Wiring The Enterprise-Grade AI Stack",
+          time: "5:00 PM PT",
+          venue: "San Francisco venue to be announced",
+          host: "GarysGuide listing / organizer not named publicly",
+          link: "https://www.garysguide.com/events/1ug0dwe/LLM-Inside-Wiring-The-Enterprise-Grade-AI-Stack",
+          recommendation: "Consider",
+          score: "7.8/10",
+          why:
+            "The topic fit is strong for you: context flows, orchestration, observability, reliability, and what it takes to wire LLMs into real production systems.",
+          signal:
+            "Attendance is not visible publicly, so this is driven by topic quality and the explicit practitioner framing rather than RSVP volume.",
+          notes:
+            "It looks promising, but the unnamed organizer and missing speaker list make it a lower-conviction pick than the strongest days in the window.",
+        },
+        {
+          title: "AI Healthtech Night",
+          time: "6:00 PM PT",
+          venue: "San Francisco address shared on registration",
+          host: "Workato Developer Events",
+          link: "https://luma.com/iemgy0bv",
+          recommendation: "Consider",
+          score: "7.4/10",
+          why:
+            "Workato is a positive signal for you, and the format is builder-oriented rather than broad networking. It can be useful if you want enterprise-agent conversations in a vertical setting.",
+          signal:
+            "The direct event page does not surface attendance. Public calendar mirrors show substantial interest, but the public speaker list is still light, so the host quality carries more weight than the lineup.",
+          notes:
+            "Healthtech narrows the room. Worth it if you are open to vertical-AI conversations, weaker if you want a more general product or infra crowd.",
+        },
+      ],
     },
     {
       date: "Friday, May 15",
@@ -145,9 +221,25 @@ const scan = {
     },
     {
       date: "Tuesday, May 19",
-      verdict: "Not recommended",
-      note: "After a second pass, the visible options are either daytime, too generic, or too weak on attendee quality to justify your evening.",
-      events: [],
+      verdict: "One viable builder option",
+      note: "This is earlier than your ideal after-work start, but it is technical enough and well attended enough to beat a blank day.",
+      events: [
+        {
+          title: "Hack Day: Context Graphs for Multi-Agent AI",
+          time: "3:00 PM to 8:00 PM PT",
+          venue: "AWS Builder Loft, 525 Market St, San Francisco",
+          host: "Neo4j and AWS Builder Loft",
+          link: "https://luma.com/bchosur4",
+          recommendation: "Consider",
+          score: "7.7/10",
+          why:
+            "The topic is directly in your lane: multi-agent systems, shared memory, context graphs, and a room full of people who actually want to build rather than just network.",
+          signal:
+            "117 going on the direct Luma page. AWS Builder Loft plus Neo4j creates a credible developer-tools and enterprise-infrastructure crowd, even if it is broader than a frontier-lab room.",
+          notes:
+            "The main drawback is timing: it starts at 3:00 PM, so it misses your ideal 5:30 PM-plus constraint. Still, the evening build and demo block makes it a defensible pick if you want a real room that night.",
+        },
+      ],
     },
     {
       date: "Wednesday, May 20",
@@ -173,8 +265,8 @@ const scan = {
     },
     {
       date: "Thursday, May 21",
-      verdict: "Top pick",
-      note: "The strongest late-window event for your profile by a comfortable margin.",
+      verdict: "Top pick with backup",
+      note: "WorkOS is still the clear winner, but there is also a credible research-adjacent builder room if you want a smaller second option.",
       events: [
         {
           title: "WorkOS MCP Night: Agent Mode",
@@ -190,6 +282,21 @@ const scan = {
             "718+ going on the Luma page, with WorkOS describing customers such as OpenAI, Anthropic, Cursor, and Vercel on the official event page. That makes the attendee mix meaningfully stronger than a generic large crowd.",
           notes:
             "The exact local time is inferred from secondary listings because the Luma crawl does not surface it directly, and a large room can still be noisy if you do not target conversations intentionally.",
+        },
+        {
+          title: "GenAI: Tech Deep Dive into Real-Time Video Generation (Vol 2.)",
+          time: "5:30 PM to 9:30 PM PT",
+          venue: "San Francisco address shown after registration",
+          host: "ValkaAI Events",
+          link: "https://luma.com/ndd8f9d0",
+          recommendation: "Consider",
+          score: "7.8/10",
+          why:
+            "This is a smaller, more technical room with a research-and-builder tilt. It is less directly enterprise than WorkOS, but stronger than a generic mixer if you want real discussion about model behavior and generation systems.",
+          signal:
+            "35 going on the direct Luma page. The signal comes from the topic depth and the smaller practitioner room, not from big-company branding.",
+          notes:
+            "Lower odds of meeting OpenAI or Anthropic product people than at MCP Night. Better fit if you want an intimate technical crowd and do not mind a computer-vision-heavy angle.",
         },
       ],
     },
