@@ -8,7 +8,7 @@ def _format_bullets(items: list[str]) -> str:
 def build_scan_prompt(profile: TasteProfile) -> str:
     return f"""Scan for new high-signal in-person evening AI events in {profile.city} occurring from today through the next {profile.time_window_days} days only.
 
-Return 1-3 recommendations for each calendar day in that window, but explicitly say when no event is worth attending.
+Return 1-3 recommendations for each calendar day in that window, but default to showing 2-3 ranked options on stronger days rather than only one. Explicitly say when no event is worth attending.
 
 Optimize for this taste profile:
 - The user wants rooms with a high probability of meeting employees from {_comma_join(profile.preferred_companies)}.
@@ -32,6 +32,7 @@ Avoid:
 
 Recommendation policy:
 - {profile.recommendation_policy}
+- When multiple events clear the bar on the same day, prefer showing the best 2-3 ranked options instead of collapsing the output to a single winner.
 - Before marking a day as not worth attending, run a second-pass search across Luma city/AI/Tech listings and strong organizer calendars or official event pages to make sure the day is truly weak.
 - Prefer direct Luma links when available, but use the strongest direct official event link if the registration page lives elsewhere.
 
