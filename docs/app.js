@@ -469,11 +469,97 @@ function renderTasteProfile() {
   `;
 }
 
+function parseDayDate(dateStr) {
+  const yearMatch = scan.updatedAt && scan.updatedAt.match(/\d{4}/);
+  const year = yearMatch ? yearMatch[0] : new Date().getFullYear();
+  const cleaned = dateStr.replace(/^[^,]+,\s*/, "");
+  const parsed = new Date(`${cleaned}, ${year}`);
+  return isNaN(parsed) ? null : parsed;
+}
+
+function compactWindowLabel() {
+  const days = scan.days || [];
+  if (days.length < 2) return scan.windowLabel || "";
+  const first = parseDayDate(days[0].date);
+  const last = parseDayDate(days[days.length - 1].date);
+  if (!first || !last) return scan.windowLabel || "";
+
+  const fmtMonthDay = (d) =>
+    d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+  const sameMonth = first.getMonth() === last.getMonth();
+  return sameMonth
+    ? `${fmtMonthDay(first)}–${last.getDate()}`
+    : `${fmtMonthDay(first)} – ${fmtMonthDay(last)}`;
+}
+
+function renderHeroMeta() {
+  const allEvents = scan.days.flatMap((day) => day.events || []);
+  const recommendedCount = allEvents.filter((event) => {
+    const recommendation = (event.recommendation || "").toLowerCase();
+    return recommendation.includes("sign up") || recommendation.includes("consider");
+  }).length;
+  const bestBetsCount = (scan.featured || []).length;
+
+  const set = (id, value) => {
+    const target = document.getElementById(id);
+    if (target) target.textContent = value;
+  };
+
+  set("meta-window", compactWindowLabel());
+  set("meta-scanned", `${allEvents.length} events`);
+  set("meta-recommended", recommendedCount);
+  set("meta-bestbets", bestBetsCount);
+  set("hero-refresh", `Last refreshed ${scan.updatedAt}`);
+}
+
+function renderHeroDensity() {
+  const barsEl = document.getElementById("hero-density-bars");
+  const axisEl = document.getElementById("hero-density-axis");
+  if (!barsEl) return;
+
+  const days = scan.days || [];
+  const counts = days.map((day) => ({
+    total: (day.events || []).length,
+    hasBestBet: (day.events || []).some((event) =>
+      (event.recommendation || "").toLowerCase().includes("sign up"),
+    ),
+    dateLabel: day.date,
+  }));
+  const maxCount = Math.max(...counts.map((count) => count.total), 1);
+
+  barsEl.style.setProperty("--day-count", counts.length);
+  barsEl.innerHTML = counts
+    .map(({ total, hasBestBet, dateLabel }) => {
+      const heightPct = total === 0 ? 10 : Math.max(22, (total / maxCount) * 100);
+      let cls = "hero-density-bar";
+      if (hasBestBet) cls += " is-strong";
+      else if (total >= maxCount * 0.5) cls += " is-mid";
+      const eventLabel = total === 1 ? "event" : "events";
+      return `<div class="${cls}" style="height: ${heightPct}%;" title="${dateLabel}: ${total} ${eventLabel}"></div>`;
+    })
+    .join("");
+
+  if (axisEl && days.length >= 3) {
+    const fmt = (day) => {
+      const parsed = parseDayDate(day.date);
+      return parsed
+        ? parsed.toLocaleDateString("en-US", { month: "short", day: "numeric" })
+        : day.date;
+    };
+    const midIdx = Math.floor(days.length / 2);
+    axisEl.children[0].textContent = fmt(days[0]);
+    axisEl.children[1].textContent = fmt(days[midIdx]);
+    axisEl.children[2].textContent = fmt(days[days.length - 1]);
+  }
+}
+
 function render() {
   const windowLabel = document.getElementById("window-label");
   if (windowLabel) {
     windowLabel.textContent = scan.windowLabel;
   }
+  renderHeroMeta();
+  renderHeroDensity();
   renderFeatured();
   renderPlanner();
   renderTasteProfile();

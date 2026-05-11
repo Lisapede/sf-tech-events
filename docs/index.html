@@ -12,24 +12,61 @@
   </head>
   <body>
     <div class="noise"></div>
-    <header class="site-header">
-      <div class="wordmark">
-        <span class="wordmark-mark" aria-hidden="true">
+    <header class="site-hero">
+      <div class="hero-top">
+        <span class="hero-mark" aria-hidden="true">
           <img
-            class="wordmark-image"
+            class="hero-mark-image"
             src="./golden_gate_bridge.jpg"
             alt=""
           />
         </span>
-        <div>
-          <p class="eyebrow">Two-Week Scan</p>
-          <h1>San Francisco Tech Events</h1>
+        <p class="eyebrow">Two-Week Scan</p>
+      </div>
+
+      <div class="hero-grid">
+        <h1 class="hero-title">San Francisco<br />Tech Events</h1>
+        <div class="hero-intro">
+          <p class="hero-lede">
+            Live event recommendations for the next two weeks, filtered down to
+            the rooms most likely to be worth your evening.
+          </p>
+          <p class="hero-refresh" id="hero-refresh">Last refreshed recently</p>
         </div>
       </div>
-      <p class="header-note">
-        Live event recommendations for the next two weeks, filtered down to the
-        rooms most likely to be worth your evening.
-      </p>
+
+      <div class="hero-meta" aria-label="Scan summary">
+        <div class="hero-meta-item">
+          <span class="hero-meta-dot" aria-hidden="true"></span>
+          <span class="hero-meta-label">Window</span>
+          <span class="hero-meta-value" id="meta-window">—</span>
+        </div>
+        <div class="hero-meta-item">
+          <span class="hero-meta-label">Scanned</span>
+          <span class="hero-meta-value" id="meta-scanned">—</span>
+        </div>
+        <div class="hero-meta-item">
+          <span class="hero-meta-label">Recommended</span>
+          <span class="hero-meta-value hero-meta-value-accent" id="meta-recommended">—</span>
+        </div>
+      </div>
+
+      <div class="hero-density" aria-label="Event density across the two-week window">
+        <div class="hero-density-header">
+          <p class="eyebrow">Event Density</p>
+          <p class="hero-density-legend">
+            <span class="hero-density-swatch hero-density-swatch-strong"></span> Best bet
+            <span class="hero-density-swatch hero-density-swatch-mid"></span> Active
+            <span class="hero-density-swatch hero-density-swatch-low"></span> Quiet
+          </p>
+        </div>
+        <div class="hero-density-bars" id="hero-density-bars" role="img" aria-label="14-day event density chart"></div>
+        <div class="hero-density-axis" id="hero-density-axis">
+          <span>—</span>
+          <span>—</span>
+          <span>—</span>
+        </div>
+      </div>
     </header>
 
     <main>
