@@ -1,6 +1,6 @@
 const scan = {
-  updatedAt: "May 10, 2026",
-  windowLabel: "May 10, 2026 → May 24, 2026",
+  updatedAt: "May 12, 2026",
+  windowLabel: "May 12, 2026 → May 26, 2026",
   featured: [
     {
       title: "AI Tinkerers Build Night: Agents w/ Real-time Data",
@@ -28,34 +28,6 @@ const scan = {
     },
   ],
   days: [
-    {
-      date: "Sunday, May 10",
-      verdict: "Not recommended",
-      note: "No relevant high-signal SF evening option surfaced.",
-      events: [],
-    },
-    {
-      date: "Monday, May 11",
-      verdict: "One polished option",
-      note: "A credible opener if you want a high-status room to start the week, though it is broader and more conference-like than your best-fit meetups.",
-      events: [
-        {
-          title: "Human+Tech Week 2026 Grand Opening",
-          time: "5:00 PM to 8:30 PM PT",
-          venue: "The Hibernia, 1 Jones St, San Francisco",
-          host: "Human+Tech Week 2026",
-          link: "https://luma.com/nc47m6jy",
-          recommendation: "Consider",
-          score: "7.6/10",
-          why:
-            "Useful if you want a polished room with builders, operators, researchers, and investors working across applied AI, work, health, and cities.",
-          signal:
-            "The public event page describes 5,000+ contributors and 100 partner events across the week, plus a Monday evening opening reception at The Hibernia. Attendance for the opening itself is not surfaced separately.",
-          notes:
-            "Worth it if you like cross-functional AI rooms and are comfortable with summit-ticket pricing. Less targeted than the agent and infrastructure events later in the window.",
-        },
-      ],
-    },
     {
       date: "Tuesday, May 12",
       verdict: "Two credible options",
@@ -145,8 +117,8 @@ const scan = {
     },
     {
       date: "Thursday, May 14",
-      verdict: "Two credible options",
-      note: "This day is weaker than May 13, but there are now two after-work rooms worth a look if you want to stay active in the week.",
+      verdict: "Three credible options",
+      note: "This day is still weaker than May 13, but it now has three real after-work paths: enterprise stack talk, vertical-AI operator room, or the broader OpenAI Codex community meetup.",
       events: [
         {
           title: "LLM Inside - Wiring The Enterprise-Grade AI Stack",
@@ -177,6 +149,21 @@ const scan = {
             "The direct event page does not surface attendance. Public calendar mirrors show substantial interest, but the public speaker list is still light, so the host quality carries more weight than the lineup.",
           notes:
             "Healthtech narrows the room. Worth it if you are open to vertical-AI conversations, weaker if you want a more general product or infra crowd.",
+        },
+        {
+          title: "OpenAI Codex Community Meetup - Intro to Codex + Build Together",
+          time: "6:00 PM to 8:00 PM PT",
+          venue: "House of AI, 40 Boardman Pl, San Francisco",
+          host: "AI Engineers - SF / Human+Tech Week",
+          link: "https://luma.com/r9afqgz4",
+          recommendation: "Consider",
+          score: "8.1/10",
+          why:
+            "Directly relevant to your frontier-AI interests because it is explicitly about OpenAI Codex, with a hands-on build-together format rather than generic networking.",
+          signal:
+            "79 going on the public Luma listing. The open-community framing lowers selectivity, but the Codex topic and House of AI venue raise the odds of meeting practical AI builders.",
+          notes:
+            "Broader and more beginner-friendly than your ideal room, so this is a useful option rather than a top pick. Stronger if you specifically want Codex-adjacent conversations.",
         },
       ],
     },
@@ -333,6 +320,34 @@ const scan = {
       verdict: "Not recommended",
       note: "No strong SF evening AI recommendation surfaced for tonight.",
       events: [],
+    },
+    {
+      date: "Monday, May 25",
+      verdict: "Not recommended",
+      note: "After a fresh pass, no high-signal SF evening AI room surfaced that clears your bar for attendee quality.",
+      events: [],
+    },
+    {
+      date: "Tuesday, May 26",
+      verdict: "One early Codex option",
+      note: "This is not a premium room yet, but it is the best visible late-window option because it is new, builder-oriented, and directly tied to OpenAI Codex.",
+      events: [
+        {
+          title: "OpenAI Codex Community Meetup: Mini Hackathon & Talks",
+          time: "5:00 PM to 7:00 PM PT",
+          venue: "Stonestown, 3251 20th Ave, San Francisco",
+          host: "AI Engineers - SF",
+          link: "https://luma.com/7025i1j5",
+          recommendation: "Consider",
+          score: "7.2/10",
+          why:
+            "Direct OpenAI Codex theme, a build-together format, and a guest judge from OpenAI make it more relevant than a generic meetup despite the smaller footprint.",
+          signal:
+            "Visible RSVP count is still below your usual threshold, but this appears to be a new listing still early in signup. The direct Codex angle is the main reason it survives the cutoff.",
+          notes:
+            "Lower-signal venue and a more open community format make this a softer recommendation than your best nights. Worth it mainly if you want Codex-specific builder conversations.",
+        },
+      ],
     },
   ],
   profile: {
