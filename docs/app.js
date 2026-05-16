@@ -1,4 +1,5 @@
 const scan = {
+  checkedAt: "May 16, 2026",
   updatedAt: "May 12, 2026",
   windowLabel: "May 12, 2026 → May 26, 2026",
   featured: [
@@ -485,7 +486,8 @@ function renderTasteProfile() {
 }
 
 function parseDayDate(dateStr) {
-  const yearMatch = scan.updatedAt && scan.updatedAt.match(/\d{4}/);
+  const dateSource = scan.checkedAt || scan.updatedAt;
+  const yearMatch = dateSource && dateSource.match(/\d{4}/);
   const year = yearMatch ? yearMatch[0] : new Date().getFullYear();
   const cleaned = dateStr.replace(/^[^,]+,\s*/, "");
   const parsed = new Date(`${cleaned}, ${year}`);
@@ -513,7 +515,6 @@ function renderHeroMeta() {
     const recommendation = (event.recommendation || "").toLowerCase();
     return recommendation.includes("sign up") || recommendation.includes("consider");
   }).length;
-  const bestBetsCount = (scan.featured || []).length;
 
   const set = (id, value) => {
     const target = document.getElementById(id);
@@ -523,8 +524,12 @@ function renderHeroMeta() {
   set("meta-window", compactWindowLabel());
   set("meta-scanned", `${allEvents.length} events`);
   set("meta-recommended", recommendedCount);
-  set("meta-bestbets", bestBetsCount);
-  set("hero-refresh", `Last refreshed ${scan.updatedAt}`);
+  set(
+    "hero-refresh",
+    scan.checkedAt && scan.checkedAt !== scan.updatedAt
+      ? `Last checked ${scan.checkedAt} · planner updated ${scan.updatedAt}`
+      : `Last checked ${scan.checkedAt || scan.updatedAt}`,
+  );
 }
 
 function renderHeroDensity() {
