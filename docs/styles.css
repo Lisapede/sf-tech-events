@@ -785,15 +785,25 @@ h3 {
 
 .no-event-card {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 4.1rem;
+  gap: 0.35rem;
+  min-height: 5.4rem;
+  text-align: center;
+}
+
+.no-event-title {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 1.02rem;
+  color: var(--text);
 }
 
 .no-event-card p {
   margin: 0;
   color: var(--muted);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .history-card span {

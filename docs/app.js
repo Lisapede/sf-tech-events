@@ -292,6 +292,18 @@ function ctaLabel(label) {
   return label.toLowerCase().includes("sign up") ? "Sign up now" : "View event";
 }
 
+const openNightLines = [
+  "Enjoy the night off.",
+  "Leave room for serendipity.",
+  "A quiet night is still a good call.",
+  "Stay in and ship.",
+  "Time to catch up on your favorite podcast.",
+];
+
+function openNightLine(dayIndex) {
+  return openNightLines[dayIndex % openNightLines.length];
+}
+
 function renderFeatured() {
   const target = document.getElementById("featured-grid");
   target.innerHTML = scan.featured
@@ -317,7 +329,7 @@ function renderFeatured() {
 function renderPlanner() {
   const target = document.getElementById("planner-grid");
   target.innerHTML = scan.days
-    .map((day) => {
+    .map((day, dayIndex) => {
       const cards = day.events.length
         ? day.events
             .map(
@@ -349,7 +361,8 @@ function renderPlanner() {
             )
             .join("")
         : `<div class="no-event-card">
-             <p>Not recommended</p>
+             <h4 class="no-event-title">Open night</h4>
+             <p>${openNightLine(dayIndex)}</p>
            </div>`;
 
       return `
