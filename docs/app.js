@@ -1,7 +1,7 @@
 const scan = {
-  checkedAt: "May 16, 2026",
-  updatedAt: "May 16, 2026",
-  windowLabel: "May 16, 2026 → May 30, 2026",
+  checkedAt: "May 17, 2026",
+  updatedAt: "May 17, 2026",
+  windowLabel: "May 17, 2026 → May 31, 2026",
   featured: [
     {
       title: "WorkOS MCP Night: Agent Mode",
@@ -29,12 +29,6 @@ const scan = {
     },
   ],
   days: [
-    {
-      date: "Saturday, May 16",
-      verdict: "Not recommended",
-      note: "No strong SF evening AI recommendation surfaced for tonight.",
-      events: [],
-    },
     {
       date: "Sunday, May 17",
       verdict: "Not recommended",
@@ -257,6 +251,12 @@ const scan = {
     },
     {
       date: "Saturday, May 30",
+      verdict: "Not recommended",
+      note: "No strong SF evening AI recommendation surfaced for tonight.",
+      events: [],
+    },
+    {
+      date: "Sunday, May 31",
       verdict: "Not recommended",
       note: "No strong SF evening AI recommendation surfaced for tonight.",
       events: [],
