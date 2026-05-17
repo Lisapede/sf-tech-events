@@ -1,183 +1,38 @@
 const scan = {
   checkedAt: "May 16, 2026",
-  updatedAt: "May 12, 2026",
-  windowLabel: "May 12, 2026 → May 26, 2026",
+  updatedAt: "May 16, 2026",
+  windowLabel: "May 16, 2026 → May 30, 2026",
   featured: [
-    {
-      title: "AI Tinkerers Build Night: Agents w/ Real-time Data",
-      date: "Wed, May 13",
-      recommendation: "Sign up now",
-      summary:
-        "Selective, builder-heavy, and still one of the best true hands-on rooms in the whole window.",
-      link: "https://sf.aitinkerers.org/p/ai-tinkerers-build-night-agents-w-real-time-data",
-    },
     {
       title: "WorkOS MCP Night: Agent Mode",
       date: "Thu, May 21",
       recommendation: "Sign up now",
       summary:
-        "Best late-window fit: WorkOS-hosted, agentic, and likely to draw exactly the enterprise AI builders you want to meet.",
+        "Still the best fit in the live window: WorkOS-hosted, agentic, and highly likely to attract enterprise AI builders and operator-heavy teams.",
       link: "https://luma.com/mcp-night-4",
     },
     {
-      title: "AI Engineers Tech Talk: LLM Learning Patterns",
-      date: "Wed, May 13",
+      title: "AI Tinkerers San Francisco: GTM Engineering Track",
+      date: "Mon, May 18",
       recommendation: "Consider",
       summary:
-        "A strong backup if you want an engineering-first room with agent-memory and AI compliance talks instead of a broader meetup.",
-      link: "https://luma.com/slikak8w",
+        "Selective and operator-heavy, with stronger technical credibility than a normal GTM event thanks to the AI Tinkerers format.",
+      link: "https://sf.aitinkerers.org/p/ai-tinkerers-san-francisco-gtm-engineering-track",
+    },
+    {
+      title: "Codex Community Meetup-San Francisco #6",
+      date: "Wed, May 27",
+      recommendation: "Consider",
+      summary:
+        "The best OpenAI-coded room late in the window: broader than your ideal rooms, but directly relevant and likely to draw real Codex-curious builders.",
+      link: "https://luma.com/68ocek8t",
     },
   ],
   days: [
     {
-      date: "Tuesday, May 12",
-      verdict: "Two credible options",
-      note: "Not an elite night, but there are now two defensible rooms with different strengths: practical builders vs. curated deeptech.",
-      events: [
-        {
-          title: "Built on Bedrock Demo Night - May 2026",
-          time: "Doors at 5:00 PM PT",
-          venue: "AWS Builder Loft, 525 Market St, San Francisco",
-          host: "Jean Malha, AWS Builder Loft, and Darren Hsieh",
-          link: "https://luma.com/dq5bh5jy",
-          recommendation: "Consider",
-          score: "7.8/10",
-          why:
-            "Practical demo-night energy with developers showing AI products instead of a vague networking frame.",
-          signal:
-            "35+ going in current public listings. AWS Builder Loft venue helps the room quality, but the crowd is broader and more ecosystem-centric.",
-          notes: "Good fallback night, not a must-attend.",
-        },
-        {
-          title: "NETVA 2026 Pitch Reception",
-          time: "6:00 PM PT",
-          venue: "French Residence, 100 Edgewood Ave, San Francisco",
-          host: "Office for Science and Technology of the Embassy of France in the United States",
-          link: "https://luma.com/pbxmgsax",
-          recommendation: "Consider",
-          score: "7.5/10",
-          why:
-            "More curated than a generic mixer, with a diplomatic-host setting and deeptech startup presentations spanning AI, imaging, and applied science.",
-          signal:
-            "Visible attendance is not surfaced on the public page, so this relies on organizer quality, a selective guest list, and the French Residence setting rather than headline RSVP volume.",
-          notes:
-            "Better for curated conversation and cross-border deeptech exposure than for direct frontier-AI employee density.",
-        },
-      ],
-    },
-    {
-      date: "Wednesday, May 13",
-      verdict: "Strong options",
-      note: "One of the best nights in the whole window, with a standout build night plus two strong engineering and product-adjacent backups.",
-      events: [
-        {
-          title: "AI Tinkerers Build Night: Agents w/ Real-time Data",
-          time: "5:30 PM to 9:30 PM PT",
-          venue: "San Francisco address shown after acceptance",
-          host: "AI Tinkerers San Francisco",
-          link: "https://sf.aitinkerers.org/p/ai-tinkerers-build-night-agents-w-real-time-data",
-          recommendation: "Sign up now",
-          score: "9.0/10",
-          why:
-            "Selective format, strong builder density, and an agenda centered on agents plus real-time data instead of networking fluff.",
-          signal:
-            "49+ registered on the direct event page. AI Tinkerers has a strong repeat-attendee reputation and consistently technical rooms.",
-          notes: "Acceptance gated, which helps the signal.",
-        },
-        {
-          title: "AI Engineers Tech Talk: LLM Learning Patterns",
-          time: "6:00 PM to 8:00 PM PT",
-          venue: "House of AI, 40 Boardman Pl, San Francisco",
-          host: "AI Engineers - SF / Human+Tech Week",
-          link: "https://luma.com/slikak8w",
-          recommendation: "Consider",
-          score: "8.5/10",
-          why:
-            "This directly matches your taste for serious AI engineer rooms. Cleric and Puntt are speaking on operational memory and AI compliance workflows, which is the right level of substance.",
-          signal:
-            "The direct Luma page requires approval and does not show a clean public RSVP count, so the recommendation leans on the repeat quality of the SF AI Engineers community, your own history with similar rooms, and the engineer-focused agenda.",
-          notes:
-            "This is the direct Luma link for the room you flagged. Less selective than AI Tinkerers, but better targeted than a generic startup or founder event.",
-        },
-        {
-          title: "Fin x Metronome: Pricing Strategies for AI Agents",
-          time: "6:00 PM PT",
-          venue: "SF POPOS, 55 2nd St, San Francisco",
-          host: "Fin and Metronome",
-          link: "https://luma.com/finxmetronome",
-          recommendation: "Consider",
-          score: "8.0/10",
-          why:
-            "Not an engineering meetup in the narrow sense, but unusually relevant if you care about product strategy, enterprise packaging, and the real mechanics of selling agent outcomes.",
-          signal:
-            "Attendance is not surfaced on the public page. The draw here is the host quality: Fin from Intercom and Metronome, with an agenda focused on pricing architecture instead of generic AI chatter.",
-          notes:
-            "Best for product and monetization conversations. Lower frontier-lab density than the top two options that night.",
-        },
-      ],
-    },
-    {
-      date: "Thursday, May 14",
-      verdict: "Three credible options",
-      note: "This day is still weaker than May 13, but it now has three real after-work paths: enterprise stack talk, vertical-AI operator room, or the broader OpenAI Codex community meetup.",
-      events: [
-        {
-          title: "LLM Inside - Wiring The Enterprise-Grade AI Stack",
-          time: "5:00 PM PT",
-          venue: "San Francisco venue to be announced",
-          host: "GarysGuide listing / organizer not named publicly",
-          link: "https://www.garysguide.com/events/1ug0dwe/LLM-Inside-Wiring-The-Enterprise-Grade-AI-Stack",
-          recommendation: "Consider",
-          score: "7.8/10",
-          why:
-            "The topic fit is strong for you: context flows, orchestration, observability, reliability, and what it takes to wire LLMs into real production systems.",
-          signal:
-            "Attendance is not visible publicly, so this is driven by topic quality and the explicit practitioner framing rather than RSVP volume.",
-          notes:
-            "It looks promising, but the unnamed organizer and missing speaker list make it a lower-conviction pick than the strongest days in the window.",
-        },
-        {
-          title: "AI Healthtech Night",
-          time: "6:00 PM PT",
-          venue: "San Francisco address shared on registration",
-          host: "Workato Developer Events",
-          link: "https://luma.com/iemgy0bv",
-          recommendation: "Consider",
-          score: "7.4/10",
-          why:
-            "Workato is a positive signal for you, and the format is builder-oriented rather than broad networking. It can be useful if you want enterprise-agent conversations in a vertical setting.",
-          signal:
-            "The direct event page does not surface attendance. Public calendar mirrors show substantial interest, but the public speaker list is still light, so the host quality carries more weight than the lineup.",
-          notes:
-            "Healthtech narrows the room. Worth it if you are open to vertical-AI conversations, weaker if you want a more general product or infra crowd.",
-        },
-        {
-          title: "OpenAI Codex Community Meetup - Intro to Codex + Build Together",
-          time: "6:00 PM to 8:00 PM PT",
-          venue: "House of AI, 40 Boardman Pl, San Francisco",
-          host: "AI Engineers - SF / Human+Tech Week",
-          link: "https://luma.com/r9afqgz4",
-          recommendation: "Consider",
-          score: "8.1/10",
-          why:
-            "Directly relevant to your frontier-AI interests because it is explicitly about OpenAI Codex, with a hands-on build-together format rather than generic networking.",
-          signal:
-            "79 going on the public Luma listing. The open-community framing lowers selectivity, but the Codex topic and House of AI venue raise the odds of meeting practical AI builders.",
-          notes:
-            "Broader and more beginner-friendly than your ideal room, so this is a useful option rather than a top pick. Stronger if you specifically want Codex-adjacent conversations.",
-        },
-      ],
-    },
-    {
-      date: "Friday, May 15",
-      verdict: "Not recommended",
-      note: "The visible options are either too daytime, too broad, or too startup-slanted.",
-      events: [],
-    },
-    {
       date: "Saturday, May 16",
       verdict: "Not recommended",
-      note: "No strong SF evening AI recommendation surfaced.",
+      note: "No strong SF evening AI recommendation surfaced for tonight.",
       events: [],
     },
     {
@@ -330,25 +185,81 @@ const scan = {
     },
     {
       date: "Tuesday, May 26",
-      verdict: "One early Codex option",
-      note: "This is not a premium room yet, but it is the best visible late-window option because it is new, builder-oriented, and directly tied to OpenAI Codex.",
+      verdict: "One live Codex option",
+      note: "This is still broader than your ideal rooms, but it is the clearest OpenAI-adjacent builder event visible late in the window.",
       events: [
         {
-          title: "OpenAI Codex Community Meetup: Mini Hackathon & Talks",
-          time: "5:00 PM to 7:00 PM PT",
+          title: "Codex Community Hackathon - San Francisco #5",
+          time: "5:00 PM to 7:30 PM PT",
           venue: "Stonestown, 3251 20th Ave, San Francisco",
-          host: "AI Engineers - SF",
+          host: "TatianaSF",
           link: "https://luma.com/7025i1j5",
           recommendation: "Consider",
-          score: "7.2/10",
+          score: "7.5/10",
           why:
-            "Direct OpenAI Codex theme, a build-together format, and a guest judge from OpenAI make it more relevant than a generic meetup despite the smaller footprint.",
+            "Direct OpenAI Codex theme, a build-together format, and a guest judge from OpenAI make it more relevant than a generic meetup despite the more open community framing.",
           signal:
-            "Visible RSVP count is still below your usual threshold, but this appears to be a new listing still early in signup. The direct Codex angle is the main reason it survives the cutoff.",
+            "The public page does not surface a strong visible RSVP count, but it appears to be a new listing and the direct Codex angle plus OpenAI guest involvement lifts it above the cutoff.",
           notes:
             "Lower-signal venue and a more open community format make this a softer recommendation than your best nights. Worth it mainly if you want Codex-specific builder conversations.",
         },
       ],
+    },
+    {
+      date: "Wednesday, May 27",
+      verdict: "One credible Codex room",
+      note: "Not an elite closed-door room, but it is one of the cleanest OpenAI-adjacent evening meetups visible in the late window.",
+      events: [
+        {
+          title: "Codex Community Meetup-San Francisco #6",
+          time: "5:30 PM to 7:30 PM PT",
+          venue: "Sports Basement Presidio, San Francisco",
+          host: "TatianaSF",
+          link: "https://luma.com/68ocek8t",
+          recommendation: "Consider",
+          score: "7.8/10",
+          why:
+            "The room is directly about OpenAI Codex, coding agents, and practical ways people are using them. That makes it more relevant to your AI product and applied-builder goals than most general meetups.",
+          signal:
+            "The organizer frames it as a 70+ guest room with invited OpenAI Codex participation. It is broader than your best curated rooms, but the topic and expected attendance make it worth tracking.",
+          notes:
+            "Community-heavy and more open than your ideal signal profile. Better for meeting Codex-curious builders than for concentrated Anthropic/OpenAI employee density.",
+        },
+      ],
+    },
+    {
+      date: "Thursday, May 28",
+      verdict: "One credible operator option",
+      note: "A solid after-work AI operator room, though more practical and product-facing than frontier-lab dense.",
+      events: [
+        {
+          title: "The AI-Native Blueprint: Building with an Unfair Advantage",
+          time: "5:00 PM to 7:30 PM PT",
+          venue: "140 New Montgomery St, San Francisco",
+          host: "ODSC AI",
+          link: "https://luma.com/omcwp6bs",
+          recommendation: "Consider",
+          score: "7.7/10",
+          why:
+            "Checksum.ai and super{set} give this a stronger operator and product-builder angle than a generic AI panel. Good fit if you want applied conversations about building and shipping with AI.",
+          signal:
+            "The visible public page emphasizes named operators and a downtown SF venue, but does not show a clear public RSVP count. The signal comes more from host quality and topic focus than from exclusivity.",
+          notes:
+            "Useful for practical company-building and product discussions. Less likely than WorkOS or OpenAI-themed rooms to concentrate frontier-company employees.",
+        },
+      ],
+    },
+    {
+      date: "Friday, May 29",
+      verdict: "Not recommended",
+      note: "No strong SF evening AI recommendation surfaced for tonight.",
+      events: [],
+    },
+    {
+      date: "Saturday, May 30",
+      verdict: "Not recommended",
+      note: "No strong SF evening AI recommendation surfaced for tonight.",
+      events: [],
     },
   ],
   profile: {
