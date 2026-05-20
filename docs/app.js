@@ -1,7 +1,7 @@
 const scan = {
-  checkedAt: "May 18, 2026",
-  updatedAt: "May 18, 2026",
-  windowLabel: "May 18, 2026 → June 1, 2026",
+  checkedAt: "May 19, 2026",
+  updatedAt: "May 19, 2026",
+  windowLabel: "May 19, 2026 → June 2, 2026",
   featured: [
     {
       title: "WorkOS MCP Night: Agent Mode",
@@ -29,27 +29,6 @@ const scan = {
     },
   ],
   days: [
-    {
-      date: "Monday, May 18",
-      verdict: "One selective option",
-      note: "Worth considering if you want a tighter room and can tolerate some GTM emphasis.",
-      events: [
-        {
-          title: "AI Tinkerers San Francisco: GTM Engineering Track",
-          time: "6:00 PM to 9:00 PM PT",
-          venue: "San Francisco address shown after approval",
-          host: "AI Tinkerers San Francisco",
-          link: "https://sf.aitinkerers.org/p/ai-tinkerers-san-francisco-gtm-engineering-track",
-          recommendation: "Consider",
-          score: "8.0/10",
-          why:
-            "Still more technically credible than a normal GTM event because it is demos-not-decks and explicitly selective.",
-          signal:
-            "AI Tinkerers' public events page shows 95 attending. The room is vetted and high-trust, but the topic is more distribution architecture than frontier AI product.",
-          notes: "Good if you want operator conversations, weaker if you want pure frontier-lab density.",
-        },
-      ],
-    },
     {
       date: "Tuesday, May 19",
       verdict: "One viable builder option",
@@ -257,6 +236,12 @@ const scan = {
     },
     {
       date: "Monday, June 1",
+      verdict: "Not recommended",
+      note: "No strong SF evening AI recommendation surfaced for tonight.",
+      events: [],
+    },
+    {
+      date: "Tuesday, June 2",
       verdict: "Not recommended",
       note: "No strong SF evening AI recommendation surfaced for tonight.",
       events: [],
