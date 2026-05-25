@@ -1,62 +1,31 @@
 const scan = {
-  "checkedAt": "May 22, 2026",
-  "updatedAt": "May 22, 2026",
-  "windowLabel": "May 22, 2026 → June 5, 2026",
+  "checkedAt": "May 25, 2026",
+  "updatedAt": "May 25, 2026",
+  "windowLabel": "May 25, 2026 → June 8, 2026",
   "featured": [
-    {
-      "title": "Build the Future: AI, Spatial & Android",
-      "date": "Fri, May 22",
-      "recommendation": "Sign up now",
-      "summary": "The best live Friday room in the window: big builder density, real demos, and a credible Google-developer crowd instead of generic networking.",
-      "link": "https://luma.com/gmlinjkg"
-    },
     {
       "title": "Codex Community Hackathon - San Francisco #5",
       "date": "Tue, May 26",
       "recommendation": "Consider",
-      "summary": "The clearest OpenAI-adjacent builder room in the near-term calendar: open community energy, but directly about Codex and hands-on building.",
+      "summary": "The clearest OpenAI-adjacent builder room in the near-term calendar: active, hands-on, and still the strongest direct Codex event in range.",
       "link": "https://luma.com/7025i1j5"
     },
     {
       "title": "Codex Community Meetup-San Francisco #6",
       "date": "Wed, May 27",
       "recommendation": "Consider",
-      "summary": "The best OpenAI-coded room late in the window: broader than your ideal rooms, but directly relevant and likely to draw real Codex-curious builders.",
+      "summary": "The cleanest still-open Codex conversation in the window: practical builder energy and direct OpenAI-tooling relevance.",
       "link": "https://luma.com/68ocek8t"
+    },
+    {
+      "title": "The AI-Native Blueprint: Building with an Unfair Advantage",
+      "date": "Thu, May 28",
+      "recommendation": "Consider",
+      "summary": "A credible operator room for applied AI product and shipping conversations, even if it skews more tactical than frontier-lab dense.",
+      "link": "https://luma.com/omcwp6bs"
     }
   ],
   "days": [
-    {
-      "date": "Friday, May 22",
-      "verdict": "Strongest live Friday option",
-      "note": "Broader than your ideal frontier-lab room, but the builder density and turnout make it the clearest live choice tonight.",
-      "events": [
-        {
-          "title": "Build the Future: AI, Spatial & Android",
-          "time": "5:00 PM to 8:00 PM PT",
-          "venue": "Frontier Tower, 995 Market St, San Francisco",
-          "host": "GDG SF and PICO",
-          "link": "https://luma.com/gmlinjkg",
-          "recommendation": "Sign up now",
-          "score": "8.2/10",
-          "why": "Google I/O after-party energy, real product demos, and a builder showcase make this much more useful than a generic Friday mixer.",
-          "signal": "243 going on the direct Luma page. GDG San Francisco, PICO, and Frontier Tower should pull a real developer crowd with AI, Android, and spatial depth.",
-          "notes": "Skews Android and XR alongside AI, so it is less enterprise-AI dense than your ideal rooms. Still the best live room on the calendar tonight."
-        }
-      ]
-    },
-    {
-      "date": "Saturday, May 23",
-      "verdict": "Not recommended",
-      "note": "No strong SF evening AI recommendation surfaced for tonight.",
-      "events": []
-    },
-    {
-      "date": "Sunday, May 24",
-      "verdict": "Not recommended",
-      "note": "No strong SF evening AI recommendation surfaced for tonight.",
-      "events": []
-    },
     {
       "date": "Monday, May 25",
       "verdict": "Not recommended",
@@ -166,6 +135,24 @@ const scan = {
       "date": "Friday, June 5",
       "verdict": "Not recommended",
       "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "events": []
+    },
+    {
+      "date": "Saturday, June 6",
+      "verdict": "Not recommended",
+      "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "events": []
+    },
+    {
+      "date": "Sunday, June 7",
+      "verdict": "Not recommended",
+      "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "events": []
+    },
+    {
+      "date": "Monday, June 8",
+      "verdict": "Not recommended",
+      "note": "After a fresh pass, no strong SF evening AI room surfaced that beats an open night.",
       "events": []
     }
   ],
