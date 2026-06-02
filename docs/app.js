@@ -1,20 +1,13 @@
 const scan = {
-  "checkedAt": "May 26, 2026",
-  "updatedAt": "May 26, 2026",
-  "windowLabel": "May 26, 2026 → June 9, 2026",
+  "checkedAt": "June 1, 2026",
+  "updatedAt": "June 1, 2026",
+  "windowLabel": "June 1, 2026 → June 15, 2026",
   "featured": [
-    {
-      "title": "Codex Community Hackathon - San Francisco #5",
-      "date": "Tue, May 26",
-      "recommendation": "Consider",
-      "summary": "Still the clearest direct OpenAI-adjacent builder room in the live window: hands-on, well attended, and specific to Codex.",
-      "link": "https://luma.com/7025i1j5"
-    },
     {
       "title": "Skyflow Invite-Only Reception at Snowflake Summit",
       "date": "Tue, Jun 2",
       "recommendation": "Sign up now",
-      "summary": "Best June evening fit so far: agentic AI security, enterprise operators, and a curated reception built for product, data, and engineering leaders.",
+      "summary": "Best fit in the live window: agentic AI security, enterprise operators, and a curated reception designed for product, data, and engineering leaders.",
       "link": "https://www.skyflow.com/snowflake-summit"
     },
     {
@@ -23,84 +16,16 @@ const scan = {
       "recommendation": "Consider",
       "summary": "A strong research-adjacent salon at Frontier Tower with a more thoughtful, high-trust crowd than a generic summit side event.",
       "link": "https://www.cooperativefutures.org/"
+    },
+    {
+      "title": "Codex Community Meetup-San Francisco",
+      "date": "Wed, Jun 10",
+      "recommendation": "Consider",
+      "summary": "The clearest direct OpenAI-adjacent room later in the window: practical builder conversations with OpenAI Codex speakers and community energy.",
+      "link": "https://luma.com/x4zr22kb"
     }
   ],
   "days": [
-    {
-      "date": "Tuesday, May 26",
-      "verdict": "Best late-window OpenAI-adjacent option",
-      "note": "The public page is already sold out, but this is still worth tracking if a spot opens or if you have a volunteer or judge path.",
-      "events": [
-        {
-          "title": "Codex Community Hackathon - San Francisco #5",
-          "time": "5:00 PM to 7:45 PM PT",
-          "venue": "Sports Basement, Stonestown Galleria, 3251 20th Ave Suite 390, San Francisco",
-          "host": "TatianaSF",
-          "link": "https://luma.com/7025i1j5",
-          "recommendation": "Consider",
-          "score": "8.0/10",
-          "why": "The clearest direct Codex room in the live window: an active pitch format, practical AI-assisted building, and explicit OpenAI Codex involvement.",
-          "signal": "223 going on the direct Luma page and Featured in San Francisco. OpenAI or OpenAI Codex guest-judge participation is explicitly referenced, which lifts it above a normal community meetup.",
-          "notes": "The room is community-heavy and open to non-coders, and public participant and guest tickets already show sold out. Best treated as a waitlist or networking-angle play, not a clean lock."
-        }
-      ]
-    },
-    {
-      "date": "Wednesday, May 27",
-      "verdict": "Credible Codex follow-up",
-      "note": "Smaller than the hackathon, but still directly relevant if you want builder conversations around OpenAI coding agents.",
-      "events": [
-        {
-          "title": "Codex Community Meetup-San Francisco #6",
-          "time": "5:30 PM to 7:30 PM PT",
-          "venue": "Sports Basement Presidio, San Francisco",
-          "host": "TatianaSF",
-          "link": "https://luma.com/68ocek8t",
-          "recommendation": "Consider",
-          "score": "7.6/10",
-          "why": "Directly about OpenAI Codex, real use cases, and practical discussion instead of generic AI hype.",
-          "signal": "42 going on the direct page, with the organizer framing it as a 70-plus guest room and tentative OpenAI Codex speakers. That clears your attendance floor, even if it is not especially exclusive.",
-          "notes": "More open-community and beginner-friendly than your ideal rooms. Worth it mainly for Codex-adjacent builder density, not frontier-lab concentration."
-        }
-      ]
-    },
-    {
-      "date": "Thursday, May 28",
-      "verdict": "Practical operator option",
-      "note": "More product and company-building than a pure engineering meetup, but still a useful after-work room with credible operators.",
-      "events": [
-        {
-          "title": "The AI-Native Blueprint: Building with an Unfair Advantage",
-          "time": "5:00 PM to 7:30 PM PT",
-          "venue": "140 New Montgomery St, San Francisco",
-          "host": "ODSC AI and super{set}",
-          "link": "https://luma.com/omcwp6bs",
-          "recommendation": "Consider",
-          "score": "7.7/10",
-          "why": "Checksum.ai and super{set} make this stronger for applied AI product and operator conversations than a generic panel or mixer.",
-          "signal": "The event centers on super{set} and Checksum.ai, including a former Google product lead building an AI testing platform. That suggests a serious operator crowd even though the public RSVP count is not visible.",
-          "notes": "Some startup-company-building energy is unavoidable here, so it is not as clean a fit as a WorkOS-style room. Better for tactical product and GTM-adjacent AI conversations than for research or frontier-lab density."
-        }
-      ]
-    },
-    {
-      "date": "Friday, May 29",
-      "verdict": "Not recommended",
-      "note": "No strong SF evening AI recommendation surfaced for tonight.",
-      "events": []
-    },
-    {
-      "date": "Saturday, May 30",
-      "verdict": "Not recommended",
-      "note": "No strong SF evening AI recommendation surfaced for tonight.",
-      "events": []
-    },
-    {
-      "date": "Sunday, May 31",
-      "verdict": "Not recommended",
-      "note": "No strong SF evening AI recommendation surfaced for tonight.",
-      "events": []
-    },
     {
       "date": "Monday, June 1",
       "verdict": "Two credible summit-side options",
@@ -216,6 +141,68 @@ const scan = {
       "date": "Tuesday, June 9",
       "verdict": "Not recommended",
       "note": "The visible June 9 SF AI listings skew daytime, founder-focused, or conference-shaped rather than high-signal evening rooms.",
+      "events": []
+    },
+    {
+      "date": "Wednesday, June 10",
+      "verdict": "One credible OpenAI-adjacent option",
+      "note": "The direct June 10 Codex meetup is the clearest still-relevant evening room later in the window, and it is more aligned with your AI builder goals than the other visible options that day.",
+      "events": [
+        {
+          "title": "Codex Community Meetup-San Francisco",
+          "time": "5:00 PM to 7:30 PM PT",
+          "venue": "Sports Basement Presidio, San Francisco",
+          "host": "TatianaSF",
+          "link": "https://luma.com/x4zr22kb",
+          "recommendation": "Consider",
+          "score": "7.8/10",
+          "why": "Directly about OpenAI Codex with named OpenAI and AI-tooling speakers, which keeps the room relevant to your applied AI and product-builder goals.",
+          "signal": "The direct page is already on waitlist, and a related Codex community listing shows 79 going. That suggests real demand and decent attendance despite the broader community framing.",
+          "notes": "It is still more community-heavy and beginner-friendly than your ideal curated operator rooms. Best for OpenAI-adjacent builder conversations rather than concentrated frontier-lab density."
+        }
+      ]
+    },
+    {
+      "date": "Thursday, June 11",
+      "verdict": "One selective enterprise AI dinner",
+      "note": "This is a more senior and enterprise-facing room than your usual builder meetups, but it is still a credible after-work AI event with strong operator overlap.",
+      "events": [
+        {
+          "title": "Exclusive Executive Dinner: The Future of Agentic Voice",
+          "time": "6:00 PM to 9:00 PM PT",
+          "venue": "Sens Restaurant, 4 Embarcadero Center Promenade Level, San Francisco",
+          "host": "Thunder",
+          "link": "https://www.thundersf.com/events",
+          "recommendation": "Consider",
+          "score": "7.8/10",
+          "why": "Agentic voice and enterprise customer experience are squarely in the applied AI deployment lane, and the host is explicitly targeting CIOs and AI leaders rather than a broad startup crowd.",
+          "signal": "The official Thunder events page describes it as an invite-only SF dinner focused on agentic voice, with ElevenLabs customer context and a leadership-level audience.",
+          "notes": "This skews senior and enterprise-heavy, so it is better for strategic operator conversations than for hands-on engineers or research-adjacent builders."
+        }
+      ]
+    },
+    {
+      "date": "Friday, June 12",
+      "verdict": "Not recommended",
+      "note": "After a fresh pass, no strong SF evening AI room surfaced that clears your bar for attendee quality.",
+      "events": []
+    },
+    {
+      "date": "Saturday, June 13",
+      "verdict": "Not recommended",
+      "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "events": []
+    },
+    {
+      "date": "Sunday, June 14",
+      "verdict": "Not recommended",
+      "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "events": []
+    },
+    {
+      "date": "Monday, June 15",
+      "verdict": "Not recommended",
+      "note": "The visible June 15 listings skew virtual, investor-focused, or outside your ideal after-work SF AI criteria.",
       "events": []
     }
   ],
