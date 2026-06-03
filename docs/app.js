@@ -1,7 +1,7 @@
 const scan = {
-  "checkedAt": "June 1, 2026",
-  "updatedAt": "June 1, 2026",
-  "windowLabel": "June 1, 2026 → June 15, 2026",
+  "checkedAt": "June 2, 2026",
+  "updatedAt": "June 2, 2026",
+  "windowLabel": "June 2, 2026 → June 16, 2026",
   "featured": [
     {
       "title": "Skyflow Invite-Only Reception at Snowflake Summit",
@@ -21,42 +21,11 @@ const scan = {
       "title": "Codex Community Meetup-San Francisco",
       "date": "Wed, Jun 10",
       "recommendation": "Consider",
-      "summary": "The clearest direct OpenAI-adjacent room later in the window: practical builder conversations with OpenAI Codex speakers and community energy.",
+      "summary": "The clearest direct OpenAI-adjacent room later in the window: practical builder conversations with OpenAI Codex speakers and stronger attendance than the newer duplicate listing shows.",
       "link": "https://luma.com/x4zr22kb"
     }
   ],
   "days": [
-    {
-      "date": "Monday, June 1",
-      "verdict": "Two credible summit-side options",
-      "note": "Snowflake Summit week opens with better-than-usual evening rooms: both are curated, downtown, and likely to attract data and AI operators rather than generic networkers.",
-      "events": [
-        {
-          "title": "Happy Hour at Snowflake Summit",
-          "time": "6:30 PM to 8:30 PM PT",
-          "venue": "1 Yerba Buena Ln, San Francisco",
-          "host": "Omni @ Snowflake Summit 2026",
-          "link": "https://luma.com/q7d0y999",
-          "recommendation": "Consider",
-          "score": "7.8/10",
-          "why": "Curated first-night summit room with real data platform and analytics operators, plus a host that explicitly works with teams like Perplexity.",
-          "signal": "Invitation-only and approval-required on the direct Luma page. Omni positions itself around AI and BI for teams on Snowflake, which should pull a strong applied data-and-AI crowd.",
-          "notes": "This leans more data-leader than frontier-lab. Stronger for enterprise AI product, analytics, and operator conversations than for pure research or model-engineering density."
-        },
-        {
-          "title": "Join Hakkōda in Celebrating Innovative Data Leaders in the Snowflake Ecosystem",
-          "time": "8:00 PM to 10:00 PM PT",
-          "venue": "Social Terrace, W San Francisco, 181 3rd St, San Francisco",
-          "host": "Hakkoda and IBM",
-          "link": "https://hakkoda.io/snowflake-summit-2026/",
-          "recommendation": "Consider",
-          "score": "7.7/10",
-          "why": "A more relationship-driven evening with senior customers and partners discussing data and AI in a smaller, elevated setting.",
-          "signal": "The official host page frames this as an exclusive customer appreciation reception for top customers and partners shaping the future of data and AI.",
-          "notes": "More ecosystem-and-partner heavy than your ideal frontier-company room, and access may be constrained by the host network."
-        }
-      ]
-    },
     {
       "date": "Tuesday, June 2",
       "verdict": "Strongest June evening so far",
@@ -146,7 +115,7 @@ const scan = {
     {
       "date": "Wednesday, June 10",
       "verdict": "One credible OpenAI-adjacent option",
-      "note": "The direct June 10 Codex meetup is the clearest still-relevant evening room later in the window, and it is more aligned with your AI builder goals than the other visible options that day.",
+      "note": "The June 10 Codex meetup is the clearest still-relevant evening room later in the window, and the stronger related listing suggests better turnout than the newer duplicate page alone.",
       "events": [
         {
           "title": "Codex Community Meetup-San Francisco",
@@ -155,9 +124,9 @@ const scan = {
           "host": "TatianaSF",
           "link": "https://luma.com/x4zr22kb",
           "recommendation": "Consider",
-          "score": "7.8/10",
+          "score": "7.9/10",
           "why": "Directly about OpenAI Codex with named OpenAI and AI-tooling speakers, which keeps the room relevant to your applied AI and product-builder goals.",
-          "signal": "The direct page is already on waitlist, and a related Codex community listing shows 79 going. That suggests real demand and decent attendance despite the broader community framing.",
+          "signal": "The direct page is already on waitlist, and the related earlier community listing shows 79 going. That suggests real demand and stronger attendance than the duplicate listing alone implies.",
           "notes": "It is still more community-heavy and beginner-friendly than your ideal curated operator rooms. Best for OpenAI-adjacent builder conversations rather than concentrated frontier-lab density."
         }
       ]
@@ -190,7 +159,7 @@ const scan = {
     {
       "date": "Saturday, June 13",
       "verdict": "Not recommended",
-      "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "note": "The visible June 13 robotics reading club is daytime and therefore outside your after-work event filter.",
       "events": []
     },
     {
@@ -203,6 +172,12 @@ const scan = {
       "date": "Monday, June 15",
       "verdict": "Not recommended",
       "note": "The visible June 15 listings skew virtual, investor-focused, or outside your ideal after-work SF AI criteria.",
+      "events": []
+    },
+    {
+      "date": "Tuesday, June 16",
+      "verdict": "Not recommended",
+      "note": "The visible June 16 Codex meetup only shows 28 going on the direct page, which is below your attendance threshold and not clearly early enough in signup to override it.",
       "events": []
     }
   ],
