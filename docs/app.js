@@ -1,99 +1,31 @@
 const scan = {
-  "checkedAt": "June 2, 2026",
-  "updatedAt": "June 2, 2026",
-  "windowLabel": "June 2, 2026 → June 16, 2026",
+  "checkedAt": "June 7, 2026",
+  "updatedAt": "June 7, 2026",
+  "windowLabel": "June 7, 2026 → June 21, 2026",
   "featured": [
     {
-      "title": "Skyflow Invite-Only Reception at Snowflake Summit",
-      "date": "Tue, Jun 2",
+      "title": "Off the Record",
+      "date": "Wed, Jun 17",
       "recommendation": "Sign up now",
-      "summary": "Best fit in the live window: agentic AI security, enterprise operators, and a curated reception designed for product, data, and engineering leaders.",
-      "link": "https://www.skyflow.com/snowflake-summit"
+      "summary": "Best late-window fit: a private Press Club gathering for senior data, AI, and platform engineering leaders during Databricks week.",
+      "link": "https://luma.com/theoryteam8offtherecord"
     },
     {
-      "title": "The Digital Cambrian",
-      "date": "Wed, Jun 3",
+      "title": "Render localhost:2026 SF",
+      "date": "Thu, Jun 18",
       "recommendation": "Consider",
-      "summary": "A strong research-adjacent salon at Frontier Tower with a more thoughtful, high-trust crowd than a generic summit side event.",
-      "link": "https://www.cooperativefutures.org/"
+      "summary": "The strongest technical-builder room later in the window, with OpenAI, Stripe, Mastra, and Render on a curated afternoon-to-evening program.",
+      "link": "https://luma.com/localhost-2026-sf"
     },
     {
       "title": "Codex Community Meetup-San Francisco",
       "date": "Wed, Jun 10",
       "recommendation": "Consider",
-      "summary": "The clearest direct OpenAI-adjacent room later in the window: practical builder conversations with OpenAI Codex speakers and stronger attendance than the newer duplicate listing shows.",
+      "summary": "The clearest direct OpenAI-adjacent room in the first half of the window: practical builder conversations with OpenAI Codex speakers and waitlist demand.",
       "link": "https://luma.com/x4zr22kb"
     }
   ],
   "days": [
-    {
-      "date": "Tuesday, June 2",
-      "verdict": "Strongest June evening so far",
-      "note": "This is the best June after-work fit in the current window: technical, enterprise-relevant, and narrowly targeted at people thinking seriously about agentic AI in production.",
-      "events": [
-        {
-          "title": "Skyflow Invite-Only Reception at Snowflake Summit",
-          "time": "7:00 PM to 10:00 PM PT",
-          "venue": "The Vault Garden, San Francisco",
-          "host": "Skyflow",
-          "link": "https://www.skyflow.com/snowflake-summit",
-          "recommendation": "Sign up now",
-          "score": "8.6/10",
-          "why": "Agentic AI security is a highly relevant enterprise wedge for your target crowd, and the event is explicitly built around leaders across engineering, product, data, and security.",
-          "signal": "The official event page describes an invite-only reception focused on how enterprises are safely adopting agentic AI. Skyflow is deeply aligned with AI governance, data access, and enterprise deployment.",
-          "notes": "The room may skew security and data-platform heavy rather than frontier-model heavy, but that is still a strong fit for solutions engineers, technical PMs, and applied AI operators."
-        }
-      ]
-    },
-    {
-      "date": "Wednesday, June 3",
-      "verdict": "Thoughtful salon with a backup party option",
-      "note": "This is the best midweek June evening so far if you want a choice between a more intellectual curated salon and a broader summit-adjacent networking room.",
-      "events": [
-        {
-          "title": "The Digital Cambrian",
-          "time": "6:30 PM to 9:00 PM PT",
-          "venue": "Frontier Tower, San Francisco",
-          "host": "Cooperative Futures Institute and Frontier Tower",
-          "link": "https://www.cooperativefutures.org/",
-          "recommendation": "Consider",
-          "score": "8.1/10",
-          "why": "This is unusually aligned with your research-adjacent salon preference: human-AI interaction, short talks, dinner, and salon-style discussion in a high-trust venue.",
-          "signal": "The official program describes it as the culminating evening event of a four-day AI-human interaction academy, hosted with Frontier Tower. That implies a thoughtful, selective, academically serious crowd rather than generic startup networking.",
-          "notes": "The direct ticket flow was not yet live on the official page when rechecked, so this is a high-quality room to monitor rather than an immediate registration lock."
-        },
-        {
-          "title": "Last Call Party for Data and AI Visionaries",
-          "time": "8:00 PM to 11:00 PM PT",
-          "venue": "Novela, 662 Mission St, San Francisco",
-          "host": "Hakkoda, IBM, and Domo",
-          "link": "https://hakkoda.io/snowflake-summit-2026/",
-          "recommendation": "Consider",
-          "score": "7.9/10",
-          "why": "A strong late-night summit-side room for senior data and AI leaders once the formal programming winds down.",
-          "signal": "The official host page explicitly frames it as an event for senior data and AI leaders, with a downtown venue and relationship-driven atmosphere.",
-          "notes": "Broader and more ecosystem-heavy than your ideal rooms, and likely noisier than the Frontier Tower option."
-        }
-      ]
-    },
-    {
-      "date": "Thursday, June 4",
-      "verdict": "Not recommended",
-      "note": "The strongest visible AI room today is Arize Observe, but it is a daytime conference rather than an after-work event, so it does not cleanly fit your planner criteria.",
-      "events": []
-    },
-    {
-      "date": "Friday, June 5",
-      "verdict": "Not recommended",
-      "note": "No strong SF evening AI recommendation surfaced for tonight.",
-      "events": []
-    },
-    {
-      "date": "Saturday, June 6",
-      "verdict": "Not recommended",
-      "note": "No strong SF evening AI recommendation surfaced for tonight.",
-      "events": []
-    },
     {
       "date": "Sunday, June 7",
       "verdict": "Not recommended",
@@ -115,7 +47,7 @@ const scan = {
     {
       "date": "Wednesday, June 10",
       "verdict": "One credible OpenAI-adjacent option",
-      "note": "The June 10 Codex meetup is the clearest still-relevant evening room later in the window, and the stronger related listing suggests better turnout than the newer duplicate page alone.",
+      "note": "The June 10 Codex meetup is still the clearest evening room in the near-term part of the window, and the stronger related listing suggests better turnout than the newer duplicate page alone.",
       "events": [
         {
           "title": "Codex Community Meetup-San Francisco",
@@ -178,6 +110,74 @@ const scan = {
       "date": "Tuesday, June 16",
       "verdict": "Not recommended",
       "note": "The visible June 16 Codex meetup only shows 28 going on the direct page, which is below your attendance threshold and not clearly early enough in signup to override it.",
+      "events": []
+    },
+    {
+      "date": "Wednesday, June 17",
+      "verdict": "Private infra-heavy room",
+      "note": "This is the best late-window after-work fit in the current scan: private, senior, and directly aimed at data, AI, and platform leaders during Databricks week.",
+      "events": [
+        {
+          "title": "Off the Record",
+          "time": "6:30 PM PT",
+          "venue": "Press Club, San Francisco",
+          "host": "Theory Ventures and Team8",
+          "link": "https://luma.com/theoryteam8offtherecord",
+          "recommendation": "Sign up now",
+          "score": "8.4/10",
+          "why": "It is exactly the sort of curated, operator-heavy room that can produce higher-quality conversations than a broad summit crowd.",
+          "signal": "The direct Luma page explicitly says it is for senior data, AI, and platform engineering leaders with space limited and approval required. Theory Ventures and Team8 are strong enough hosts to imply a serious infrastructure and enterprise AI audience.",
+          "notes": "VC hosts mean there will still be some founder and investor presence, but the event framing is much more engineering-and-platform oriented than a generic founder mixer."
+        }
+      ]
+    },
+    {
+      "date": "Thursday, June 18",
+      "verdict": "Two strong but timing-imperfect options",
+      "note": "Both June 18 options are high-signal, but both require taking part of the afternoon because they are conference-shaped rather than clean 5:30-and-later evening events.",
+      "events": [
+        {
+          "title": "Render localhost:2026 SF",
+          "time": "1:00 PM to 7:00 PM PT (half-day option); happy hour 5:15 PM to 7:00 PM PT",
+          "venue": "The St. Regis San Francisco, 125 3rd St, San Francisco",
+          "host": "Render Events",
+          "link": "https://luma.com/localhost-2026-sf",
+          "recommendation": "Consider",
+          "score": "8.2/10",
+          "why": "This is the strongest technical-builder room on the late June calendar: OpenAI developer experience, Stripe product, Mastra, and a no-sales-pitches agentic application focus.",
+          "signal": "The direct Luma page frames it as a curated gathering for technical builders, with half-day tickets limited to under 300 and workshops under 80. The agenda is deeply aligned with agents, infra, and application-development patterns.",
+          "notes": "The main drawback is the 1:00 PM start for the half-day track, so it does not cleanly fit your after-work constraint even though the happy hour block does."
+        },
+        {
+          "title": "Big Technology AI Summit",
+          "time": "12:30 PM to 7:00 PM PT",
+          "venue": "Commonwealth Club, 110 The Embarcadero, San Francisco",
+          "host": "Big Technology",
+          "link": "https://summit.bigtechnology.com/",
+          "recommendation": "Consider",
+          "score": "8.0/10",
+          "why": "Direct access to Greg Brockman, Mike Krieger, Aravind Srinivas, Aaron Levie, and Dylan Patel makes this one of the highest-signal rooms for frontier-company proximity in the whole window.",
+          "signal": "The official summit page confirms OpenAI, Anthropic, Perplexity, and Box leadership on stage, plus a post-program roof reception. Attendee quality is likely to be strong even if the room is broader than a private dinner or salon.",
+          "notes": "This is plainly a daytime conference with an evening reception, so it misses your ideal timing and may feel more stage-driven than conversation-driven."
+        }
+      ]
+    },
+    {
+      "date": "Friday, June 19",
+      "verdict": "Not recommended",
+      "note": "The visible June 19 options are founder-focused or daytime, including a YC founder yacht event and a multimodal hackathon that starts in the morning.",
+      "events": []
+    },
+    {
+      "date": "Saturday, June 20",
+      "verdict": "Not recommended",
+      "note": "The strongest visible AI room is a robotics reading club from 2:00 PM to 5:00 PM, which does not fit your evening filter.",
+      "events": []
+    },
+    {
+      "date": "Sunday, June 21",
+      "verdict": "Not recommended",
+      "note": "No strong SF evening AI recommendation surfaced for tonight.",
       "events": []
     }
   ],
