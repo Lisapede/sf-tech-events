@@ -1,7 +1,7 @@
 const scan = {
-  "checkedAt": "June 7, 2026",
-  "updatedAt": "June 7, 2026",
-  "windowLabel": "June 7, 2026 → June 21, 2026",
+  "checkedAt": "June 8, 2026",
+  "updatedAt": "June 8, 2026",
+  "windowLabel": "June 8, 2026 → June 22, 2026",
   "featured": [
     {
       "title": "Off the Record",
@@ -14,24 +14,18 @@ const scan = {
       "title": "Render localhost:2026 SF",
       "date": "Thu, Jun 18",
       "recommendation": "Consider",
-      "summary": "The strongest technical-builder room later in the window, with OpenAI, Stripe, Mastra, and Render on a curated afternoon-to-evening program.",
+      "summary": "The strongest technical-builder room in the window, with OpenAI, Stripe, Mastra, and Render on a curated afternoon-to-evening program.",
       "link": "https://luma.com/localhost-2026-sf"
     },
     {
       "title": "Codex Community Meetup-San Francisco",
       "date": "Wed, Jun 10",
       "recommendation": "Consider",
-      "summary": "The clearest direct OpenAI-adjacent room in the first half of the window: practical builder conversations with OpenAI Codex speakers and waitlist demand.",
+      "summary": "The clearest direct OpenAI-adjacent room in the near term: practical builder conversations with OpenAI Codex speakers and waitlist demand.",
       "link": "https://luma.com/x4zr22kb"
     }
   ],
   "days": [
-    {
-      "date": "Sunday, June 7",
-      "verdict": "Not recommended",
-      "note": "No strong SF evening AI recommendation surfaced for tonight.",
-      "events": []
-    },
     {
       "date": "Monday, June 8",
       "verdict": "Not recommended",
@@ -178,6 +172,12 @@ const scan = {
       "date": "Sunday, June 21",
       "verdict": "Not recommended",
       "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "events": []
+    },
+    {
+      "date": "Monday, June 22",
+      "verdict": "Not recommended",
+      "note": "After a fresh pass, no strong SF evening AI room surfaced that clears your bar for attendee quality.",
       "events": []
     }
   ],
