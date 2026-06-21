@@ -1,13 +1,13 @@
 const scan = {
-  "checkedAt": "June 20, 2026",
-  "updatedAt": "June 20, 2026",
-  "windowLabel": "June 20, 2026 → July 4, 2026",
+  "checkedAt": "June 21, 2026",
+  "updatedAt": "June 21, 2026",
+  "windowLabel": "June 21, 2026 → July 5, 2026",
   "featured": [
     {
       "title": "AI Engineer World's Fair — New Engineer Orientation (IRL)",
       "date": "Sun, Jun 28",
       "recommendation": "Sign up now",
-      "summary": "The strongest verified evening room in the whole window: 280 visible attendees, Latent.Space hosting, and direct AI Engineer World's Fair spillover.",
+      "summary": "The strongest verified evening room in the whole window: 281 visible attendees, Latent.Space hosting, and direct AI Engineer World's Fair spillover.",
       "link": "https://luma.com/aie-neo-irl"
     },
     {
@@ -27,12 +27,6 @@ const scan = {
   ],
   "days": [
     {
-      "date": "Saturday, June 20",
-      "verdict": "Not recommended",
-      "note": "No strong SF evening AI recommendation surfaced for tonight.",
-      "events": []
-    },
-    {
       "date": "Sunday, June 21",
       "verdict": "Not recommended",
       "note": "No strong SF evening AI recommendation surfaced for tonight.",
@@ -49,7 +43,7 @@ const scan = {
           "venue": "Polk Street, San Francisco",
           "host": "John Rodrigues and Michelle Javier",
           "why": "The clearest still-open AI-specific room on the Monday slate: workshop structure, explicit builder framing, and a smaller crowd that should support actual conversations.",
-          "signal": "Visible attendance is 39, above your floor. The topic is directly about AI-native design and building, which should draw practitioners rather than generic mixers.",
+          "signal": "Visible attendance is 40, above your floor. The topic is directly about AI-native design and building, which should draw practitioners rather than generic mixers.",
           "notes": "More design-builder than frontier-lab dense. Stronger for product and design-engineering conversations than for direct OpenAI or Anthropic concentration.",
           "link": "https://luma.com/0keki3p7",
           "score": "8.4/10",
@@ -61,7 +55,7 @@ const scan = {
           "venue": "San Francisco, exact venue shared by host",
           "host": "Resend",
           "why": "Resend-hosted design-engineering room with a large visible crowd and a tighter product and devtools profile than most Config side events.",
-          "signal": "244 visible attendees plus a Resend host suggest strong product, design-engineering, and infra-adjacent operators, even if the room is not AI-exclusive.",
+          "signal": "249 visible attendees plus a Resend host suggest strong product, design-engineering, and infra-adjacent operators, even if the room is not AI-exclusive.",
           "notes": "Sold out or waitlist-only and more devtools-design than pure applied AI.",
           "link": "https://luma.com/sbm8vixi",
           "score": "8.2/10",
@@ -92,7 +86,7 @@ const scan = {
           "venue": "Zeitgeist, 199 Valencia St, San Francisco",
           "host": "Drake Costa via Latent.Space",
           "why": "Latent.Space is a strong technical community, but this specific room reads more like a lightweight social than a deliberate high-signal networking bet.",
-          "signal": "The public guest count is only 11, which is well below your normal floor even though the organizer brand is solid.",
+          "signal": "The public guest count is only 12, which is well below your normal floor even though the organizer brand is solid.",
           "notes": "Personally fun if you want a casual community night, but not strong enough for the kind of operator-dense room you're optimizing for.",
           "link": "https://luma.com/vz8p4zg1",
           "score": "5.6/10",
@@ -148,7 +142,7 @@ const scan = {
           "venue": "Moscone West, 747 Howard St, San Francisco",
           "host": "Latent.Space and swyx",
           "why": "This is the strongest verified evening room in the whole window for the exact crowd you want: AI engineers, research-adjacent builders, infra operators, and conference attendees arriving early to connect.",
-          "signal": "280 visible attendees, swyx and Latent.Space hosting, and a direct tie-in to AI Engineer World's Fair make this the clearest frontier-adjacent builder room I could verify from the Luma-first sources.",
+          "signal": "281 visible attendees, swyx and Latent.Space hosting, and a direct tie-in to AI Engineer World's Fair make this the clearest frontier-adjacent builder room I could verify from the Luma-first sources.",
           "notes": "Starts at 5:00 PM, a bit earlier than ideal, and it is conference-adjacent rather than tightly curated.",
           "link": "https://luma.com/aie-neo-irl",
           "score": "9.1/10",
@@ -240,6 +234,12 @@ const scan = {
     },
     {
       "date": "Saturday, July 4",
+      "verdict": "Not recommended",
+      "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "events": []
+    },
+    {
+      "date": "Sunday, July 5",
       "verdict": "Not recommended",
       "note": "No strong SF evening AI recommendation surfaced for tonight.",
       "events": []
