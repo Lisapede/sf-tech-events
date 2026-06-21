@@ -33,7 +33,10 @@ Avoid:
 Recommendation policy:
 - {profile.recommendation_policy}
 - When multiple events clear the bar on the same day, prefer showing the best 2-3 ranked options instead of collapsing the output to a single winner.
-- Before marking a day as not worth attending, run a second-pass search across Luma city/AI/Tech listings and strong organizer calendars or official event pages to make sure the day is truly weak.
+- For each calendar day, explicitly check https://luma.com/ai first.
+- Then explicitly check https://luma.com/tech for that same day.
+- Treat those two Luma pages as the default source of truth for daily recommendations.
+- Only if those two pages still do not yield a viable recommendation for a given day should you run a fallback search across other Luma city listings, strong organizer calendars, or official event pages.
 - Prefer direct Luma links when available, but use the strongest direct official event link if the registration page lives elsewhere.
 
 For each event include:
