@@ -1,7 +1,7 @@
 const scan = {
-  "checkedAt": "June 21, 2026",
-  "updatedAt": "June 21, 2026",
-  "windowLabel": "June 21, 2026 → July 5, 2026",
+  "checkedAt": "June 22, 2026",
+  "updatedAt": "June 22, 2026",
+  "windowLabel": "June 22, 2026 → July 6, 2026",
   "featured": [
     {
       "title": "AI Engineer World's Fair — New Engineer Orientation (IRL)",
@@ -26,12 +26,6 @@ const scan = {
     }
   ],
   "days": [
-    {
-      "date": "Sunday, June 21",
-      "verdict": "Not recommended",
-      "note": "No strong SF evening AI recommendation surfaced for tonight.",
-      "events": []
-    },
     {
       "date": "Monday, June 22",
       "verdict": "Three viable options",
@@ -240,6 +234,12 @@ const scan = {
     },
     {
       "date": "Sunday, July 5",
+      "verdict": "Not recommended",
+      "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "events": []
+    },
+    {
+      "date": "Monday, July 6",
       "verdict": "Not recommended",
       "note": "No strong SF evening AI recommendation surfaced for tonight.",
       "events": []
