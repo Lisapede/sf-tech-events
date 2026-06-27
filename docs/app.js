@@ -1,124 +1,24 @@
 const scan = {
-  "checkedAt": "June 22, 2026",
-  "updatedAt": "June 22, 2026",
-  "windowLabel": "June 22, 2026 → July 6, 2026",
+  "checkedAt": "June 27, 2026",
+  "updatedAt": "June 27, 2026",
+  "windowLabel": "June 27, 2026 → July 11, 2026",
   "featured": [
     {
       "title": "AI Engineer World's Fair — New Engineer Orientation (IRL)",
       "date": "Sun, Jun 28",
       "recommendation": "Sign up now",
-      "summary": "The strongest verified evening room in the whole window: 281 visible attendees, Latent.Space hosting, and direct AI Engineer World's Fair spillover.",
+      "summary": "The strongest verified evening room in the window just got much denser: 654 visible attendees, Latent.Space hosting, and direct AI Engineer World's Fair spillover.",
       "link": "https://luma.com/aie-neo-irl"
     },
     {
-      "title": "How to Become an AI Native Designer & Builder Workshop",
-      "date": "Mon, Jun 22",
-      "recommendation": "Sign up now",
-      "summary": "The clearest still-open Monday option: AI-native builder framing, workshop format, and a smaller room that should support real conversations.",
-      "link": "https://luma.com/0keki3p7"
-    },
-    {
-      "title": "DevTools Meetup | Design Engineering Edition",
-      "date": "Mon, Jun 22",
+      "title": "AI Engineer World's Fair 2026",
+      "date": "Mon, Jun 29 – Thu, Jul 2",
       "recommendation": "Consider",
-      "summary": "Waitlist-only, but still one of the cleanest operator-heavy Config side events thanks to Resend, design engineering, and visible crowd quality.",
-      "link": "https://luma.com/sbm8vixi"
+      "summary": "Still the best density play in the city if you can flex into daytime hours and harvest the hallway track around the main conference.",
+      "link": "https://www.ai.engineer"
     }
   ],
   "days": [
-    {
-      "date": "Monday, June 22",
-      "verdict": "Three viable options",
-      "note": "Config week creates a rare Monday pocket with real AI and design-tool density: one clean live signup plus two larger waitlist-heavy rooms with stronger crowd size.",
-      "events": [
-        {
-          "title": "How to Become an AI Native Designer & Builder Workshop - Config 2026",
-          "time": "5:30 PM-8:30 PM PT",
-          "venue": "Polk Street, San Francisco",
-          "host": "John Rodrigues and Michelle Javier",
-          "why": "The clearest still-open AI-specific room on the Monday slate: workshop structure, explicit builder framing, and a smaller crowd that should support actual conversations.",
-          "signal": "Visible attendance is 40, above your floor. The topic is directly about AI-native design and building, which should draw practitioners rather than generic mixers.",
-          "notes": "More design-builder than frontier-lab dense. Stronger for product and design-engineering conversations than for direct OpenAI or Anthropic concentration.",
-          "link": "https://luma.com/0keki3p7",
-          "score": "8.4/10",
-          "recommendation": "Sign up now"
-        },
-        {
-          "title": "DevTools Meetup | Design Engineering Edition",
-          "time": "6:00 PM-9:00 PM PT",
-          "venue": "San Francisco, exact venue shared by host",
-          "host": "Resend",
-          "why": "Resend-hosted design-engineering room with a large visible crowd and a tighter product and devtools profile than most Config side events.",
-          "signal": "249 visible attendees plus a Resend host suggest strong product, design-engineering, and infra-adjacent operators, even if the room is not AI-exclusive.",
-          "notes": "Sold out or waitlist-only and more devtools-design than pure applied AI.",
-          "link": "https://luma.com/sbm8vixi",
-          "score": "8.2/10",
-          "recommendation": "Consider"
-        },
-        {
-          "title": "Creative Intelligence at Config co-hosted by Contra and AI Circle",
-          "time": "5:00 PM-9:00 PM PT",
-          "venue": "San Francisco, exact venue shared by host",
-          "host": "Contra and AI Circle",
-          "why": "AI-tagged Config room with big turnout and a higher chance of meeting design-savvy AI builders than a generic networking mixer.",
-          "signal": "341 visible attendees and the AI Circle co-host are the best explicit AI signals on the Monday slate.",
-          "notes": "Sold out and likely broader creative or creator energy than your ideal technical operator room.",
-          "link": "https://luma.com/9g923r8m",
-          "score": "8.0/10",
-          "recommendation": "Consider"
-        }
-      ]
-    },
-    {
-      "date": "Tuesday, June 23",
-      "verdict": "One visible option, but pass",
-      "note": "The directly verifiable after-work AI room tonight is too small to clear your normal bar, and the stronger visible Config rooms skew earlier in the day.",
-      "events": [
-        {
-          "title": "Latent Space (/dev/ invest) SF Beer Social",
-          "time": "6:00 PM-9:00 PM PT",
-          "venue": "Zeitgeist, 199 Valencia St, San Francisco",
-          "host": "Drake Costa via Latent.Space",
-          "why": "Latent.Space is a strong technical community, but this specific room reads more like a lightweight social than a deliberate high-signal networking bet.",
-          "signal": "The public guest count is only 12, which is well below your normal floor even though the organizer brand is solid.",
-          "notes": "Personally fun if you want a casual community night, but not strong enough for the kind of operator-dense room you're optimizing for.",
-          "link": "https://luma.com/vz8p4zg1",
-          "score": "5.6/10",
-          "recommendation": "Skip"
-        }
-      ]
-    },
-    {
-      "date": "Wednesday, June 24",
-      "verdict": "Not recommended",
-      "note": "The visible June 24 options from the AI-first pass skew virtual, daytime, or too broad to beat an open night.",
-      "events": []
-    },
-    {
-      "date": "Thursday, June 25",
-      "verdict": "One visible option, but pass",
-      "note": "There is a directly verifiable SF evening AI-adjacent room tonight, but the format misses your bar for technical operator density.",
-      "events": [
-        {
-          "title": "SF PITCH NIGHT (w/ The AI Collective)",
-          "time": "5:30 PM PT",
-          "venue": "AWS Builder Loft, 525 Market St, San Francisco",
-          "host": "The AI Collective",
-          "why": "This is the clearest evening SF option I could verify from the first-pass sources, but the pitch-night format pushes it toward founder theater rather than the builder-heavy rooms you prefer.",
-          "signal": "AWS Builder Loft helps the baseline quality, but attendance is not visible and the framing is explicitly startup and pitch oriented.",
-          "notes": "If you wanted founder exposure, this could work. For product, applied AI, and enterprise operator conversations, I'd pass.",
-          "link": "https://luma.com/june-pitches",
-          "score": "5.9/10",
-          "recommendation": "Skip"
-        }
-      ]
-    },
-    {
-      "date": "Friday, June 26",
-      "verdict": "Not recommended",
-      "note": "No strong SF evening AI recommendation surfaced for tonight.",
-      "events": []
-    },
     {
       "date": "Saturday, June 27",
       "verdict": "Not recommended",
@@ -128,18 +28,18 @@ const scan = {
     {
       "date": "Sunday, June 28",
       "verdict": "One strong option",
-      "note": "Best pure evening pick in the whole window.",
+      "note": "Best pure evening pick in the whole window, and now meaningfully denser than the prior scan suggested.",
       "events": [
         {
           "title": "AI Engineer World's Fair — New Engineer Orientation (IRL)",
           "time": "5:00 PM-9:00 PM PT",
           "venue": "Moscone West, 747 Howard St, San Francisco",
           "host": "Latent.Space and swyx",
-          "why": "This is the strongest verified evening room in the whole window for the exact crowd you want: AI engineers, research-adjacent builders, infra operators, and conference attendees arriving early to connect.",
-          "signal": "281 visible attendees, swyx and Latent.Space hosting, and a direct tie-in to AI Engineer World's Fair make this the clearest frontier-adjacent builder room I could verify from the Luma-first sources.",
+          "why": "This is the cleanest true evening room in the whole two-week window for the exact crowd you want: AI engineers, research-adjacent builders, infra operators, and conference attendees arriving early to connect.",
+          "signal": "Visible attendance has jumped to 654, with Latent.Space and swyx hosting and a direct tie-in to AI Engineer World's Fair. That is materially stronger evidence of crowd quality than we had in the earlier scan.",
           "notes": "Starts at 5:00 PM, a bit earlier than ideal, and it is conference-adjacent rather than tightly curated.",
           "link": "https://luma.com/aie-neo-irl",
-          "score": "9.1/10",
+          "score": "9.4/10",
           "recommendation": "Sign up now"
         }
       ]
@@ -147,18 +47,18 @@ const scan = {
     {
       "date": "Monday, June 29",
       "verdict": "High-signal daytime exception",
-      "note": "This is not an after-work room, but the attendee density is strong enough that it still beats a weak evening slate if you can flex your schedule.",
+      "note": "The strongest attendee-density play in the city, even though it breaks the after-work preference.",
       "events": [
         {
           "title": "AI Engineer World's Fair 2026",
           "time": "Conference day; official dates June 29-July 2, 2026",
           "venue": "Moscone Center, 747 Howard St, San Francisco",
           "host": "AI Engineer",
-          "why": "If you can flex daytime hours, this is where the highest-density AI builder network sits in the window.",
-          "signal": "AI Engineer World's Fair is one of the clearest magnets for applied AI engineers, agent builders, infra teams, and tooling operators in San Francisco.",
-          "notes": "This breaks your after-work preference because the main program is daytime. I'm including it only because the attendee density is materially stronger than the weak evening slate.",
+          "why": "If you can flex daytime hours, this is where the highest-density AI builder network sits in the current window.",
+          "signal": "AI Engineer World's Fair remains the clearest magnet for applied AI engineers, agent builders, infra teams, and tooling operators in San Francisco.",
+          "notes": "This breaks your after-work preference because the main program is daytime. It only makes sense if you value density over timing fit.",
           "link": "https://www.ai.engineer",
-          "score": "8.8/10",
+          "score": "8.9/10",
           "recommendation": "Consider"
         }
       ]
@@ -177,7 +77,7 @@ const scan = {
           "signal": "This is still the cleanest verified concentration of AI engineers, agent builders, and devtools operators in the city.",
           "notes": "Daytime timing is the main compromise. Worth it only if you're comfortable bending the after-work rule for crowd quality.",
           "link": "https://www.ai.engineer",
-          "score": "8.7/10",
+          "score": "8.8/10",
           "recommendation": "Consider"
         }
       ]
@@ -196,7 +96,7 @@ const scan = {
           "signal": "The conference brand and Moscone footprint make this a much denser room than the weaker visible standalone evening options.",
           "notes": "Use this only if you can treat the after-hours networking around the conference as the real return. The scheduled program itself is daytime.",
           "link": "https://www.ai.engineer",
-          "score": "8.6/10",
+          "score": "8.7/10",
           "recommendation": "Consider"
         }
       ]
@@ -215,7 +115,7 @@ const scan = {
           "signal": "This remains the cleanest verified concentration of applied AI practitioners, agent builders, and toolmakers in town.",
           "notes": "Same tradeoff as the earlier days: strong density, weak fit on timing.",
           "link": "https://www.ai.engineer",
-          "score": "8.5/10",
+          "score": "8.6/10",
           "recommendation": "Consider"
         }
       ]
@@ -223,7 +123,7 @@ const scan = {
     {
       "date": "Friday, July 3",
       "verdict": "Not recommended",
-      "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "note": "Holiday-week drift and the fallback pass did not surface a credible SF evening AI room that beats an open night.",
       "events": []
     },
     {
@@ -240,6 +140,36 @@ const scan = {
     },
     {
       "date": "Monday, July 6",
+      "verdict": "Not recommended",
+      "note": "The Luma-first pass and fallback search still do not show a convincing SF evening AI room for tonight.",
+      "events": []
+    },
+    {
+      "date": "Tuesday, July 7",
+      "verdict": "Not recommended",
+      "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "events": []
+    },
+    {
+      "date": "Wednesday, July 8",
+      "verdict": "Not recommended",
+      "note": "The visible July 8 AI-adjacent listings are outside San Francisco or below your attendance floor.",
+      "events": []
+    },
+    {
+      "date": "Thursday, July 9",
+      "verdict": "Not recommended",
+      "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "events": []
+    },
+    {
+      "date": "Friday, July 10",
+      "verdict": "Not recommended",
+      "note": "The fallback pass still did not uncover a strong SF evening AI room that clears your bar for attendee quality.",
+      "events": []
+    },
+    {
+      "date": "Saturday, July 11",
       "verdict": "Not recommended",
       "note": "No strong SF evening AI recommendation surfaced for tonight.",
       "events": []
