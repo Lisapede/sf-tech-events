@@ -1,45 +1,39 @@
 const scan = {
-  "checkedAt": "June 27, 2026",
-  "updatedAt": "June 27, 2026",
-  "windowLabel": "June 27, 2026 → July 11, 2026",
+  "checkedAt": "June 28, 2026",
+  "updatedAt": "June 28, 2026",
+  "windowLabel": "June 28, 2026 → July 12, 2026",
   "featured": [
     {
       "title": "AI Engineer World's Fair — New Engineer Orientation (IRL)",
       "date": "Sun, Jun 28",
       "recommendation": "Sign up now",
-      "summary": "The strongest verified evening room in the window just got much denser: 654 visible attendees, Latent.Space hosting, and direct AI Engineer World's Fair spillover.",
+      "summary": "The strongest verified evening room in the window now shows 800 visible attendees, Latent.Space hosting, and direct AI Engineer World's Fair spillover.",
       "link": "https://luma.com/aie-neo-irl"
     },
     {
       "title": "AI Engineer World's Fair 2026",
       "date": "Mon, Jun 29 – Thu, Jul 2",
       "recommendation": "Consider",
-      "summary": "Still the best density play in the city if you can flex into daytime hours and harvest the hallway track around the main conference.",
+      "summary": "Still the best density play in the city if you can flex into daytime hours and use the conference hallway track as the real networking upside.",
       "link": "https://www.ai.engineer"
     }
   ],
   "days": [
     {
-      "date": "Saturday, June 27",
-      "verdict": "Not recommended",
-      "note": "No strong SF evening AI recommendation surfaced for tonight.",
-      "events": []
-    },
-    {
       "date": "Sunday, June 28",
       "verdict": "One strong option",
-      "note": "Best pure evening pick in the whole window, and now meaningfully denser than the prior scan suggested.",
+      "note": "Best pure evening pick in the window, and the public list now shows 800 attendees.",
       "events": [
         {
           "title": "AI Engineer World's Fair — New Engineer Orientation (IRL)",
           "time": "5:00 PM-9:00 PM PT",
           "venue": "Moscone West, 747 Howard St, San Francisco",
           "host": "Latent.Space and swyx",
-          "why": "This is the cleanest true evening room in the whole two-week window for the exact crowd you want: AI engineers, research-adjacent builders, infra operators, and conference attendees arriving early to connect.",
-          "signal": "Visible attendance has jumped to 654, with Latent.Space and swyx hosting and a direct tie-in to AI Engineer World's Fair. That is materially stronger evidence of crowd quality than we had in the earlier scan.",
+          "why": "This is the cleanest true evening room in the two-week window for the exact crowd you want: AI engineers, research-adjacent builders, infra operators, and conference attendees arriving early to connect.",
+          "signal": "Visible attendance is now 800, with Latent.Space and swyx hosting and a direct tie-in to AI Engineer World's Fair. That is stronger evidence of crowd quality than the prior scan.",
           "notes": "Starts at 5:00 PM, a bit earlier than ideal, and it is conference-adjacent rather than tightly curated.",
           "link": "https://luma.com/aie-neo-irl",
-          "score": "9.4/10",
+          "score": "9.5/10",
           "recommendation": "Sign up now"
         }
       ]
@@ -75,7 +69,7 @@ const scan = {
           "host": "AI Engineer",
           "why": "The strongest density play remains the hallway track and side conversations around the main conference.",
           "signal": "This is still the cleanest verified concentration of AI engineers, agent builders, and devtools operators in the city.",
-          "notes": "Daytime timing is the main compromise. Worth it only if you're comfortable bending the after-work rule for crowd quality.",
+          "notes": "Daytime timing is the main compromise. Worth it only if you are comfortable bending the after-work rule for crowd quality.",
           "link": "https://www.ai.engineer",
           "score": "8.8/10",
           "recommendation": "Consider"
@@ -170,6 +164,12 @@ const scan = {
     },
     {
       "date": "Saturday, July 11",
+      "verdict": "Not recommended",
+      "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "events": []
+    },
+    {
+      "date": "Sunday, July 12",
       "verdict": "Not recommended",
       "note": "No strong SF evening AI recommendation surfaced for tonight.",
       "events": []
