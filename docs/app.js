@@ -1,74 +1,29 @@
 const scan = {
-  "checkedAt": "June 28, 2026",
-  "updatedAt": "June 28, 2026",
-  "windowLabel": "June 28, 2026 → July 12, 2026",
+  "checkedAt": "June 30, 2026",
+  "updatedAt": "June 30, 2026",
+  "windowLabel": "June 30, 2026 → July 14, 2026",
   "featured": [
     {
-      "title": "AI Engineer World's Fair — New Engineer Orientation (IRL)",
-      "date": "Sun, Jun 28",
-      "recommendation": "Sign up now",
-      "summary": "The strongest verified evening room in the window now shows 800 visible attendees, Latent.Space hosting, and direct AI Engineer World's Fair spillover.",
-      "link": "https://luma.com/aie-neo-irl"
-    },
-    {
       "title": "AI Engineer World's Fair 2026",
-      "date": "Mon, Jun 29 – Thu, Jul 2",
+      "date": "In progress through Thu, Jul 2",
       "recommendation": "Consider",
-      "summary": "Still the best density play in the city if you can flex into daytime hours and use the conference hallway track as the real networking upside.",
+      "summary": "The only verified San Francisco event still active in the current two-week window from the Luma-first source pass, and still the highest-density AI builder room if you can flex into daytime hours.",
       "link": "https://www.ai.engineer"
     }
   ],
   "days": [
     {
-      "date": "Sunday, June 28",
-      "verdict": "One strong option",
-      "note": "Best pure evening pick in the window, and the public list now shows 800 attendees.",
-      "events": [
-        {
-          "title": "AI Engineer World's Fair — New Engineer Orientation (IRL)",
-          "time": "5:00 PM-9:00 PM PT",
-          "venue": "Moscone West, 747 Howard St, San Francisco",
-          "host": "Latent.Space and swyx",
-          "why": "This is the cleanest true evening room in the two-week window for the exact crowd you want: AI engineers, research-adjacent builders, infra operators, and conference attendees arriving early to connect.",
-          "signal": "Visible attendance is now 800, with Latent.Space and swyx hosting and a direct tie-in to AI Engineer World's Fair. That is stronger evidence of crowd quality than the prior scan.",
-          "notes": "Starts at 5:00 PM, a bit earlier than ideal, and it is conference-adjacent rather than tightly curated.",
-          "link": "https://luma.com/aie-neo-irl",
-          "score": "9.5/10",
-          "recommendation": "Sign up now"
-        }
-      ]
-    },
-    {
-      "date": "Monday, June 29",
-      "verdict": "High-signal daytime exception",
-      "note": "The strongest attendee-density play in the city, even though it breaks the after-work preference.",
-      "events": [
-        {
-          "title": "AI Engineer World's Fair 2026",
-          "time": "Conference day; official dates June 29-July 2, 2026",
-          "venue": "Moscone Center, 747 Howard St, San Francisco",
-          "host": "AI Engineer",
-          "why": "If you can flex daytime hours, this is where the highest-density AI builder network sits in the current window.",
-          "signal": "AI Engineer World's Fair remains the clearest magnet for applied AI engineers, agent builders, infra teams, and tooling operators in San Francisco.",
-          "notes": "This breaks your after-work preference because the main program is daytime. It only makes sense if you value density over timing fit.",
-          "link": "https://www.ai.engineer",
-          "score": "8.9/10",
-          "recommendation": "Consider"
-        }
-      ]
-    },
-    {
       "date": "Tuesday, June 30",
       "verdict": "High-signal daytime exception",
-      "note": "Second conference day still beats the weak standalone evening slate if your goal is concentrated AI-builder density.",
+      "note": "The ongoing conference still beats the weak standalone evening slate if your goal is concentrated AI-builder density.",
       "events": [
         {
           "title": "AI Engineer World's Fair 2026",
-          "time": "Conference day; official dates June 29-July 2, 2026",
+          "time": "Ongoing conference day; official dates June 29-July 2, 2026",
           "venue": "Moscone Center, 747 Howard St, San Francisco",
           "host": "AI Engineer",
           "why": "The strongest density play remains the hallway track and side conversations around the main conference.",
-          "signal": "This is still the cleanest verified concentration of AI engineers, agent builders, and devtools operators in the city.",
+          "signal": "The June 30 Luma-first pass did not surface any additional San Francisco rooms in-range, which leaves this ongoing conference as the clearest concentration of AI engineers, agent builders, and devtools operators in the city.",
           "notes": "Daytime timing is the main compromise. Worth it only if you are comfortable bending the after-work rule for crowd quality.",
           "link": "https://www.ai.engineer",
           "score": "8.8/10",
@@ -83,7 +38,7 @@ const scan = {
       "events": [
         {
           "title": "AI Engineer World's Fair 2026",
-          "time": "Conference day; official dates June 29-July 2, 2026",
+          "time": "Ongoing conference day; official dates June 29-July 2, 2026",
           "venue": "Moscone Center, 747 Howard St, San Francisco",
           "host": "AI Engineer",
           "why": "Still the best concentration of AI product, infra, and engineering conversations I could verify from the Luma-first pass.",
@@ -102,7 +57,7 @@ const scan = {
       "events": [
         {
           "title": "AI Engineer World's Fair 2026",
-          "time": "Conference day; official dates June 29-July 2, 2026",
+          "time": "Ongoing conference day; official dates June 29-July 2, 2026",
           "venue": "Moscone Center, 747 Howard St, San Francisco",
           "host": "AI Engineer",
           "why": "The closing-day crowd is still likely to outperform the weaker visible evening-only alternatives in the window.",
@@ -170,6 +125,18 @@ const scan = {
     },
     {
       "date": "Sunday, July 12",
+      "verdict": "Not recommended",
+      "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "events": []
+    },
+    {
+      "date": "Monday, July 13",
+      "verdict": "Not recommended",
+      "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "events": []
+    },
+    {
+      "date": "Tuesday, July 14",
       "verdict": "Not recommended",
       "note": "No strong SF evening AI recommendation surfaced for tonight.",
       "events": []
