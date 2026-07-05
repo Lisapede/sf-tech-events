@@ -1,131 +1,80 @@
 const scan = {
-  "checkedAt": "July 3, 2026",
-  "updatedAt": "July 3, 2026",
-  "windowLabel": "July 3, 2026 → July 17, 2026",
+  "checkedAt": "July 5, 2026",
+  "updatedAt": "July 5, 2026",
+  "windowLabel": "July 5, 2026 → July 19, 2026",
   "featured": [
     {
       "title": "OpenAI Codex Event at Bright Data",
       "date": "Tue, Jul 7",
       "recommendation": "Sign up now",
-      "summary": "Best fit in the full window: direct Codex relevance, strong AI builder density, and the clearest OpenAI-adjacent room surfaced in the Luma-first pass.",
+      "summary": "Still the strongest fit in the active window: direct Codex relevance, stronger visible demand than the July 3 pass, and the clearest OpenAI-adjacent builder room on the calendar.",
       "link": "https://luma.com/openai-codex-bright-data-jul7-2026"
     },
     {
       "title": "Agent Experience Demo Night @ Auth0 (#5th Edition)",
       "date": "Tue, Jul 7",
       "recommendation": "Consider",
-      "summary": "Massive enterprise-agent room with devtools energy, strong platform-company gravity, and real odds of useful product and solutions conversations.",
+      "summary": "High-density agent and devtools room with a stronger live company lineup than most public meetups, and still one of the best odds of meeting product, platform, and solutions people.",
       "link": "https://luma.com/devtooldemo5"
     },
     {
       "title": "Punk Software Hack Night: Build Tools That Work for You",
       "date": "Tue, Jul 7",
       "recommendation": "Consider",
-      "summary": "Smaller than the headline rooms, but more builder-dense and much better if you want hands-on conversations instead of launch-party noise.",
+      "summary": "The tighter builder-room alternative on the best night in the window if you want higher conversation quality and less launch-party energy.",
       "link": "https://luma.com/e494jmrl"
     }
   ],
   "days": [
     {
-      "date": "Friday, July 3",
-      "verdict": "One credible after-work option",
-      "note": "Holiday-week Friday is thin, but one SF AI room still clears your floor and is worth keeping on the board.",
-      "events": [
-        {
-          "title": "Pizza & AI by Ratel",
-          "time": "6:00 PM - 8:30 PM PT",
-          "venue": "San Francisco venue shared on registration",
-          "host": "Ratel",
-          "why": "It is one of the only after-work AI gatherings in SF tonight with visible interest above your minimum floor.",
-          "signal": "The room is modest rather than elite, but 32 visible attendees and an AI-specific framing make it more credible than the broader startup-leaning alternatives on the calendar.",
-          "notes": "This is a lighter local builder meetup, not a must-do power room. Good if you want a live option tonight without over-optimizing.",
-          "link": "https://luma.com/n1kvwgbl",
-          "score": "7.2/10",
-          "recommendation": "Consider"
-        }
-      ]
-    },
-    {
-      "date": "Saturday, July 4",
-      "verdict": "High-signal daytime exception",
-      "note": "Holiday timing is weak, but this reading group is still the sharpest research-adjacent room in the city if you are open to an afternoon session.",
-      "events": [
-        {
-          "title": "Robotics & World Models Reading Club 16: The Embodied AI Hardware Stack",
-          "time": "2:00 PM - 5:00 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "Saturday Robotics",
-          "why": "The theme, repeat-community structure, and research-builder mix all line up well with your preference for serious technical rooms over generic networking.",
-          "signal": "68 visible attendees clears your floor, and this community consistently signals stronger technical depth than the average public AI meetup.",
-          "notes": "It is an afternoon session and currently approval-gated, so this is worth it only if you want substance more than strict after-work convenience.",
-          "link": "https://luma.com/cgzyfpeb",
-          "score": "8.1/10",
-          "recommendation": "Consider"
-        }
-      ]
-    },
-    {
       "date": "Sunday, July 5",
-      "verdict": "Salon-style backup",
-      "note": "Not a pure AI career room, but one thoughtful evening option surfaced that still fits your taste for curated, substance-first gatherings.",
-      "events": [
-        {
-          "title": "Brainrot Lecture: The Psychology of Attention in a Digital World",
-          "time": "7:00 PM - 8:30 PM PT",
-          "venue": "tiat, 151 Powell St, San Francisco",
-          "host": "tiat",
-          "why": "The venue and format fit your liking for curated intellectual salons better than most generic Sunday networking plans would.",
-          "signal": "This is not a frontier-AI company room, but tiat usually attracts a sharper creative-tech crowd than the average open public listing.",
-          "notes": "Lower odds of meeting OpenAI or Anthropic employees than your stronger agent and devtools nights. Best only if you want a thoughtful salon atmosphere.",
-          "link": "https://luma.com/attention",
-          "score": "6.9/10",
-          "recommendation": "Consider"
-        }
-      ]
+      "verdict": "Not recommended",
+      "note": "The only visible evening option is a lighter salon-style room that does not clear your usual bar for AI-company density.",
+      "events": []
     },
     {
       "date": "Monday, July 6",
       "verdict": "Not recommended",
-      "note": "The visible SF listings either break your timing rule, miss the attendee floor, or skew too founder-heavy to justify the night.",
+      "note": "The visible SF listings either miss your attendee floor, skew founder-heavy, or are too far from your target operator and product crowd.",
       "events": []
     },
     {
       "date": "Tuesday, July 7",
       "verdict": "Three credible options",
-      "note": "This is the power night in the full window: one direct Codex room, one major enterprise-agent demo night, and one smaller builder-heavy backup.",
+      "note": "This is still the strongest day in the full window: one direct Codex room, one major enterprise-agent demo night, and one smaller builder-heavy backup.",
       "events": [
         {
           "title": "OpenAI Codex Event at Bright Data",
           "time": "5:00 PM - 9:00 PM PT",
           "venue": "625 2nd St, San Francisco",
           "host": "Bright Data",
-          "why": "This is the cleanest taste-profile match in the window: direct Codex relevance, a developer-tools frame, and the best odds of meeting serious AI builders.",
-          "signal": "236 visible attendees, explicit OpenAI branding, and a technical builder angle make this the highest-signal room surfaced in the Luma-first pass.",
-          "notes": "Brand pull means the room could run broad. The best use of it is targeted conversations with builders actually shipping or evaluating agent workflows.",
+          "why": "This remains the cleanest taste-profile match in the window: direct Codex relevance, a developer-tools frame, and the best odds of meeting serious AI builders.",
+          "signal": "293 visible attendees, explicit OpenAI branding, and a practical builder angle make this the highest-signal room surfaced in the July 5 pass.",
+          "notes": "The room will likely be broad because of the brand pull. The best use of it is targeted conversations with engineers and product people actively shipping agent workflows.",
           "link": "https://luma.com/openai-codex-bright-data-jul7-2026",
-          "score": "9.6/10",
+          "score": "9.7/10",
           "recommendation": "Sign up now"
         },
         {
           "title": "Agent Experience Demo Night @ Auth0 (#5th Edition)",
-          "time": "5:00 PM - 9:00 PM PT",
+          "time": "5:00 PM - 8:30 PM PT",
           "venue": "Okta, 100 1st St 6th floor, San Francisco",
-          "host": "Dev tools demo night @ Auth0",
-          "why": "Applied agents, identity, and enterprise tooling is one of the strongest topic combinations for the kind of product and solutions people you want to meet.",
-          "signal": "505 visible attendees and the Auth0 / Okta platform-company framing suggest a very real concentration of agent builders, PMs, and operator-heavy devtools people.",
-          "notes": "This one is currently waitlist or approval-based, so it is urgent but not guaranteed access. The crowd may also be larger and noisier than the smaller builder rooms.",
+          "host": "Sapient, Okta, Nebius Builders, .Agent Community, and Bond AI",
+          "why": "Applied agents, identity, API readiness, and enterprise tooling is one of the strongest topic combinations for the kind of product and solutions people you want to meet.",
+          "signal": "475 visible attendees and a demo lineup including Auth0, Docusign, Box, Coderabbit, Tavily, and Scalekit suggest a real concentration of operator-heavy devtools people.",
+          "notes": "Registration is approval-based rather than fully open. It will be a larger, noisier room than the smaller builder nights, so go in with a specific target list.",
           "link": "https://luma.com/devtooldemo5",
-          "score": "9.2/10",
+          "score": "9.3/10",
           "recommendation": "Consider"
         },
         {
           "title": "Punk Software Hack Night: Build Tools That Work for You",
           "time": "5:30 PM - 9:00 PM PT",
-          "venue": "Civic Center location shared on approval",
+          "venue": "Civic Center location shared after approval",
           "host": "Imbue Events and Kanjun Qiu",
           "why": "This is the best smaller-room alternative on the same night if you want real builder conversations and less launch-party theater.",
-          "signal": "94 visible attendees is healthy without feeling mass-market, and the host network is much closer to serious AI builders than the average SF startup mixer.",
-          "notes": "The brand pull is lower than the Codex or Auth0 rooms, so frontier-lab density is less certain. Still a very solid backup if you prefer a tighter room.",
+          "signal": "100 visible attendees is healthy without feeling mass-market, and the host network is materially closer to serious AI builders than the average SF startup mixer.",
+          "notes": "The brand pull is lower than the Codex or Auth0 rooms, so frontier-lab density is less certain. Still a strong backup if you want a tighter room.",
           "link": "https://luma.com/e494jmrl",
           "score": "8.7/10",
           "recommendation": "Consider"
@@ -134,19 +83,31 @@ const scan = {
     },
     {
       "date": "Wednesday, July 8",
-      "verdict": "High-signal daytime exception",
-      "note": "The strongest remaining option is a Codex-heavy build day that runs into the evening, but it is not a clean after-work fit.",
+      "verdict": "Two credible options",
+      "note": "July 8 improved materially: one curated after-work salon and one strong Codex-heavy daytime exception both clear the current window better than the weaker generic mixers.",
       "events": [
+        {
+          "title": "Legal AI Vibe Lab #3: Agents, Workflows, and the Future of Legal Work",
+          "time": "5:00 PM - 9:00 PM PT",
+          "venue": "San Francisco venue shared after approval",
+          "host": "Daniel Aydin / SF Legal Vibe",
+          "why": "Curated operator salon, live demos, workflow teardowns, and explicit no-vendor-theater positioning make this a much better fit than a broad AI happy hour.",
+          "signal": "46 visible attendees and a tightly scoped applied-agent format suggest higher conversation quality than the generic after-work alternatives on July 8.",
+          "notes": "This is verticalized around legal workflows, so it is better for applied-AI operator conversations than for broad frontier-lab networking. It is also waitlist-only now.",
+          "link": "https://luma.com/legal-ai",
+          "score": "8.1/10",
+          "recommendation": "Consider"
+        },
         {
           "title": "AI Hack Day: Codex & More",
           "time": "9:30 AM - 8:30 PM PT",
           "venue": "AWS Builder Loft, 525 Market St, San Francisco",
           "host": "[SF] Builders Collective and AWS Builder Loft",
           "why": "Codex is explicitly in the frame, the AWS Builder Loft is a reliable quality filter, and the format favors hands-on builders over passive attendees.",
-          "signal": "309 visible attendees makes this one of the densest AI-builder rooms in the full window, even if the crowd will be broader than your ideal frontier-company mix.",
-          "notes": "This breaks your after-work preference because it starts in the morning. It is best only if you can flex your day or drop in for the later networking stretch.",
+          "signal": "327 visible attendees makes this one of the densest AI-builder rooms in the full window, with practical themes including coding agents, evals, retrieval, and developer tools.",
+          "notes": "This breaks your after-work preference because it starts in the morning. It is best only if you can flex your day or drop in for the later build and demo stretch.",
           "link": "https://luma.com/ai-hack-day-codex-jul8-2026",
-          "score": "8.6/10",
+          "score": "8.7/10",
           "recommendation": "Consider"
         }
       ]
@@ -154,27 +115,27 @@ const scan = {
     {
       "date": "Thursday, July 9",
       "verdict": "Not recommended",
-      "note": "After the July 7 spike, the visible SF options fall back into weak-fit territory for your taste profile.",
+      "note": "After the July 7 and July 8 cluster, the visible SF options fall back into weak-fit territory for your taste profile.",
       "events": []
     },
     {
       "date": "Friday, July 10",
       "verdict": "Not recommended",
-      "note": "No verified SF evening AI room surfaced that beats holding the night for a stronger future calendar.",
+      "note": "The fallback pass did not surface a credible SF evening AI room that beats holding the night for a stronger calendar.",
       "events": []
     },
     {
       "date": "Saturday, July 11",
       "verdict": "High-signal daytime exception",
-      "note": "Another serious research-adjacent room appears on Saturday if you are willing to take the best substance play over strict evening timing.",
+      "note": "A serious research-adjacent room is still the best substance play on the calendar if you are willing to trade strict evening timing for technical depth.",
       "events": [
         {
           "title": "Robotics & World Models Reading Club 17: Soft Tactile-Centric Multimodal Intelligence",
           "time": "2:00 PM - 5:00 PM PT",
           "venue": "Downtown San Francisco venue shared after approval",
           "host": "Saturday Robotics",
-          "why": "This community repeatedly draws the sort of research engineers and embodied AI builders who produce much stronger conversations than a generic weekend tech event.",
-          "signal": "44 visible attendees clears your floor, and the event page explicitly cites prior attendance from DeepMind, NVIDIA, Berkeley, Stanford, Tesla, and Bay Area robotics startups.",
+          "why": "This community consistently draws stronger research and embodied-AI conversations than the typical public weekend tech event.",
+          "signal": "44 visible attendees clears your floor, and the page cites prior participation from NVIDIA, Stanford, Berkeley, Tesla, and other robotics-heavy operators.",
           "notes": "It is an afternoon session, not an evening room, and access is approval-gated. Worth it only if the research-adjacent upside matters more than timing.",
           "link": "https://luma.com/e53zawq2",
           "score": "8.4/10",
@@ -214,6 +175,18 @@ const scan = {
     },
     {
       "date": "Friday, July 17",
+      "verdict": "Not recommended",
+      "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "events": []
+    },
+    {
+      "date": "Saturday, July 18",
+      "verdict": "Not recommended",
+      "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "events": []
+    },
+    {
+      "date": "Sunday, July 19",
       "verdict": "Not recommended",
       "note": "No strong SF evening AI recommendation surfaced for tonight.",
       "events": []
