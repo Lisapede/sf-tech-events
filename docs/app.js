@@ -1,115 +1,78 @@
 const scan = {
-  "checkedAt": "July 10, 2026",
-  "updatedAt": "July 10, 2026",
-  "windowLabel": "July 10, 2026 → July 24, 2026",
+  "checkedAt": "July 14, 2026",
+  "updatedAt": "July 14, 2026",
+  "windowLabel": "July 14, 2026 → July 28, 2026",
   "featured": [
     {
-      "title": "Stash: Company Brain + Agentic Memory Happy Hour",
-      "date": "Fri, Jul 10",
-      "recommendation": "Consider",
-      "summary": "Best fit in the new window if you want a tightly scoped room around agent memory, knowledge systems, and serious builders rather than generic networking.",
-      "link": "https://luma.com/ms1q7irb"
-    },
-    {
-      "title": "community dinner with eleven labs",
-      "date": "Fri, Jul 10",
+      "title": "Applied Frontier #1: Loop Engineering | Frontier Labs",
+      "date": "Tue, Jul 14",
       "recommendation": "Sign up now",
-      "summary": "The clearest open Friday-night AI room: smaller than a mass meetup, but still likely to pull strong voice-AI builders and operator-heavy startup talent.",
-      "link": "https://luma.com/the-al9g"
+      "summary": "The clearest technical-builder room in the new window: coding-agent loops, Homebrew Club, and explicit alignment with how serious teams are actually operating agents now.",
+      "link": "https://luma.com/ga59rkpa"
     },
     {
-      "title": "The Computer Use Agents Hackathon by H Company",
-      "date": "Sat, Jul 11",
+      "title": "Show & Tell: AI for GTM with Baseten, Cognition, Samsara, Notion, Assembled, and Browserbase",
+      "date": "Tue, Jul 14",
       "recommendation": "Consider",
-      "summary": "A strong Saturday exception if you can flex daytime hours: curated computer-use-agent builders plus H Company, NVIDIA, Accel, AWS, and Bond AI.",
-      "link": "https://luma.com/1zwlnq89"
+      "summary": "Highest company-quality lineup in the window, with real operator demos instead of panels or vague networking energy.",
+      "link": "https://luma.com/b8ie1m1s"
+    },
+    {
+      "title": "Agent Data Demo Night: Live Web Data, Memory, Identity & Actions",
+      "date": "Tue, Jul 14",
+      "recommendation": "Sign up now",
+      "summary": "The strongest applied-agent infrastructure room in the active window: practical production problems, strong host fit, and visible builder demand.",
+      "link": "https://luma.com/the-agent-stack-jul14-2026"
     }
   ],
   "days": [
     {
-      "date": "Friday, July 10",
-      "verdict": "Two credible options",
-      "note": "Friday is thinner than the July 7-8 spike, but there are still two defensible AI rooms with better topic fit and crowd quality than the founder-heavy alternatives.",
+      "date": "Tuesday, July 14",
+      "verdict": "Three credible options",
+      "note": "This is the strongest night in the active window: one technical-builder room, one operator-demo room with top company density, and one practical agent-stack event that is directly aligned with production concerns.",
       "events": [
         {
-          "title": "Stash: Company Brain + Agentic Memory Happy Hour",
-          "time": "6:00 PM - 8:00 PM PT",
-          "venue": "SoMa location shared after approval",
-          "host": "Stash",
-          "why": "Agentic memory and company-brain infrastructure is directly aligned with your interest in agents, context, and applied AI systems.",
-          "signal": "98 visible attendees and a clearly curated memory-focused theme suggest a higher-density room of researchers, engineers, and founders working on a real technical problem.",
-          "notes": "This is waitlist-only now. The room is likely smaller and more technical than the broader Friday options, which is exactly why it rates highly for your profile.",
-          "link": "https://luma.com/ms1q7irb",
-          "score": "8.9/10",
+          "title": "Applied Frontier #1: Loop Engineering | Frontier Labs",
+          "time": "5:00 PM - 9:00 PM PT",
+          "venue": "Homebrew Club, 111 Maiden Ln #540, San Francisco",
+          "host": "Frontier Labs and Homebrew Club",
+          "why": "Loop engineering is directly in your wheelhouse: practical systems thinking for coding agents rather than shallow prompting talk or generic networking.",
+          "signal": "141 visible attendees, an explicit builder-and-researcher frame, and references to Anthropic’s Boris Cherny and OpenClaw suggest a high-density room of serious technical operators.",
+          "notes": "This will likely skew builder-heavy rather than product-manager-heavy, which is a plus for substance but means you should go in ready for more technical conversations.",
+          "link": "https://luma.com/ga59rkpa",
+          "score": "9.2/10",
+          "recommendation": "Sign up now"
+        },
+        {
+          "title": "Show & Tell: AI for GTM with Baseten, Cognition, Samsara, Notion, Assembled, and Browserbase",
+          "time": "6:00 PM - 9:00 PM PT",
+          "venue": "San Francisco venue shared after approval",
+          "host": "Upside with Notion",
+          "why": "This is one of the best operator rooms in the window: demo-only, no-slide format, and a company lineup that maps closely to the product, GTM, and AI operator crowd you want.",
+          "signal": "Attendance is hidden, but the speaker list and the explicit no-panels, no-thought-leadership framing make this a very strong bet for real builders and technical GTM operators.",
+          "notes": "This is waitlist-only now, so access is not guaranteed. It likely skews more GTM and growth workflows than core model or infra engineering.",
+          "link": "https://luma.com/b8ie1m1s",
+          "score": "9.0/10",
           "recommendation": "Consider"
         },
         {
-          "title": "community dinner with eleven labs",
-          "time": "5:00 PM - 7:00 PM PT",
-          "venue": "San Francisco location shared after registration",
-          "host": "The Residency - Bay Area with ElevenLabs",
-          "why": "ElevenLabs is a real platform signal, and the dinner format should produce better conversations than a generic mixer or noisy launch party.",
-          "signal": "73 visible attendees clears your floor, and the Voice AI / ElevenLabs framing should pull technical builders, applied AI startup operators, and product-minded people.",
-          "notes": "This likely skews a bit more startup-community than the Stash room, and the exact venue is hidden. It is still the best fully open Friday-night option in the window.",
-          "link": "https://luma.com/the-al9g",
-          "score": "8.3/10",
+          "title": "Agent Data Demo Night: Live Web Data, Memory, Identity & Actions",
+          "time": "5:30 PM - 8:30 PM PT",
+          "venue": "Bright Data, 625 2nd St, San Francisco",
+          "host": "Bright Data, TechEquity AI, Cognee, and Scalekit",
+          "why": "This is tightly aligned with the real production agent problems you care about: live web data, persistent memory, delegated auth, and tool-calling in working systems.",
+          "signal": "183 visible attendees and a practical demo stack around memory, identity, and web access suggest a strong applied-agent room with better substance than a generic AI happy hour.",
+          "notes": "This likely pulls more infrastructure-minded builders than product leaders, but the topic quality is strong enough that it still belongs in the top three for the night.",
+          "link": "https://luma.com/the-agent-stack-jul14-2026",
+          "score": "8.8/10",
           "recommendation": "Sign up now"
         }
       ]
     },
     {
-      "date": "Saturday, July 11",
-      "verdict": "Two strong daytime exceptions",
-      "note": "Saturday has no clean evening winner, but there are two unusually strong daytime exceptions if you are willing to trade schedule fit for substance.",
-      "events": [
-        {
-          "title": "The Computer Use Agents Hackathon by H Company",
-          "time": "9:00 AM PT Saturday - 7:00 PM PT Sunday",
-          "venue": "San Francisco venue shared after approval",
-          "host": "H Company, NVIDIA, Accel, AWS, Gradium, and Iterate",
-          "why": "Computer-use agents are directly relevant to your Codex and applied-agent interest, and the sponsor stack signals a stronger technical room than a normal public hackathon.",
-          "signal": "The page positions this as a curated 120-builder room with mentorship from H Company researchers and engineers, plus AWS, NVIDIA, and Bond AI presence.",
-          "notes": "This is a two-day hackathon, not an after-work event. It is best only if you want to spend meaningful time in a serious builder environment this weekend.",
-          "link": "https://luma.com/1zwlnq89",
-          "score": "8.8/10",
-          "recommendation": "Consider"
-        },
-        {
-          "title": "Robotics & World Models Reading Club 17: Soft Tactile-Centric Multimodal Intelligence Toward Safe and Dexterous Manipulation",
-          "time": "2:00 PM - 5:00 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "Saturday Robotics",
-          "why": "This remains one of the clearest research-adjacent rooms in the city for high-quality technical conversations.",
-          "signal": "85 visible attendees clears your floor comfortably, and the page cites prior participation from DeepMind, NVIDIA, Stanford, Berkeley, Tesla, and Bay Area robotics startups.",
-          "notes": "It is an afternoon session rather than an evening room, and it skews more embodied AI research than mainstream LLM product. Still a strong quality bet if you want depth.",
-          "link": "https://luma.com/e53zawq2",
-          "score": "8.6/10",
-          "recommendation": "Consider"
-        }
-      ]
-    },
-    {
-      "date": "Sunday, July 12",
-      "verdict": "Not recommended",
-      "note": "No strong SF evening AI recommendation surfaced for tonight.",
-      "events": []
-    },
-    {
-      "date": "Monday, July 13",
-      "verdict": "Not recommended",
-      "note": "No strong SF evening AI recommendation surfaced for tonight.",
-      "events": []
-    },
-    {
-      "date": "Tuesday, July 14",
-      "verdict": "Not recommended",
-      "note": "No strong SF evening AI recommendation surfaced for tonight.",
-      "events": []
-    },
-    {
       "date": "Wednesday, July 15",
       "verdict": "Not recommended",
-      "note": "The featured calendars in the current pass do not surface a convincing in-person SF evening option for tonight.",
+      "note": "The visible July 15 SF listings are daytime or weak-fit rooms and do not clear your bar for an evening AI recommendation.",
       "events": []
     },
     {
@@ -151,7 +114,7 @@ const scan = {
     {
       "date": "Wednesday, July 22",
       "verdict": "Not recommended",
-      "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "note": "The featured calendars in the current pass do not surface a convincing in-person SF evening option for tonight.",
       "events": []
     },
     {
@@ -162,6 +125,30 @@ const scan = {
     },
     {
       "date": "Friday, July 24",
+      "verdict": "Not recommended",
+      "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "events": []
+    },
+    {
+      "date": "Saturday, July 25",
+      "verdict": "Not recommended",
+      "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "events": []
+    },
+    {
+      "date": "Sunday, July 26",
+      "verdict": "Not recommended",
+      "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "events": []
+    },
+    {
+      "date": "Monday, July 27",
+      "verdict": "Not recommended",
+      "note": "No strong SF evening AI recommendation surfaced for tonight.",
+      "events": []
+    },
+    {
+      "date": "Tuesday, July 28",
       "verdict": "Not recommended",
       "note": "No strong SF evening AI recommendation surfaced for tonight.",
       "events": []
