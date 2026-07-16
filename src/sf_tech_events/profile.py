@@ -18,6 +18,8 @@ class TasteProfile:
     hard_filters: list[str] = field(default_factory=list)
     attendance_rule: str = ""
     recommendation_policy: str = ""
+    minimum_consider_score: float = 6.5
+    maximum_empty_days: int = 2
 
 
 LISA_PROFILE = TasteProfile(
@@ -101,21 +103,27 @@ LISA_PROFILE = TasteProfile(
     hard_filters=[
         "San Francisco only",
         "in person only",
-        "weekday events should ideally start at 5:30 PM or later",
+        "weekday events should start at 5:00 PM or later, with 5:30 PM or later preferred",
+        "weekend events may start at 3:00 PM when the room is substantive, with evening events preferred",
         "only recommend events from today through the next two weeks",
     ],
     attendance_rule=(
         "Do not recommend an event with fewer than 30 visible attendees or "
         "RSVPs unless it is clearly a brand new listing that is still early "
-        "in its sign-up cycle."
+        "in its sign-up cycle. If attendance is hidden, do not reject the "
+        "event automatically; infer room quality from the organizer, speakers, "
+        "venue, sponsors, and repeat community."
     ),
     recommendation_policy=(
-        "Default to showing two or three ranked event options on days with "
-        "multiple defensible choices, rather than collapsing to a single top "
-        "pick. Only fall back to one event when there is not a credible "
-        "second option, and only use 'Not recommended' after a second-pass "
-        "search across Luma plus strong organizer calendars still fails to "
-        "find an event that clears the quality bar. Rank at most three events "
-        "on the same day."
+        "Treat calendar coverage as part of recommendation quality. Default to "
+        "showing two or three ranked options on strong days and at least one "
+        "credible option on other days. A credible option can be a strong "
+        "recommendation or a clearly labeled Consider pick; it does not need "
+        "to be an elite frontier-lab room. Keep marginal but still in-scope "
+        "options visible as 'Not recommended - best available' rather than "
+        "leaving the date blank. Never use an event from the hard-avoid list "
+        "as filler. Rank at most three events on the same day."
     ),
+    minimum_consider_score=6.5,
+    maximum_empty_days=2,
 )

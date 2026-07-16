@@ -12,8 +12,13 @@ class PromptTests(unittest.TestCase):
         self.assertIn("Anthropic", prompt)
         self.assertIn("fewer than 30 visible attendees", prompt)
         self.assertIn("today through the next 14 days", prompt)
-        self.assertIn("no event is worth attending", prompt)
         self.assertIn("first screen or first block of results", prompt)
+        self.assertIn("leave no more than 2 calendar days", prompt)
+        self.assertIn("6.5/10 as the floor", prompt)
+        self.assertIn("Not recommended - best available", prompt)
+        self.assertIn("coverage audit", prompt)
+        self.assertIn("scan is incomplete", prompt)
+        self.assertIn("Waitlist-only or sold-out", prompt)
 
 
 if __name__ == "__main__":
