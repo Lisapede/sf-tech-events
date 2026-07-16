@@ -36,6 +36,8 @@ Recommendation policy:
 - For each calendar day, explicitly check https://luma.com/ai first.
 - Then explicitly check https://luma.com/tech for that same day.
 - Treat those two Luma pages as the default source of truth for daily recommendations.
+- Keep scanning those Luma pages until you have checked the full target date's evening listings; do not stop after the first screen or first block of results if the early entries are mostly daytime, sold out, or weak-fit.
+- If promising events for the target date appear lower on the page, still evaluate them before marking the day as weak.
 - Only if those two pages still do not yield a viable recommendation for a given day should you run a fallback search across other Luma city listings, strong organizer calendars, or official event pages.
 - Prefer direct Luma links when available, but use the strongest direct official event link if the registration page lives elsewhere.
 

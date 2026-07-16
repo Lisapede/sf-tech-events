@@ -13,6 +13,7 @@ class PromptTests(unittest.TestCase):
         self.assertIn("fewer than 30 visible attendees", prompt)
         self.assertIn("today through the next 14 days", prompt)
         self.assertIn("no event is worth attending", prompt)
+        self.assertIn("first screen or first block of results", prompt)
 
 
 if __name__ == "__main__":

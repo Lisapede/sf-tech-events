@@ -7,22 +7,22 @@ const scan = {
       "title": "Applied Frontier #1: Loop Engineering | Frontier Labs",
       "date": "Tue, Jul 14",
       "recommendation": "Sign up now",
-      "summary": "The clearest technical-builder room in the new window: coding-agent loops, Homebrew Club, and explicit alignment with how serious teams are actually operating agents now.",
+      "summary": "Still the sharpest technical-builder room in the window, with serious coding-agent substance instead of generic AI networking.",
       "link": "https://luma.com/ga59rkpa"
     },
     {
-      "title": "Show & Tell: AI for GTM with Baseten, Cognition, Samsara, Notion, Assembled, and Browserbase",
-      "date": "Tue, Jul 14",
-      "recommendation": "Consider",
-      "summary": "Highest company-quality lineup in the window, with real operator demos instead of panels or vague networking energy.",
-      "link": "https://luma.com/b8ie1m1s"
+      "title": "AWS Agentic AI Showcase Extended - Agentic AI in Production with with MongoDB Mastra",
+      "date": "Wed, Jul 15",
+      "recommendation": "Sign up now",
+      "summary": "The best enterprise-agent room in the next leg of the window: AWS, MongoDB, and Mastra all centered on production deployment rather than startup theater.",
+      "link": "https://luma.com/8jn7nznr"
     },
     {
-      "title": "Agent Data Demo Night: Live Web Data, Memory, Identity & Actions",
-      "date": "Tue, Jul 14",
+      "title": "Battle Bots Hack Night & Watch Party (w/ OpenAI Codex)",
+      "date": "Wed, Jul 15",
       "recommendation": "Sign up now",
-      "summary": "The strongest applied-agent infrastructure room in the active window: practical production problems, strong host fit, and visible builder demand.",
-      "link": "https://luma.com/the-agent-stack-jul14-2026"
+      "summary": "A high-energy Codex-adjacent builder room with unusually strong attendance and a hands-on format that should produce real conversations with technical operators.",
+      "link": "https://luma.com/battle-bots-hack-night-jul15-2026"
     }
   ],
   "days": [
@@ -71,9 +71,46 @@ const scan = {
     },
     {
       "date": "Wednesday, July 15",
-      "verdict": "Not recommended",
-      "note": "The visible July 15 SF listings are daytime or weak-fit rooms and do not clear your bar for an evening AI recommendation.",
-      "events": []
+      "verdict": "Three credible options",
+      "note": "July 15 is a real night now: one enterprise production-agent showcase, one builder-heavy Codex-adjacent hack room, and one smaller curated dinner for AI product and engineering leaders.",
+      "events": [
+        {
+          "title": "AWS Agentic AI Showcase Extended - Agentic AI in Production with with MongoDB Mastra",
+          "time": "5:00 PM - 8:30 PM PT",
+          "venue": "AWS Builder Loft / San Francisco venue shared by host",
+          "host": "AICamp, MongoDB, and AWS Builder Loft",
+          "why": "This is the cleanest enterprise-agent fit on July 15: production deployment, monitoring, implementation strategy, and direct alignment with the applied AI operator rooms you want.",
+          "signal": "Attendance is hidden, but AWS, MongoDB, Mastra, and AICamp together create a strong probability of serious builders, solutions engineers, and product-minded practitioners rather than a vague networking crowd.",
+          "notes": "This will have more partner-showcase energy than an intimate salon, and some of the room may skew ecosystem or solutions-oriented. Even so, the production-agent framing is strong enough to make it one of the best July 15 bets.",
+          "link": "https://luma.com/8jn7nznr",
+          "score": "8.9/10",
+          "recommendation": "Sign up now"
+        },
+        {
+          "title": "Battle Bots Hack Night & Watch Party (w/ OpenAI Codex)",
+          "time": "5:00 PM - 9:00 PM PT",
+          "venue": "Bright Data Web Data Loft, 625 2nd St, San Francisco",
+          "host": "HackerSquad with Bright Data",
+          "why": "This is the most obviously OpenAI-tooling-adjacent room of the night: playful format, but very builder-heavy and unusually well aligned with people actually experimenting with coding agents.",
+          "signal": "399 visible attendees, a Bright Data host venue, and an explicit agent-vs-agent and Codex hook point to a dense technical crowd with strong odds of useful serendipity.",
+          "notes": "It will be louder, broader, and more chaotic than a curated dinner or salon. Expect a wider hacker mix and less polished networking, but better odds of meeting hands-on builders.",
+          "link": "https://luma.com/battle-bots-hack-night-jul15-2026",
+          "score": "8.7/10",
+          "recommendation": "Sign up now"
+        },
+        {
+          "title": "The trouble with tokens: A dinner on the ROI on AI",
+          "time": "5:30 PM - 8:00 PM PT",
+          "venue": "Susa Ventures, 660 York St Ste 201, San Francisco",
+          "host": "Bigspin with Megan Melack and Moritz Sudhof",
+          "why": "This is the strongest product-and-operator conversation room of the three: a smaller dinner format centered on token ROI, business outcomes, and real deployment tradeoffs instead of surface-level AI chatter.",
+          "signal": "Attendance is hidden and it is waitlist-only, but the Susa Ventures venue, curated dinner structure, and explicit targeting of AI-forward product and engineering leaders suggest a selective operator room.",
+          "notes": "Access is the biggest risk because it is already full and waitlist-only. It likely skews more product leadership than frontier-lab engineering, but the conversation quality should still be strong.",
+          "link": "https://luma.com/ql46dwes",
+          "score": "8.3/10",
+          "recommendation": "Consider"
+        }
+      ]
     },
     {
       "date": "Thursday, July 16",
