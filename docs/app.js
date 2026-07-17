@@ -1,7 +1,7 @@
 const scan = {
-  "checkedAt": "July 16, 2026",
-  "updatedAt": "July 16, 2026",
-  "windowLabel": "July 16, 2026 → July 30, 2026",
+  "checkedAt": "July 17, 2026",
+  "updatedAt": "July 17, 2026",
+  "windowLabel": "July 17, 2026 → July 31, 2026",
   "featured": [
     {
       "title": "Dwarkesh Unplugged, presented by WorkOS",
@@ -27,75 +27,32 @@ const scan = {
   ],
   "days": [
     {
-      "date": "Thursday, July 16",
-      "verdict": "Three credible options",
-      "note": "A strong same-day recovery: Fireworks AI and Latent.Space supply technical depth, while Workato offers a larger, more social builder room.",
-      "events": [
-        {
-          "title": "HUD x Fireworks AI | RL Catan Tournament",
-          "time": "6:30 PM - 10:00 PM PT",
-          "venue": "800 Market St, 8th Floor, San Francisco",
-          "host": "HUD and Fireworks AI",
-          "why": "The reinforcement-learning tournament format is technical, interactive, and more likely to create useful builder conversations than a passive panel.",
-          "signal": "Attendance is hidden, but Fireworks AI, the RL framing, and an approval-based guest list point to infra engineers and hands-on agent builders.",
-          "notes": "Registration is open with approval. The game format may be noisier than a talk, and your personal registration status is unknown.",
-          "link": "https://luma.com/hud-fireworks-catan",
-          "score": "8.6/10",
-          "recommendation": "Sign up now"
-        },
-        {
-          "title": "SF Personal AI Meetup",
-          "time": "6:30 PM - 9:30 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "Latent.Space with swyx and Shlok",
-          "why": "Latent.Space is one of the strongest repeat technical communities in your profile, and personal AI sits squarely in agents, memory, and context.",
-          "signal": "63 visible attendees and a trusted technical calendar suggest a concentrated crowd of AI engineers, researchers, and serious product builders.",
-          "notes": "Sold out and waitlist-only. Join the waitlist if the topic is a priority; your personal registration status is unknown.",
-          "link": "https://luma.com/personai",
-          "score": "8.5/10",
-          "recommendation": "Consider"
-        },
-        {
-          "title": "Mahjong Party for AI Builders",
-          "time": "5:00 PM - 8:00 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "Workato Community",
-          "why": "Workato makes this an enterprise-agent-adjacent social room where solutions engineers and applied AI operators should be easy to approach.",
-          "signal": "123 visible attendees and an approval-based list provide enough density for serendipity without relying on a generic startup mixer.",
-          "notes": "Registration is open. This is more social than substantive, so prioritize the Fireworks event if you want technical depth; personal status is unknown.",
-          "link": "https://luma.com/agr7hntb",
-          "score": "7.6/10",
-          "recommendation": "Consider"
-        }
-      ]
-    },
-    {
       "date": "Friday, July 17",
       "verdict": "Three credible options",
-      "note": "OpenAI Build Week is the clear anchor, with two credible alternatives for agent reliability and ambitious AI-product conversations.",
+      "note": "OpenAI Build Week is still the anchor, Dimensional is the strongest deep-tech alternative, and Imbue offers the best larger AI-product room.",
       "events": [
         {
           "title": "OpenAI Build Week Community Meetup - San Francisco",
-          "time": "5:00 PM - 9:00 PM PT",
+          "time": "6:00 PM - 8:00 PM PT",
           "venue": "San Francisco venue shared after approval",
           "host": "OpenAI Build Week community organizers",
           "why": "This is the most direct OpenAI-adjacent room tonight and should concentrate people actively building with Codex and related developer tools.",
-          "signal": "69 visible attendees, an official OpenAI Build Week calendar, and an approval-based list suggest practical builders rather than spectators.",
-          "notes": "Registration is open with approval. Community-run quality may vary by table, and your personal registration status is unknown.",
+          "signal": "Current public listings show about 100 visible attendees plus strong demand on the official OpenAI Build Week calendar, which should translate into a practical Codex-heavy crowd.",
+          "notes": "The direct page still shows approval-based registration while the city listing shows waitlist pressure, so treat this as high-demand and request access now. Personal registration status is unknown.",
           "link": "https://luma.com/6ce8j7re",
-          "score": "9.2/10",
+          "score": "9.3/10",
           "recommendation": "Sign up now"
         },
         {
-          "title": "Rooftop Agent Mixer - Voice, Video & Reliability",
-          "time": "6:00 PM - 9:00 PM PT",
+          "title": "Dimensional Open House",
+          "time": "5:30 PM - 8:00 PM PT",
           "venue": "San Francisco venue shared after approval",
-          "host": "Liam Mason, Andrew Mikhail, and Dolev Algam",
-          "why": "Voice, video, and reliability are concrete production-agent concerns, making this a useful applied-AI operator room.",
-          "signal": "95 visible attendees and an approval gate should draw agent founders, engineers, and technical product people working beyond demos.",
-          "notes": "Registration is open. It is still a mixer and may skew startup-heavy; your personal registration status is unknown.",
-          "link": "https://luma.com/kbxyoi8h",
-          "score": "8.4/10",
+          "host": "Dimensional",
+          "why": "An open-source agentic robotics demo night with live robots is materially more substantive than a generic Friday mixer and should attract serious builders.",
+          "signal": "Attendance is hidden, but the team pedigree across MIT, CMU, Berkeley, DJI, and Figure plus \"2 spots remaining\" and backing from Apple Robotics, HuggingFace, Google X, and Windsurf point to a selectively technical room.",
+          "notes": "Approval required and nearly full. This skews robotics more than pure software agents, but the builder density should be high; personal registration status is unknown.",
+          "link": "https://luma.com/dn72ypdy",
+          "score": "8.8/10",
           "recommendation": "Sign up now"
         },
         {
@@ -103,12 +60,12 @@ const scan = {
           "time": "5:30 PM - 8:30 PM PT",
           "venue": "San Francisco venue shared after approval",
           "host": "Imbue Events",
-          "why": "Imbue's community and the product-centered framing make this a stronger AI-product room than a broad Friday mixer.",
-          "signal": "202 visible attendees and approval-based entry suggest a large but curated group of AI builders, designers, and technical operators.",
-          "notes": "Registration is open. The room may be broader and more consumer-product oriented than agent infrastructure; personal status is unknown.",
+          "why": "Imbue's local-model launch makes this a sharper applied AI product room than most Friday socials, with concrete on-device model and agent-ecosystem relevance.",
+          "signal": "206 visible attendees and the Imbue host network should produce a large but still technically serious mix of applied AI builders, researchers, and product people.",
+          "notes": "Approval required and doors close firmly at 6:15 PM. The room may skew consumer-product more than enterprise AI; personal registration status is unknown.",
           "link": "https://luma.com/Bouncer1",
-          "score": "8.3/10",
-          "recommendation": "Sign up now"
+          "score": "8.4/10",
+          "recommendation": "Consider"
         }
       ]
     },
@@ -562,6 +519,12 @@ const scan = {
           "recommendation": "Sign up now"
         }
       ]
+    },
+    {
+      "date": "Friday, July 31",
+      "verdict": "Not recommended",
+      "note": "The primary calendars and fallback pass only surfaced daytime SF AI programming before the after-work cutoff, so the evening remains intentionally open.",
+      "events": []
     }
   ],
   "profile": {
