@@ -1,549 +1,201 @@
+const card = (
+  title,
+  time,
+  venue,
+  host,
+  why,
+  signal,
+  notes,
+  link,
+  score,
+  recommendation = "Consider",
+) => ({ title, time, venue, host, why, signal, notes, link, score, recommendation });
+
 const scan = {
-  "checkedAt": "July 17, 2026",
-  "updatedAt": "July 17, 2026",
-  "windowLabel": "July 17, 2026 → July 31, 2026",
-  "featured": [
+  checkedAt: "July 28, 2026",
+  updatedAt: "July 28, 2026",
+  windowLabel: "July 29, 2026 → August 12, 2026",
+  featured: [
     {
-      "title": "Dwarkesh Unplugged, presented by WorkOS",
-      "date": "Wed, Jul 22",
-      "recommendation": "Sign up now",
-      "summary": "The strongest room in the window for your taste: WorkOS-hosted, unusually substantive, and likely to draw serious AI builders, product leaders, and research-adjacent operators.",
-      "link": "https://luma.com/f28a739d"
+      title: "WorkOS Agent Night",
+      date: "Wed, Aug 12",
+      recommendation: "Sign up now",
+      summary: "The strongest room in the window: direct WorkOS hosting, explicit agent focus, and exceptional density across AI builders, technical operators, and developer-tool teams.",
+      link: "https://luma.com/agent-night",
     },
     {
-      "title": "OpenAI Build Week Community Meetup - San Francisco",
-      "date": "Tue, Jul 21",
-      "recommendation": "Sign up now",
-      "summary": "A direct Codex-adjacent builder room with 250 visible attendees and the clearest probability of meeting OpenAI-tooling practitioners.",
-      "link": "https://luma.com/codex-meetup-convex-jul21-2026"
+      title: "Demo Night @ WorkOS (August)",
+      date: "Wed, Aug 5",
+      recommendation: "Sign up now",
+      summary: "A repeat WorkOS demo room with the right mix of devtools, enterprise AI, product leaders, and builders showing real work.",
+      link: "https://luma.com/demo-night-aug2026",
     },
     {
-      "title": "LangChain SF Meetup: LLM Wikis and Giving Your Agents Memory",
-      "date": "Tue, Jul 28",
-      "recommendation": "Sign up now",
-      "summary": "Memory and context engineering from LangChain is almost perfectly aligned with your applied-AI and agent-infrastructure interests.",
-      "link": "https://luma.com/mylwoabu"
-    }
+      title: "Built by Agents: How Leading YC Companies are Building AI in Production",
+      date: "Tue, Aug 4",
+      recommendation: "Sign up now",
+      summary: "A production-first agent conversation led by E2B, with unusually direct relevance to sandboxes, infrastructure, and shipping reliable systems.",
+      link: "https://luma.com/e2b-2281",
+    },
   ],
-  "days": [
+  days: [
     {
-      "date": "Friday, July 17",
-      "verdict": "Three credible options",
-      "note": "OpenAI Build Week is still the anchor, Dimensional is the strongest deep-tech alternative, and Imbue offers the best larger AI-product room.",
-      "events": [
-        {
-          "title": "OpenAI Build Week Community Meetup - San Francisco",
-          "time": "6:00 PM - 8:00 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "OpenAI Build Week community organizers",
-          "why": "This is the most direct OpenAI-adjacent room tonight and should concentrate people actively building with Codex and related developer tools.",
-          "signal": "Current public listings show about 100 visible attendees plus strong demand on the official OpenAI Build Week calendar, which should translate into a practical Codex-heavy crowd.",
-          "notes": "The direct page still shows approval-based registration while the city listing shows waitlist pressure, so treat this as high-demand and request access now. Personal registration status is unknown.",
-          "link": "https://luma.com/6ce8j7re",
-          "score": "9.3/10",
-          "recommendation": "Sign up now"
-        },
-        {
-          "title": "Dimensional Open House",
-          "time": "5:30 PM - 8:00 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "Dimensional",
-          "why": "An open-source agentic robotics demo night with live robots is materially more substantive than a generic Friday mixer and should attract serious builders.",
-          "signal": "Attendance is hidden, but the team pedigree across MIT, CMU, Berkeley, DJI, and Figure plus \"2 spots remaining\" and backing from Apple Robotics, HuggingFace, Google X, and Windsurf point to a selectively technical room.",
-          "notes": "Approval required and nearly full. This skews robotics more than pure software agents, but the builder density should be high; personal registration status is unknown.",
-          "link": "https://luma.com/dn72ypdy",
-          "score": "8.8/10",
-          "recommendation": "Sign up now"
-        },
-        {
-          "title": "Bouncer 2.0: Take back your feed",
-          "time": "5:30 PM - 8:30 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "Imbue Events",
-          "why": "Imbue's local-model launch makes this a sharper applied AI product room than most Friday socials, with concrete on-device model and agent-ecosystem relevance.",
-          "signal": "206 visible attendees and the Imbue host network should produce a large but still technically serious mix of applied AI builders, researchers, and product people.",
-          "notes": "Approval required and doors close firmly at 6:15 PM. The room may skew consumer-product more than enterprise AI; personal registration status is unknown.",
-          "link": "https://luma.com/Bouncer1",
-          "score": "8.4/10",
-          "recommendation": "Consider"
-        }
-      ]
+      date: "Wednesday, July 29",
+      verdict: "Three exceptional options",
+      note: "Research depth, production-agent operations, and strong infrastructure communities make this a high-signal night.",
+      events: [
+        card("Bay Area Frontier Research Club #15 | Embodied AI", "5:30 PM - 8:30 PM PT", "Mission Robotics, San Francisco", "The Frontier Syndicate", "A dinner and paper discussion on embodied AI is exactly the thoughtful research-adjacent salon format you prefer.", "The approval gate, Mission Robotics venue, and paper-club structure imply a small, technically deep crowd.", "Registration is open with approval. It may be selective and research-heavy; personal registration status is unknown.", "https://luma.com/39h51wb0", "9.2/10", "Sign up now"),
+        card("Telemetry-aware AI Agents for Slack, Linear, and GitHub", "5:30 PM - 8:00 PM PT", "Market Center, 575 Market St, San Francisco", "groundcover with incident.io", "Private-cloud telemetry and agents acting across real developer tools is a concrete enterprise AI operations problem.", "208 visible attendees and recognized infrastructure hosts suggest platform engineers, DevOps leaders, and applied-agent teams.", "Registration is open. It skews observability and platform engineering more than product strategy; personal status is unknown.", "https://luma.com/zkdv1uoq", "9.0/10", "Sign up now"),
+        card("Agent (After) Hour: Building Production Agents with Mastra + MongoDB", "6:00 PM - 8:30 PM PT", "1525 Union St, San Francisco", "Mastra and MongoDB", "A production-agent conversation spanning application frameworks and data infrastructure should surface real deployment lessons.", "252 visible attendees and the Mastra–MongoDB pairing indicate strong applied-engineering and platform density.", "Waitlist-only. Join if production agent architecture is a priority; the room will be larger and louder than a salon.", "https://luma.com/mastra-vulp", "8.9/10", "Consider"),
+      ],
     },
     {
-      "date": "Saturday, July 18",
-      "verdict": "One qualified option",
-      "note": "The required fallback pass found a high-signal speaker lineup, but the summit's scale, price, and founder-heavy programming make it a selective Consider rather than a default yes.",
-      "events": [
-        {
-          "title": "AGI Summit 2026 | The Rise of Agentic Intelligence",
-          "time": "8:00 AM Saturday - 5:00 PM Sunday PT",
-          "venue": "Palace of Fine Arts, 3301 Lyon St, San Francisco",
-          "host": "Bay AI Circle",
-          "why": "Confirmed speakers include OpenAI Codex product lead Rohan Varma, Anthropic's Aengus Lynch, and leading Stanford and Berkeley researchers, creating rare direct frontier-lab access.",
-          "signal": "More than 1,500 visible paid registrations across the main ticket tiers and a lineup spanning OpenAI, Anthropic, vLLM, Stanford, and Berkeley make the attendee pool unusually strong despite its size.",
-          "notes": "Registration is open, with one-day tickets starting around $249. The projected mass crowd, expo floor, investor presence, and startup-pitch programming work against your preference for curated rooms; personal registration status is unknown.",
-          "link": "https://luma.com/agisummit2026",
-          "score": "8.1/10",
-          "recommendation": "Consider"
-        }
-      ]
+      date: "Thursday, July 30",
+      verdict: "Three exceptional options",
+      note: "WorkOS, Postman, and Codex produce one of the strongest agent and developer-tool nights in the window.",
+      events: [
+        card("Builder Night", "5:30 PM - 8:30 PM PT", "WorkOS, 660 Market St, San Francisco", "WorkOS and Pieces", "The best venue and host pairing in your profile, with a builder format that should concentrate devtools and enterprise-AI operators.", "214 visible attendees, approval-based entry, and direct WorkOS hosting create exceptional company and role density.", "Registration is open with approval. Demand should be high; personal registration status is unknown.", "https://luma.com/715ul99e", "9.7/10", "Sign up now"),
+        card("Agents & APIs SF Developer Meetup", "5:30 PM - 7:30 PM PT", "CANOPY Jackson Square, 595 Pacific Ave, San Francisco", "Postman Developer Events", "Agents and APIs at a curated venue should bring developer-platform engineers, technical PMs, and integration-focused builders.", "410 visible attendees and Postman's developer community create unusually strong engineering and product density.", "Registration is open. The crowd will be large, so target speakers and demo teams; personal status is unknown.", "https://luma.com/july-SF-Agents-APIs-meetup", "9.2/10", "Sign up now"),
+        card("OpenAI Codex Community Meetup - San Francisco #8", "5:00 PM - 8:00 PM PT", "San Francisco venue shared after approval", "TatianaSF and Codex community organizers", "The explicit Codex focus gives this direct relevance to OpenAI tooling and the builders using it in real workflows.", "598 visible attendees and approval-based entry should produce a dense practical coding-agent crowd.", "Registration is open with approval. It is community-run rather than official OpenAI programming; personal status is unknown.", "https://luma.com/h5x0pzw9", "9.0/10", "Sign up now"),
+      ],
     },
     {
-      "date": "Sunday, July 19",
-      "verdict": "One credible option",
-      "note": "Not an elite room, but a practical evening workshop with enough attendance to justify showing instead of leaving Sunday blank.",
-      "events": [
-        {
-          "title": "Design & Deploy Workshop",
-          "time": "6:00 PM - 9:00 PM PT",
-          "venue": "Homebrew Club, 111 Maiden Lane, San Francisco",
-          "host": "Moscone",
-          "why": "The workshop format and Homebrew Club venue should create hands-on conversations with people shipping products rather than collecting business cards.",
-          "signal": "61 visible attendees provide a credible builder crowd, though the organizer signal is weaker than the top weekday picks.",
-          "notes": "Registration is open. The listing is vague, so treat this as a flexible Consider option; personal registration status is unknown.",
-          "link": "https://luma.com/vs5ybrec",
-          "score": "7.1/10",
-          "recommendation": "Consider"
-        }
-      ]
+      date: "Friday, July 31",
+      verdict: "Two credible options",
+      note: "Black Forest Labs and Nous Research are the clear anchor; Treena is a smaller practical devtools alternative.",
+      events: [
+        card("Black Forest Labs x Nous Research", "6:00 PM - 9:00 PM PT", "San Francisco venue shared after approval", "Black Forest Labs and Nous Research", "Two frontier-model organizations in one room is a rare research and infrastructure signal for a Friday night.", "Attendance is hidden, but the hosts and approval gate point to research engineers, model builders, and serious technical operators.", "Registration is open with approval. Event details are intentionally sparse and access may be selective; personal status is unknown.", "https://luma.com/071qvqom", "9.3/10", "Sign up now"),
+        card("Treena Launch Party: Your Dev Machine, Now on Your Phone", "6:30 PM - 9:30 PM PT", "San Francisco venue shared after approval", "Treena Labs", "A mobile interface to a full development environment is a concrete developer-tool launch with useful agentic workflow adjacency.", "Attendance is hidden, but the product focus and approval gate should attract engineers and devtools builders rather than generic networkers.", "Registration is open with approval. The new organizer makes crowd quality less predictable; personal status is unknown.", "https://luma.com/6uxhrmtl", "8.0/10", "Consider"),
+      ],
     },
     {
-      "date": "Monday, July 20",
-      "verdict": "Three credible options",
-      "note": "WorkOS makes this a priority night; the Susa dinner is the best intimate alternative, while the SVB happy hour is a broader backup.",
-      "events": [
-        {
-          "title": "Demo Night @ WorkOS (SF)",
-          "time": "5:30 PM - 8:00 PM PT",
-          "venue": "WorkOS, 660 Market St, San Francisco",
-          "host": "WorkOS Events and Michael Grinich",
-          "why": "This is the highest-priority venue and host combination in your profile, with demos likely to attract devtools, enterprise AI, and product operators.",
-          "signal": "400 visible attendees at WorkOS provide exceptional company density and strong odds of meeting technical PMs, solutions engineers, and developer-tool builders.",
-          "notes": "Sold out and waitlist-only. Join the waitlist immediately; your personal registration status is unknown.",
-          "link": "https://luma.com/demo-night-july2026",
-          "score": "9.6/10",
-          "recommendation": "Consider"
-        },
-        {
-          "title": "V11 x Susa Ventures: Physical Intelligence Dinner",
-          "time": "6:30 PM - 8:30 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "V11 and Susa Ventures",
-          "why": "The curated dinner format and physical-intelligence topic make this a compact, high-trust room for research-adjacent operators.",
-          "signal": "Attendance is hidden, but Susa Ventures, a two-hour dinner, and approval-based entry imply a selective technical crowd.",
-          "notes": "Registration is open with approval. It may include more investors than you prefer, but the topic and format compensate; personal status is unknown.",
-          "link": "https://luma.com/85yi477h",
-          "score": "8.6/10",
-          "recommendation": "Sign up now"
-        },
-        {
-          "title": "A Truly Happy Hour",
-          "time": "5:30 PM - 8:00 PM PT",
-          "venue": "Silicon Valley Bank, 222 2nd St, San Francisco",
-          "host": "GGWP AI and Helpshift",
-          "why": "The hosts bring practical AI trust, safety, and customer-operations experience that maps to enterprise deployment conversations.",
-          "signal": "52 visible attendees and an approval gate suggest a manageable operator crowd rather than a mass networking event.",
-          "notes": "Registration is open. It is a broader happy hour with weaker frontier-lab density; your personal registration status is unknown.",
-          "link": "https://luma.com/b4v19yw3",
-          "score": "7.4/10",
-          "recommendation": "Consider"
-        }
-      ]
+      date: "Saturday, August 1",
+      verdict: "Not recommended - best available",
+      note: "A hands-on creative workshop is the only in-scope option that survives the weekend filters, but it is not a priority AI room.",
+      events: [
+        card("Workshop 2: Make It Real", "3:30 PM - 6:30 PM PT", "220 Montgomery St, San Francisco", "Build Beautifully", "The workshop format offers hands-on making and better conversation than a generic founder social.", "24 visible attendees create a small working group, though the organizer and AI signal are modest.", "Registration is open. Treat this as a low-stakes creative fallback, not a destination event.", "https://luma.com/iddxtbow", "6.6/10", "Not recommended - best available"),
+      ],
     },
     {
-      "date": "Tuesday, July 21",
-      "verdict": "Three exceptional options",
-      "note": "One of the best nights in the window: direct Codex adjacency, production inference, and a hands-on agent stack.",
-      "events": [
-        {
-          "title": "OpenAI Build Week Community Meetup - San Francisco",
-          "time": "6:00 PM - 8:00 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "OpenAI Codex Ambassador, HackerSquad, and Convex",
-          "why": "This is the cleanest OpenAI and Codex networking bet in the full window, with a practical builder format and relevant devtools hosts.",
-          "signal": "250 visible attendees and direct OpenAI Build Week branding should produce a dense room of coding-agent builders and technical operators.",
-          "notes": "Registration is open with approval. The large room may be busy, so target hosts and demo teams; personal status is unknown.",
-          "link": "https://luma.com/codex-meetup-convex-jul21-2026",
-          "score": "9.6/10",
-          "recommendation": "Sign up now"
-        },
-        {
-          "title": "vLLM x Crusoe Meetup: Production Open Source Inference",
-          "time": "5:00 PM - 9:00 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "vLLM Meetups and Crusoe",
-          "why": "Production inference is exactly the kind of deep infrastructure topic likely to attract frontier-model engineers and serious platform teams.",
-          "signal": "232 visible attendees and the vLLM and Crusoe pairing indicate unusually high research-engineering and infrastructure density.",
-          "notes": "Sold out and waitlist-only. Join the waitlist; this is more infra-heavy than product-heavy, and personal status is unknown.",
-          "link": "https://luma.com/n2ftxt1s",
-          "score": "9.3/10",
-          "recommendation": "Consider"
-        },
-        {
-          "title": "Hands-on Training: Building Agents with ClickHouse, Langfuse, and LibreChat",
-          "time": "5:00 PM - 9:00 PM PT",
-          "venue": "Commerce, 575 Market St, San Francisco",
-          "host": "ClickHouse Events",
-          "why": "This is a concrete production-agent stack spanning data, observability, and application tooling rather than abstract AI discussion.",
-          "signal": "127 visible attendees and recognized infrastructure partners should attract applied AI engineers, FDEs, and solutions teams.",
-          "notes": "Registration is open. It is training-oriented and may have less unstructured networking than the Codex meetup; personal status is unknown.",
-          "link": "https://luma.com/clickh-9f9d",
-          "score": "8.9/10",
-          "recommendation": "Sign up now"
-        }
-      ]
+      date: "Sunday, August 2",
+      verdict: "Not recommended",
+      note: "No qualifying in-person SF AI or technical-builder event survived the primary calendars and fallback pass.",
+      events: [],
     },
     {
-      "date": "Wednesday, July 22",
-      "verdict": "Three exceptional options",
-      "note": "WorkOS, Databricks, and MotherDuck make this the most company-dense technical night after July 21.",
-      "events": [
-        {
-          "title": "Dwarkesh Unplugged, presented by WorkOS",
-          "time": "5:00 PM - 7:30 PM PT",
-          "venue": "SFJAZZ, 201 Franklin St, San Francisco",
-          "host": "WorkOS and Michael Grinich",
-          "why": "A WorkOS-presented Dwarkesh event combines your strongest host preference with unusually substantive AI and research conversation.",
-          "signal": "Attendance is hidden, but the WorkOS host, SFJAZZ venue, and approval gate imply a high-status room of technical leaders and research-adjacent operators.",
-          "notes": "Registration is open with approval. Demand may be high and access selective; your personal registration status is unknown.",
-          "link": "https://luma.com/f28a739d",
-          "score": "9.7/10",
-          "recommendation": "Sign up now"
-        },
-        {
-          "title": "Omnigent & Multi-Agent Coding Meetup @ Databricks SF",
-          "time": "5:00 PM - 8:00 PM PT",
-          "venue": "Databricks, San Francisco",
-          "host": "Databricks Community",
-          "why": "Multi-agent coding at Databricks is a direct match for your agent, infrastructure, and technical-product interests.",
-          "signal": "Attendance is hidden, but Databricks, named technical hosts, and approval-based entry strongly imply engineers and applied AI builders.",
-          "notes": "Registration is open with approval. The exact crowd size is hidden; your personal registration status is unknown.",
-          "link": "https://luma.com/omnigent_multi-agent_coding",
-          "score": "9.1/10",
-          "recommendation": "Sign up now"
-        },
-        {
-          "title": "MotherDuck + DuckDB July Meetup",
-          "time": "6:00 PM - 8:00 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "MotherDuck and DuckDB",
-          "why": "A focused data-infrastructure meetup is likely to bring the kind of technically deep platform and applied-AI operators you want.",
-          "signal": "Attendance is hidden, but a repeat MotherDuck and DuckDB community is a reliable signal for strong engineering density.",
-          "notes": "Registration is open with approval. It is data-infra first rather than explicitly frontier AI; personal status is unknown.",
-          "link": "https://luma.com/motherduckduckdbjuly",
-          "score": "8.6/10",
-          "recommendation": "Sign up now"
-        }
-      ]
+      date: "Monday, August 3",
+      verdict: "Three credible options",
+      note: "A Gemini hack is the practical anchor, with thoughtful design and systems communities as smaller alternatives.",
+      events: [
+        card("Moonlight with Gemini - 3 Hour Hack", "6:00 PM - 9:00 PM PT", "660 Market St, San Francisco", "Build Club", "A short, hands-on Gemini hack creates repeated contact with people actively building rather than passively watching panels.", "The 660 Market venue, approval gate, and build format suggest a credible applied-AI crowd despite hidden attendance.", "Registration is open with approval. The Build Club audience may skew broader and younger than a WorkOS-hosted room.", "https://luma.com/buildclub-ua0n", "8.7/10", "Sign up now"),
+        card("Between Reality and the Impossible | Speculative Everything Book Club", "7:00 PM - 8:00 PM PT", "TIAT, 151 Powell St, San Francisco", "TIAT", "A focused discussion on speculative design offers a thoughtful product and systems counterpoint to standard AI networking.", "Attendance is hidden, but the art-and-technology venue and discussion format favor substantive conversation.", "Registration is open. This is design-adjacent rather than directly frontier AI; personal status is unknown.", "https://luma.com/se8", "7.4/10", "Consider"),
+        card("Bay Area Nix Meetup at Exa", "8:00 PM - 11:00 PM PT", "San Francisco venue shared by host", "Bay Area Nix/NixOS User Group", "Nix and reproducible systems should attract technically deep infrastructure engineers and developer-tool builders.", "18 visible attendees indicate a small specialist room with good odds of real systems conversations.", "Registration is open. It starts late and is not explicitly AI-focused, so prioritize the Gemini hack first.", "https://luma.com/orqobn0d", "7.3/10", "Consider"),
+      ],
     },
     {
-      "date": "Thursday, July 23",
-      "verdict": "Three exceptional options",
-      "note": "Direct OpenAI adjacency plus strong voice-agent and Convex communities make this another high-priority night.",
-      "events": [
-        {
-          "title": "OpenAI Builder Lounge SF with Parallel",
-          "time": "5:00 PM - 8:00 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "OpenAI for Startups and Parallel Web Systems",
-          "why": "This is the highest-probability room tonight for meeting people building directly around OpenAI systems and agentic web infrastructure.",
-          "signal": "Attendance is hidden, but official OpenAI for Startups placement, Parallel, and approval-based entry suggest a selective builder crowd.",
-          "notes": "Registration is open with approval. The startup program framing may add some founder energy, but the company signal is strong; personal status is unknown.",
-          "link": "https://luma.com/openai-builderlounge-sf-july23-2026",
-          "score": "9.4/10",
-          "recommendation": "Sign up now"
-        },
-        {
-          "title": "Voice AI Meetup: Build Smarter Voice Agents",
-          "time": "5:00 PM - 8:00 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "AssemblyAI and Bond AI",
-          "why": "Voice-agent implementation is a concrete applied-AI topic with strong relevance to product, solutions, and production engineering roles.",
-          "signal": "Attendance is hidden, but AssemblyAI and an approval gate suggest a focused crowd of voice engineers and agent product teams.",
-          "notes": "Registration is open with approval. It may skew toward the voice ecosystem rather than broader frontier AI; personal status is unknown.",
-          "link": "https://luma.com/m0thk5ai",
-          "score": "8.9/10",
-          "recommendation": "Sign up now"
-        },
-        {
-          "title": "Agentic Builders Night",
-          "time": "6:00 PM - 8:30 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "Convex.dev and .agent community",
-          "why": "Convex and an explicit agent-builder community should produce practical conversations about state, tools, and shipping agent applications.",
-          "signal": "Attendance is hidden, but the host lineup and approval-based format imply a technically credible builder room.",
-          "notes": "Registration is open with approval. The community is broader than the OpenAI lounge, and your personal registration status is unknown.",
-          "link": "https://luma.com/convex-yrhb",
-          "score": "8.7/10",
-          "recommendation": "Sign up now"
-        }
-      ]
+      date: "Tuesday, August 4",
+      verdict: "Three exceptional options",
+      note: "Production agents, Baseten demos, and model routing create an unusually strong applied-infrastructure night.",
+      events: [
+        card("Built by Agents: How Leading YC Companies are Building AI in Production", "6:00 PM - 8:00 PM PT", "972 Mission St, San Francisco", "E2B", "Production architecture from companies shipping real agents is directly aligned with your infrastructure and applied-AI interests.", "E2B, an approval gate, and an operator-focused agenda should draw agent engineers, FDEs, and technical founders with real systems.", "Registration is open with approval. Some YC founder energy is likely, but the production topic is strong enough to compensate.", "https://luma.com/e2b-2281", "9.3/10", "Sign up now"),
+        card("Built on Baseten | AI Demo Night", "6:00 PM - 8:00 PM PT", "San Francisco venue shared after approval", "Baseten", "A Baseten demo room should surface production inference, deployment, and applied-model teams showing concrete work.", "Attendance is hidden, but Baseten's repeat community and approval gate are reliable signals for strong engineering density.", "Registration is open with approval. Expect a larger demo format rather than an intimate salon; personal status is unknown.", "https://luma.com/b4y2veki", "9.1/10", "Sign up now"),
+        card("The Model Question: Routing Models for Production Agents", "6:30 PM - 9:00 PM PT", "Notion, 685 Market St, San Francisco", "GMI Cloud and Notion for Startups", "Model routing for production agents is a concrete systems problem spanning cost, reliability, and product behavior.", "The Notion venue, infrastructure host, and approval gate should attract applied AI engineers and technical product leaders.", "Registration is open with approval. The startup-program framing may add founder energy; personal status is unknown.", "https://luma.com/gmicloud-384l", "9.0/10", "Sign up now"),
+      ],
     },
     {
-      "date": "Friday, July 24",
-      "verdict": "Two credible options",
-      "note": "Choose Epoch for research-adjacent conversation or Frontier Tower for a longer, hands-on agent-building room.",
-      "events": [
-        {
-          "title": "Trajectories: Epoch AI Mixer",
-          "time": "7:00 PM - 10:00 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "Epoch AI",
-          "why": "Epoch is a top-tier research-adjacent signal and should attract people who think seriously about model progress, evaluation, and long-horizon AI questions.",
-          "signal": "60 visible attendees and approval-based entry create a compact, high-quality research and policy-adjacent room.",
-          "notes": "Registration is open with approval. It may skew more research and governance than applied product; personal status is unknown.",
-          "link": "https://luma.com/mtv0ajl9",
-          "score": "9.1/10",
-          "recommendation": "Sign up now"
-        },
-        {
-          "title": "The Agent Natives Builders Hackathon",
-          "time": "5:00 PM Friday - 9:00 PM Saturday PT",
-          "venue": "Frontier Tower, 995 Market St, San Francisco",
-          "host": "Frontier Tower and .Agent Community",
-          "why": "The long-form hackathon creates repeated contact with people actually building agent-native products rather than merely discussing them.",
-          "signal": "86 visible attendees, an approval gate, and a dedicated agent community suggest a serious hands-on builder cohort.",
-          "notes": "Registration is open with approval. The event is long and will include startup energy; personal registration status is unknown.",
-          "link": "https://luma.com/web-a0-50-agent-native-startups-cb85",
-          "score": "8.5/10",
-          "recommendation": "Sign up now"
-        }
-      ]
+      date: "Wednesday, August 5",
+      verdict: "Three exceptional options",
+      note: "WorkOS anchors the night, with an unusually relevant FDE table and a focused voice-AI builder room.",
+      events: [
+        card("Demo Night @ WorkOS (August)", "5:30 PM - 8:00 PM PT", "WorkOS, 660 Market St, San Francisco", "WorkOS Events and Michael Grinich", "This is the highest-priority venue and host combination in your profile, with demos likely to attract devtools and enterprise-AI operators.", "243 visible attendees at WorkOS provide exceptional company density and strong odds of meeting technical PMs, FDEs, and solutions engineers.", "Registration is open. Demand may rise quickly; personal registration status is unknown.", "https://luma.com/demo-night-aug2026", "9.7/10", "Sign up now"),
+        card("The FDE Table, Hosted by Plain", "5:30 PM - 8:30 PM PT", "San Francisco venue shared after approval", "Plain", "A room explicitly for forward-deployed engineers is almost perfectly aligned with the role and company conversations you want.", "Attendance is hidden, but Plain, the table format, and approval-based entry imply a compact group of enterprise-AI operators.", "Registration is open with approval. Access may be selective and the exact agenda is private; personal status is unknown.", "https://luma.com/n5pon3ke", "9.1/10", "Sign up now"),
+        card("Cartesia: Building the Future of Voice AI", "6:30 PM - 8:30 PM PT", "San Francisco venue shared after approval", "Cartesia AI", "Cartesia's voice-model work should attract researchers, applied engineers, and product teams building real-time AI systems.", "Attendance is hidden, but the direct company host and approval gate are strong technical-quality signals.", "Registration is open with approval. This is voice-specific rather than broad agent infrastructure; personal status is unknown.", "https://luma.com/1vz3zp2t", "8.9/10", "Sign up now"),
+      ],
     },
     {
-      "date": "Saturday, July 25",
-      "verdict": "One credible option",
-      "note": "A technical infrastructure dinner clears the Consider bar despite its YC-heavy framing.",
-      "events": [
-        {
-          "title": "File Systems, Sandboxes, and Sushi: YC @ Archil",
-          "time": "6:00 PM - 10:00 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "Archil",
-          "why": "File systems and sandboxes are real coding-agent infrastructure topics, giving this more substance than the surrounding Startup School parties.",
-          "signal": "105 visible attendees and an approval gate suggest strong technical density, even if much of the room comes from YC.",
-          "notes": "Sold out and waitlist-only. The founder-heavy framing is a meaningful downside; join only if the infra topic is compelling. Personal status is unknown.",
-          "link": "https://luma.com/chqmxhyg",
-          "score": "7.8/10",
-          "recommendation": "Consider"
-        }
-      ]
+      date: "Thursday, August 6",
+      verdict: "Three strong options",
+      note: "Agent infrastructure and hands-on enterprise building make this another practical, technically dense night.",
+      events: [
+        card("Agent Infra Night", "6:00 PM - 9:00 PM PT", "San Francisco venue shared after approval", "Agent Builders YC with Composio and HeyGen", "Agent infrastructure is directly on target, and the host mix spans tools, integrations, and production applications.", "36 visible attendees plus an approval gate suggest a focused room where technical conversations should be easy to start.", "Registration is open with approval. Some founder energy is likely, but the small format and topic keep it credible.", "https://luma.com/6uaouoxj", "9.0/10", "Sign up now"),
+        card("ODSC AI x Snowflake: Build an AI Agent in Under 60 Minutes", "6:00 PM - 8:00 PM PT", "Market Center, 575 Market St, San Francisco", "ODSC AI and Snowflake", "A hands-on Snowflake agent build maps directly to enterprise deployment, data infrastructure, and technical operator work.", "The named Snowflake architecture lead, practitioner community, and workshop format point to a strong applied-AI room.", "Registration is open. Bring a laptop; this favors real building over unstructured mingling.", "https://luma.com/odscai-imyl", "8.9/10", "Sign up now"),
+        card("Software Factory #1 — Multi-Agent Orchestration Round Table", "6:00 PM - 9:00 PM PT", "San Francisco venue shared by host", "Vibe House", "A round table on multi-agent orchestration should produce sharper architecture discussion than a standard panel.", "17 visible attendees make this a small technical room with good conversational density.", "Waitlist-only. The organizer signal is less proven, but the format and topic are strong.", "https://luma.com/software-factory", "8.7/10", "Consider"),
+      ],
     },
     {
-      "date": "Sunday, July 26",
-      "verdict": "One credible option",
-      "note": "A rare Sunday research-builder option that comfortably beats leaving the day blank.",
-      "events": [
-        {
-          "title": "AI for Science World Model Demos @ Zeon Systems",
-          "time": "3:30 PM - 5:30 PM PT",
-          "venue": "San Francisco venue shared by host",
-          "host": "Worldwide Studios and Zeon Systems",
-          "why": "World-model demos for science should draw research engineers and technically deep builders rather than a generic AI crowd.",
-          "signal": "50 visible attendees and a demo format create a credible research-adjacent room for substantive conversations.",
-          "notes": "Sold out and waitlist-only. The event ends early and is more science-focused than enterprise AI; personal status is unknown.",
-          "link": "https://luma.com/5m9yhtzj",
-          "score": "8.3/10",
-          "recommendation": "Consider"
-        }
-      ]
+      date: "Friday, August 7",
+      verdict: "Two best-available options",
+      note: "The primary calendars are thinner tonight; Fifty Years is the stronger room and Agora is a marginal salon fallback.",
+      events: [
+        card("50Y Summer Party: Reflections", "5:00 PM - 9:30 PM PT", "San Francisco venue shared after approval", "Fifty Years", "Fifty Years' deep-tech portfolio and community should produce more scientific and technical density than a typical summer party.", "297 visible attendees and approval-based entry provide scale and a credible deep-tech company signal.", "Registration is open with approval. The party format will be noisy and more investor-heavy than your ideal room.", "https://luma.com/brxv4c7z", "8.2/10", "Consider"),
+        card("Agora Series: Interdisciplinary Salons for the New Renaissance #2", "6:00 PM - 9:30 PM PT", "San Francisco venue shared by host", "Apollo Commons", "An interdisciplinary salon is directionally aligned with thoughtful, high-trust conversation across technology and culture.", "Only 5 visible attendees are showing, but the salon format offers more substance than the other Friday fallbacks.", "Registration is open. The attendance and AI signal are below your normal floor, so treat this as optional.", "https://luma.com/1x8zdbv6", "6.7/10", "Not recommended - best available"),
+      ],
     },
     {
-      "date": "Monday, July 27",
-      "verdict": "Three credible options",
-      "note": "AWS Builder Loft anchors a strong technical night, with Decagon for AI-product operations and Pebblebed for late-night builder serendipity.",
-      "events": [
-        {
-          "title": "Rust AI Begins!",
-          "time": "5:00 PM - 8:30 PM PT",
-          "venue": "AWS Builder Loft, 525 Market St, San Francisco",
-          "host": "Bay Area AI, Valkey.io, and AWS Builder Loft",
-          "why": "Rust, AI infrastructure, and AWS Builder Loft make this a technically serious room with strong systems-engineering density.",
-          "signal": "83 visible attendees and established infrastructure hosts suggest engineers, research builders, and platform operators.",
-          "notes": "Registration is open. The room will skew systems-heavy rather than product-heavy; personal registration status is unknown.",
-          "link": "https://luma.com/ai-zt65",
-          "score": "9.0/10",
-          "recommendation": "Sign up now"
-        },
-        {
-          "title": "Building Decagon from 0 to 1",
-          "time": "6:00 PM - 8:00 PM PT",
-          "venue": "a16z, 180 Townsend St, San Francisco",
-          "host": "Cynthia Chen and Decagon co-founder Ashwin Sreenivas",
-          "why": "A focused account of building an enterprise AI company should attract product leaders and operators interested in real deployment lessons.",
-          "signal": "68 visible attendees, the a16z venue, and an approval gate suggest a selective company-and-operator crowd.",
-          "notes": "Registration is open with approval. Some venture and founder energy is likely, but the operating story is substantive; personal status is unknown.",
-          "link": "https://luma.com/dgbo2kus",
-          "score": "8.7/10",
-          "recommendation": "Sign up now"
-        },
-        {
-          "title": "Pebblebed's Builders Late Night Café",
-          "time": "7:30 PM - 12:00 AM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "Pebblebed Events",
-          "why": "A late-night builder café offers a smaller, conversational alternative after the structured talks end.",
-          "signal": "Attendance is hidden, but Pebblebed is a credible repeat technical community and the approval gate supports curation.",
-          "notes": "Registration is open with approval. The late timing and unstructured format make crowd quality less predictable; personal status is unknown.",
-          "link": "https://luma.com/5lcn6pt8",
-          "score": "8.1/10",
-          "recommendation": "Consider"
-        }
-      ]
+      date: "Saturday, August 8",
+      verdict: "Two marginal options",
+      note: "Neither clears the normal weekday bar, but both are legitimate in-person technical-community fallbacks.",
+      events: [
+        card("Workshop 3: Automate Your Life", "3:30 PM - 6:30 PM PT", "220 Montgomery St, San Francisco", "Build Beautifully", "A hands-on automation workshop is at least adjacent to practical agent workflows and offers structured conversation.", "15 visible attendees suggest a small working group, though the technical depth is uncertain.", "Registration is open. This is a marginal best-available option rather than a priority event.", "https://luma.com/e1oyglqq", "6.7/10", "Not recommended - best available"),
+        card("Japanese in Tech Picnic @ SF", "3:30 PM - 6:30 PM PT", "San Francisco venue shared after approval", "Y&Y Journey", "The focused tech-community picnic offers a social but still industry-relevant alternative on a weak Saturday.", "9 visible attendees and approval-based entry point to a very small group with uncertain company density.", "Registration is open with approval. Choose this only if the community angle is personally useful.", "https://luma.com/o9g1lrnm", "6.5/10", "Not recommended - best available"),
+      ],
     },
     {
-      "date": "Tuesday, July 28",
-      "verdict": "Three exceptional options",
-      "note": "LangChain memory, MCP tooling, and a Workato-adjacent show-and-tell make this a near-perfect applied-agent night.",
-      "events": [
-        {
-          "title": "LangChain SF Meetup: LLM Wikis and Giving Your Agents Memory",
-          "time": "6:00 PM - 9:00 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "LangChain Events",
-          "why": "Agent memory and LLM knowledge systems are directly aligned with your highest-priority technical topics.",
-          "signal": "Attendance is hidden, but LangChain's repeat community and approval gate strongly predict applied AI engineers and agent product teams.",
-          "notes": "Registration is open with approval. Demand may rise quickly; your personal registration status is unknown.",
-          "link": "https://luma.com/mylwoabu",
-          "score": "9.4/10",
-          "recommendation": "Sign up now"
-        },
-        {
-          "title": "MCP Graduation Party",
-          "time": "6:00 PM - 8:30 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "Arcade.dev and MCPJam",
-          "why": "MCP is central to agent tooling and enterprise integrations, making this a strong room for devtools builders and solutions-oriented engineers.",
-          "signal": "185 visible attendees and hosts embedded in the MCP ecosystem suggest excellent technical and company density.",
-          "notes": "Registration is open with approval. The party format may be louder and less structured than LangChain; personal status is unknown.",
-          "link": "https://luma.com/ugfl1mn2",
-          "score": "9.1/10",
-          "recommendation": "Sign up now"
-        },
-        {
-          "title": "Show and Tell Night",
-          "time": "5:00 PM - 9:00 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "Apify Events with Workato",
-          "why": "A demo-first format with Apify and Workato should surface concrete agent, automation, and data-tooling projects.",
-          "signal": "65 visible attendees, named Workato hosts, and an approval gate provide a focused applied-builder crowd.",
-          "notes": "Registration is open with approval. It is broader than the LangChain event, and your personal registration status is unknown.",
-          "link": "https://luma.com/qzltss9v",
-          "score": "8.6/10",
-          "recommendation": "Sign up now"
-        }
-      ]
+      date: "Sunday, August 9",
+      verdict: "One exceptional weekend option",
+      note: "A daylong VoiceOS hack with OpenAI credits is substantive enough to override the usual evening preference.",
+      events: [
+        card("Hack with VoiceOS | $5k in OpenAI Credits", "10:00 AM - 8:00 PM PT", "Frontier Tower, 995 Market St, San Francisco", "VoiceOS community", "A real build day around voice agents, with OpenAI credits as a concrete incentive, should attract hands-on agent developers.", "Attendance is hidden, but the Frontier Tower venue, approval gate, and technical hack format are strong builder signals.", "Registration is open with approval. It is a long daytime commitment, but the substance justifies the weekend exception.", "https://luma.com/pxdhdo4a", "8.8/10", "Sign up now"),
+      ],
     },
     {
-      "date": "Wednesday, July 29",
-      "verdict": "Three exceptional options",
-      "note": "Research depth, production-agent observability, and Workato-adjacent governance give this night three distinct high-quality rooms.",
-      "events": [
-        {
-          "title": "Bay Area Frontier Research Club #15 | Embodied AI",
-          "time": "5:30 PM - 8:30 PM PT",
-          "venue": "Mission Robotics, San Francisco",
-          "host": "The Frontier Syndicate",
-          "why": "A dinner and paper discussion on embodied AI is exactly the thoughtful research-adjacent salon format you consistently prefer.",
-          "signal": "Attendance is hidden, but the paper-club structure, Mission Robotics venue, and approval gate imply a small, technically deep crowd.",
-          "notes": "Registration is open with approval. It may be selective and research-heavy; your personal registration status is unknown.",
-          "link": "https://luma.com/39h51wb0",
-          "score": "9.2/10",
-          "recommendation": "Sign up now"
-        },
-        {
-          "title": "Telemetry-aware AI Agents for Slack, Linear, and GitHub",
-          "time": "5:30 PM - 8:00 PM PT",
-          "venue": "Mindspace, 575 Market St, San Francisco",
-          "host": "groundcover",
-          "why": "Private-cloud telemetry and agents acting across developer tools is a concrete enterprise AI operations problem.",
-          "signal": "119 visible attendees and an infrastructure host suggest platform engineers, DevOps leaders, and applied agent teams.",
-          "notes": "Registration is open. It may skew observability and platform engineering more than product strategy; personal status is unknown.",
-          "link": "https://luma.com/zkdv1uoq",
-          "score": "9.0/10",
-          "recommendation": "Sign up now"
-        },
-        {
-          "title": "@Machine Speed: Continuous Compliance for the Agentic Era",
-          "time": "5:30 PM - 8:00 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "Secure Agentic Framework with Workato",
-          "why": "Agent governance and continuous compliance are high-value enterprise deployment topics, with direct Workato adjacency.",
-          "signal": "Attendance is hidden, but Workato involvement and approval-based entry suggest security, solutions, and enterprise AI operators.",
-          "notes": "Registration is open with approval. It may be more governance-heavy than builder-heavy; personal status is unknown.",
-          "link": "https://luma.com/tt11iz2u",
-          "score": "8.8/10",
-          "recommendation": "Sign up now"
-        }
-      ]
+      date: "Monday, August 10",
+      verdict: "Two strong options",
+      note: "AWS anchors a physical-AI infrastructure room, with a smaller researcher poker night as the social alternative.",
+      events: [
+        card("Frontier Signals #01: Infrastructure Behind Physical AI", "5:00 PM - 8:30 PM PT", "AWS Builder Loft, 525 Market St, San Francisco", "AWS Builder Loft, Bayforge, and .Agent Community", "Physical-AI infrastructure at AWS Builder Loft should bring systems engineers, robotics builders, and research-adjacent operators.", "216 visible attendees and a strong multi-host technical lineup create excellent company and engineering density.", "Registration is open. The room will be large, so target speakers and demo teams; personal status is unknown.", "https://luma.com/ckpqzfae", "9.3/10", "Sign up now"),
+        card("Abstract x Grace Gong AI Researcher Poker Night", "6:30 PM - 10:00 PM PT", "San Francisco venue shared after approval", "Abstract and Grace Gong", "A researcher-specific poker night offers a conversational alternative to a large technical event.", "Attendance is hidden, but the approval gate and explicit researcher targeting suggest a selective peer room.", "Registration is open with approval. The social format makes technical depth less predictable; personal status is unknown.", "https://luma.com/5ljru4z2", "8.1/10", "Consider"),
+      ],
     },
     {
-      "date": "Thursday, July 30",
-      "verdict": "Three exceptional options",
-      "note": "WorkOS, Postman, and Codex produce a final night with exceptional agent, API, and OpenAI-tooling relevance.",
-      "events": [
-        {
-          "title": "SF Socratic Agentic AI Summit",
-          "time": "6:00 PM - 9:00 PM PT",
-          "venue": "WorkOS, 660 Market St, San Francisco",
-          "host": "AI Socratic at WorkOS",
-          "why": "The WorkOS venue and agentic summit framing make this one of the best enterprise-AI and developer-tool rooms in the window.",
-          "signal": "Attendance is hidden, but WorkOS, multiple technical hosts, and approval-based entry imply a curated agent-builder and operator crowd.",
-          "notes": "Registration is open with approval. The exact agenda and crowd size are not visible; personal registration status is unknown.",
-          "link": "https://luma.com/sf-socratic-2.0",
-          "score": "9.4/10",
-          "recommendation": "Sign up now"
-        },
-        {
-          "title": "Agents & APIs SF Developer Meetup",
-          "time": "5:30 PM - 7:30 PM PT",
-          "venue": "CANOPY Jackson Square, 595 Pacific Ave, San Francisco",
-          "host": "Postman Developer Events",
-          "why": "Agents and APIs at a curated CANOPY venue should bring developer-platform engineers, technical PMs, and integration-focused builders.",
-          "signal": "294 visible attendees and Postman's developer community create unusually strong engineering and product density.",
-          "notes": "Registration is open. The crowd will be large, so focused networking will require targeting speakers and demo teams; personal status is unknown.",
-          "link": "https://luma.com/july-SF-Agents-APIs-meetup",
-          "score": "9.2/10",
-          "recommendation": "Sign up now"
-        },
-        {
-          "title": "Codex Community Meetup - San Francisco #8",
-          "time": "5:00 PM - 8:00 PM PT",
-          "venue": "San Francisco venue shared after approval",
-          "host": "TatianaSF and Codex community organizers",
-          "why": "The explicit Codex focus gives this direct relevance to OpenAI tooling and the builders using it in real workflows.",
-          "signal": "118 visible attendees and approval-based entry should produce a practical coding-agent crowd with good networking density.",
-          "notes": "Registration is open with approval. It is community-run rather than official OpenAI programming; personal status is unknown.",
-          "link": "https://luma.com/h5x0pzw9",
-          "score": "9.0/10",
-          "recommendation": "Sign up now"
-        }
-      ]
+      date: "Tuesday, August 11",
+      verdict: "Three credible options",
+      note: "ClickHouse provides the deepest engineering room, with robotics and product-leadership alternatives.",
+      events: [
+        card("San Francisco Data Engineering Meetup with ClickHouse", "5:30 PM - 8:30 PM PT", "CANOPY Jackson Square, 595 Pacific Ave, San Francisco", "ClickHouse Events", "A large ClickHouse engineering meetup should bring the data-platform and infrastructure talent adjacent to serious AI systems.", "382 visible attendees and a recognized infrastructure community provide exceptional technical density.", "Registration is open. It is data-engineering first rather than explicitly agent-focused; personal status is unknown.", "https://luma.com/clickh-z578", "9.1/10", "Sign up now"),
+        card("Robots & Sake", "5:00 PM - 9:00 PM PT", "San Francisco venue shared after approval", "Matt Laker, Shuji Otake, and robotics community hosts", "A focused robotics social should create useful crossover between embodied AI, hardware, and applied engineering.", "43 visible attendees and approval-based entry suggest a manageable, technically relevant room.", "Registration is open with approval. It is more social than the ClickHouse meetup; personal status is unknown.", "https://luma.com/5spumz2h", "8.5/10", "Consider"),
+        card("Move Fast, Mean It: An Evening for Product Leaders", "5:00 PM - 8:00 PM PT", "Mind the Product, 140 2nd St, San Francisco", "Mind the Product", "A product-leadership room offers direct PM and operator networking in a more focused format than generic startup events.", "12 visible attendees and an approval gate indicate a small, conversational group.", "Registration is open with approval. The AI signal is indirect, so prioritize ClickHouse for technical depth.", "https://luma.com/fi1qhcyq", "8.0/10", "Consider"),
+      ],
     },
     {
-      "date": "Friday, July 31",
-      "verdict": "Not recommended",
-      "note": "The primary calendars and fallback pass only surfaced daytime SF AI programming before the after-work cutoff, so the evening remains intentionally open.",
-      "events": []
-    }
+      date: "Wednesday, August 12",
+      verdict: "Three exceptional options",
+      note: "WorkOS Agent Night is the clear best bet, backed by strong software-factory and AI-engineering rooms.",
+      events: [
+        card("WorkOS Agent Night", "5:00 PM - 10:00 PM PT", "1300 Van Ness Ave, San Francisco", "WorkOS and Michael Grinich", "Direct WorkOS hosting and an explicit agent focus make this the strongest company, topic, and role match in the full window.", "1,192 visible attendees and approval-based entry create extraordinary density across AI builders, technical operators, and developer-tool companies.", "Registration is open with approval. The scale will be intense, so plan targeted conversations; personal status is unknown.", "https://luma.com/agent-night", "9.9/10", "Sign up now"),
+        card("Software Factories Show & Tell", "5:30 PM - 7:30 PM PT", "Heavybit, 523 Octavia St, San Francisco", "Heavybit Events", "A show-and-tell on software factories should attract people working on coding agents, developer workflows, and production tooling.", "Attendance is hidden, but Heavybit, named technical hosts, and approval-based entry are excellent devtools-quality signals.", "Registration is open with approval. Capacity may be limited; personal status is unknown.", "https://luma.com/software-factories", "9.2/10", "Sign up now"),
+        card("AI Engineers Tech Talk: August", "6:00 PM - 8:00 PM PT", "San Francisco venue shared after approval", "AI Engineers - SF", "A focused engineering talk is likely to surface applied-model, infrastructure, and production-AI practitioners.", "Attendance is hidden, but the repeat AI Engineers community and approval gate suggest credible technical density.", "Registration is open with approval. The agenda is not yet public, so topic fit may shift; personal status is unknown.", "https://luma.com/kzwpdbs5", "8.9/10", "Sign up now"),
+      ],
+    },
   ],
-  "profile": {
-    "description": "Our recommended events target high-signal, after-work gatherings across AI topics, prioritizing rooms with applied AI builders and technical PMs over generic networking. We favor curated venues and substantive topics like agents, evals, and AI infrastructure, while filtering out founder-heavy and novice-oriented events.",
-    "sourceHeading": "Event Calendars",
-    "sources": [
+  profile: {
+    description: "Our recommended events target high-signal, after-work gatherings across AI topics, prioritizing rooms with applied AI builders and technical PMs over generic networking. We favor curated venues and substantive topics like agents, evals, and AI infrastructure, while filtering out founder-heavy and novice-oriented events.",
+    sourceHeading: "Event Calendars",
+    sources: [
       {
-        "label": "Discover tech events",
-        "link": "https://luma.com/tech",
-        "image": "./tech-square.png"
+        label: "Discover tech events",
+        link: "https://luma.com/tech",
+        image: "./tech-square.png",
       },
       {
-        "label": "Discover AI events",
-        "link": "https://luma.com/ai",
-        "image": "./ai-square.png"
-      }
-    ]
-  }
+        label: "Discover AI events",
+        link: "https://luma.com/ai",
+        image: "./ai-square.png",
+      },
+    ],
+  },
 };
+
 
 function badgeClass(label) {
   const normalized = label.toLowerCase();
