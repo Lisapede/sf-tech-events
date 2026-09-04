@@ -12,97 +12,73 @@ const card = (
 ) => ({ title, time, venue, host, why, signal, notes, link, score, recommendation });
 
 const scan = {
-  checkedAt: "September 1, 2026",
-  updatedAt: "September 1, 2026",
-  windowLabel: "September 1, 2026 → September 15, 2026",
+  checkedAt: "September 4, 2026",
+  updatedAt: "September 4, 2026",
+  windowLabel: "September 4, 2026 → September 18, 2026",
   featured: [
-    {
-      title: "Voice Research Club: Models, Evals & Real-Time Interaction",
-      date: "Thu, Sep 3",
-      recommendation: "Sign up now",
-      summary: "A research-first launch pairs an NVIDIA full-duplex speech talk with extended technical discussion and no sales presentations.",
-      link: "https://luma.com/nbaa4d7r",
-    },
     {
       title: "CoreWeave Hacks: Agent Loops Hackathon",
       date: "Sat, Sep 12",
       recommendation: "Sign up now",
-      summary: "A two-day, heavily resourced build uses the CoreWeave stack to create, trace, evaluate, and improve autonomous agent loops.",
+      summary: "A two-day, production-minded build uses CoreWeave, Weights & Biases, and expert judging to create agents that improve their own loops.",
       link: "https://luma.com/coreweavehacks",
     },
     {
-      title: "Demo Night @ WorkOS (September)",
-      date: "Mon, Sep 14",
+      title: "AI Journal Club ft. Google + NVIDIA",
+      date: "Thu, Sep 17",
       recommendation: "Sign up now",
-      summary: "WorkOS brings 368 builders together for live demos only—no slides and no company pitches.",
-      link: "https://luma.com/demo-night-sept2026",
+      summary: "Google DeepMind and NVIDIA researchers lead a rigorous evening on reasoning search, reinforcement learning, post-training, and kernel determinism.",
+      link: "https://luma.com/0460rgnq",
+    },
+    {
+      title: "Baseten × NVIDIA Dynamo × SGLang",
+      date: "Thu, Sep 10",
+      recommendation: "Sign up now",
+      summary: "A 210-person technical program goes deep on reinforcement-learning post-training, inference infrastructure, Dynamo, and SGLang.",
+      link: "https://luma.com/BaseDynSGL",
     },
   ],
   days: [
     {
-      date: "Tuesday, September 1",
-      verdict: "Three exceptional technical rooms",
-      note: "Sim-to-real research leads, with a production-evals panel and a devtools launch as excellent alternatives.",
-      events: [
-        card("The Reality Gap: A Sim-to-Real Seminar", "6:00 PM - 9:00 PM PT", "Mission Robotics, 3001 19th St", "Rally SF, Mission Robotics, and Protege", "The first of a five-session working seminar tackles perception, contact, data collection, locomotion, world models, and the points where simulated policies fail on hardware.", "The room is capped at 40 with a committed core group, direct researcher targeting, recorded talks, and private working discussion afterward.", "Event full; join the waitlist. Include what you are working on in the application; dinner is provided.", "https://luma.com/rallysf-uqiv", "9.6/10", "Sign up now"),
-        card("Forward Deployed: Evals — Beyond the Vibe Check", "6:00 PM - 8:30 PM PT", "Private address, North Beach", "Forward Deployed and Founders Cafe", "A practitioner panel covers production eval datasets, online guardrails, LLM judges, trajectory grading, build-versus-buy, and organizational ownership.", "Speakers from LangChain, Langfuse, Galileo, CoreWeave, and Mercor create an unusually concentrated evals room despite hidden attendance.", "Event full; join the waitlist.", "https://luma.com/85oi0k2n", "9.5/10", "Sign up now"),
-        card("Wasmer: Beyond Containers", "6:30 PM - 9:30 PM PT", "760 Market St", "Wasmer, Ayush Ojha, and Syrus Akbary", "New Wasmer launches, live demos, and deep technical Q&A focus on secure software execution across local, browser, application, and cloud environments.", "488 visible attendees, the Wasmer founder on stage, and an intentionally technical engineering audience make this an excellent devtools room.", "Registration is open. The direct page confirms the later 6:30-9:30 PM window even though its body copy still shows an older time.", "https://luma.com/3ns1f786", "9.2/10", "Sign up now"),
-      ],
-    },
-    {
-      date: "Wednesday, September 2",
-      verdict: "Two strong infrastructure and physical-AI rooms",
-      note: "A deep BYOC architecture session leads, with a focused positioning and robotics fireside as the alternative.",
-      events: [
-        card("Whose Cloud Is It Anyway? BYOC in the Age of AI", "6:00 PM - 9:00 PM PT", "221 11th St", "Open Source Analytics Community, Altinity, and Nirvana Labs", "A three-talk program goes deep on BYOC control planes, VPC access, sovereignty, IOPS economics, shared responsibility, and failure modes.", "88 visible attendees, named practitioners, an unusually detailed agenda, and two hours of talks create a serious infrastructure room.", "Registration is open. Food and drinks are included.", "https://luma.com/ruft92qf", "9.2/10", "Sign up now"),
-        card("Fireside Chat: Navigating Physical AI", "5:00 PM - 7:00 PM PT", "Silicon Valley Bank, 222 2nd St", "Point One Navigation, Vouch, and Silicon Valley Bank", "Point One's founder will unpack the positioning layer behind robots, drones, and autonomous vehicles, plus the realities of long R&D cycles.", "Attendance is hidden, but an approval gate, SVB's deep-tech community, and a named physical-AI founder are strong quality signals.", "Event full; join the waitlist. Some founder and capital discussion remains, but the core fireside is technically substantive.", "https://luma.com/NavigatingPhysicalAI", "8.8/10", "Sign up now"),
-      ],
-    },
-    {
-      date: "Thursday, September 3",
-      verdict: "Three excellent production and research rooms",
-      note: "A research-first voice launch leads, with production data infrastructure and field-tested physical AI as strong alternatives.",
-      events: [
-        card("Voice Research Club Launch: Models, Evals & Real-Time Interaction", "5:30 PM - 8:30 PM PT", "Private address, Central Waterfront", "Frontier Research Club and Voice Arena", "A paper-driven launch pairs an NVIDIA full-duplex speech presentation with extended discussion of role control, voice conditioning, latency, naturalness, and missing evaluation benchmarks.", "Attendance is hidden, but a named NVIDIA ADLR researcher, explicit no-sales rule, approval gate, and recurring research-club format create exceptional room-quality evidence.", "Registration is open with approval. Light dinner precedes two concise technical talks and ninety minutes of research discussion.", "https://luma.com/nbaa4d7r", "9.6/10", "Sign up now"),
-        card("Scaling the Data Lake for the AI Era", "5:30 PM - 7:30 PM PT", "SHACK15, 1 Ferry Building", "TRM Labs, StarRocks, PhoenixAI, and SHACK15", "A practitioner-led session on petabyte-scale AI data, query optimization, and real-time analytics maps directly to production platform work.", "Attendance is hidden, but repeat-event turnout, the SHACK15 venue, and named TRM and PhoenixAI engineers indicate a serious infrastructure audience.", "Registration is open with approval. The direct page consistently shows a 5:30 PM start.", "https://luma.com/trmlabs-3kox", "9.4/10", "Sign up now"),
-        card("Deploying Physical AI in the Real World", "5:30 PM - 9:00 PM PT", "Private address, Mission District", "Savant VC and Instawork Robotics Lab", "Founding engineers from Skild AI, Dexterity, and Weave Robotics dissect field data, uptime, teleoperation, fleet learning, evals, and deployment failure modes.", "Attendance is hidden, but the four named deployment practitioners, approval gate, and unusually concrete field-operations agenda are exceptional room signals.", "Registration is open with approval. The talk and Q&A run from 6:30 PM to 7:25 PM, followed by a long technical mingle.", "https://luma.com/7b9joney", "9.4/10", "Sign up now"),
-      ],
-    },
-    {
       date: "Friday, September 4",
-      verdict: "One credible health-tech community room",
-      note: "The attendee count clears the floor, but the room is now full and the program remains a casual operator happy hour.",
+      verdict: "One credible health-tech operator room",
+      note: "The only viable evening option clears the attendance floor, but its casual format keeps it in Consider territory.",
       events: [
-        card("San Francisco Health Tech Happy Hour with HTN & Vinta", "5:30 PM - 8:30 PM PT", "Private address, Mission District", "Health Tech Nerds and Vinta Software", "A focused healthcare gathering avoids pitch decks and should support useful operator conversation on the opportunities and constraints shaping health tech.", "131 visible attendees and backing from the 30,000-member Health Tech Nerds community clear the normal room-size floor.", "Event full; join the waitlist. This is a casual networking room with no technical program, so it remains a lower-confidence Consider.", "https://luma.com/nh2t70zk", "6.8/10", "Consider"),
+        card("San Francisco Health Tech Happy Hour with HTN & Vinta", "5:30 PM - 8:30 PM PT", "Private address, Mission District", "Health Tech Nerds and Vinta Software", "A focused healthcare gathering avoids pitch decks and should support useful operator conversation on the opportunities and constraints shaping health tech.", "121 visible attendees and backing from the 30,000-member Health Tech Nerds community clear the normal room-size floor.", "Event full; join the waitlist. This is a casual networking room with no technical program.", "https://luma.com/nh2t70zk", "6.8/10", "Consider"),
       ],
     },
     {
       date: "Saturday, September 5",
-      verdict: "One exceptional all-day spatial-AI build",
-      note: "The program starts early but earns a weekend exception through technical depth and a full day of hands-on work.",
+      verdict: "One exceptional spatial-AI build",
+      note: "The all-day schedule earns a weekend exception through technical depth, partner quality, and a finished-demo requirement.",
       events: [
-        card("Spatial Intelligence + Generative 3D Hackathon", "10:00 AM - 8:00 PM PT", "Private address, Fort Mason", "World Labs, Tripo, mint.gg, Convex, and Founders Inc.", "Teams build interactive worlds, physical-AI simulations, or creative 3D systems with large world models, generated assets, agents, and real-time backends.", "Direct participation from World Labs, Tripo, mint.gg, and Convex plus a demo-and-judging requirement indicate a serious technical build.", "Event full; join the waitlist. Optional check-in and partner deep dives begin at 8:30 AM before hacking starts at 10:00 AM; this is a substantive schedule exception.", "https://luma.com/b101ml40", "9.0/10", "Consider"),
+        card("Spatial Intelligence + Generative 3D Hackathon", "10:00 AM - 8:00 PM PT", "Private address, Fort Mason", "World Labs, Tripo, mint.gg, Convex, and Founders Inc.", "Teams build interactive worlds, physical-AI simulations, or creative 3D systems with large world models, generated assets, agents, and real-time backends.", "Direct participation from World Labs, Tripo, mint.gg, and Convex plus a demo-and-judging requirement indicate a serious technical build.", "Event full; join the waitlist. Optional partner sessions begin before the 10:00 AM build start.", "https://luma.com/b101ml40", "9.4/10", "Sign up now"),
       ],
     },
     {
       date: "Sunday, September 6",
-      verdict: "Open night",
-      note: "The primary calendars yielded only an early, hidden-attendance media-theory circle; the SF fallback's sole listing was a BART event in San Jose.",
-      events: [],
+      verdict: "One exceptional recursive-agent build",
+      note: "A ten-hour co-scientist hack earns a weekend schedule exception through unusually deep technical work and a strong recurring community.",
+      events: [
+        card("Recursive Self Improvement Hack #3: Co-Scientist", "10:00 AM - 8:00 PM PT", "Private address, SoMa", "RSI House, Sundai, and AutoLab", "Participants build research agents that generate hypotheses, run experiments, critique results, and improve their own workflows before evening demos.", "Attendance is hidden, but the recurring series has produced 135-plus projects and draws builders from MIT, Harvard, Stanford, DeepMind, and Meta.", "Registration is open with approval. Presentations begin at 8:00 PM; the all-day format is a substantive weekend exception.", "https://luma.com/40ivcqxg", "9.1/10", "Sign up now"),
+      ],
     },
     {
       date: "Monday, September 7",
-      verdict: "Open night",
-      note: "The primary calendars offered only founder soccer and an early generic GTM session; the SF fallback calendar had no listing for the date.",
-      events: [],
+      verdict: "A marginal but substantive paper discussion",
+      note: "This is the best in-scope option after both primary calendars; it misses the normal attendee floor but avoids generic holiday-week networking.",
+      events: [
+        card("90/30 Club: Full-Stack Evaluation for 3D-DRAM LLM Accelerators", "7:00 PM - 10:00 PM PT", "Mox, 1680 Mission St", "90/30 Club", "A quiet-reading block and structured discussion unpack the ATLAS paper's performance-evaluation stack for 3D-DRAM-based LLM accelerators.", "The weekly machine-learning paper club has a serious format and a highly technical selection, but only 19 attendees are visible.", "Registration is open. The established listing falls below the 30-attendee rule, so this is shown only as the best available option.", "https://luma.com/3ja84rpj", "6.4/10", "Not recommended - best available"),
+      ],
     },
     {
       date: "Tuesday, September 8",
-      verdict: "Two excellent technical rooms",
-      note: "A no-slides agent-infrastructure demo night leads, with a hands-on AI pricing and metering workshop for PMs and engineers.",
+      verdict: "Three excellent engineering rooms",
+      note: "A no-slides infrastructure demo night leads, followed by a structured-data foundation-model panel and a hands-on AI metering workshop.",
       events: [
-        card("Dev Tools & Infra Demo Night at Hogpatch", "6:00 PM - 9:00 PM PT", "Hogpatch, 2360 3rd St", "1984, PostHog, Heavybit, and Essence Venture Capital", "Nine live demos span agent context, cloud infrastructure, security harnesses, observability, reusable skills, inference routing, and durable sandboxes.", "Direct PostHog and Heavybit involvement, an explicit engineer audience, and the no-slides format are excellent hidden-attendance signals.", "Registration is open with approval. Demos begin at 6:30 PM.", "https://luma.com/6wyras70", "9.5/10", "Sign up now"),
-        card("AI Credits & Metering Workshop", "5:45 PM - 8:00 PM PT", "Private address, Financial District", "Schematic", "A working session for PMs and engineers covers credit models, top-ups, enforcement, migrations, and implementation of usage-based AI billing.", "42 visible attendees, a bring-your-laptop format, and a promised working pricing model make this a focused small room.", "Registration is open. The topic is product infrastructure rather than model engineering, but it is unusually practical.", "https://luma.com/29otrk4k", "8.7/10", "Sign up now"),
+        card("Dev Tools & Infra Demo Night at Hogpatch", "6:00 PM - 9:00 PM PT", "Hogpatch, 2360 3rd St", "1984, PostHog, Heavybit, and Essence Venture Capital", "Ten live demos span agent context, cloud infrastructure, security harnesses, observability, reusable skills, inference routing, and durable sandboxes.", "Direct PostHog and Heavybit involvement, an explicit engineer audience, and the no-slides format are excellent hidden-attendance signals.", "Registration is open with approval. Demos begin at 6:30 PM.", "https://luma.com/6wyras70", "9.5/10", "Sign up now"),
+        card("Beyond XGBoost: Foundation Models for Structured Data", "5:30 PM - 8:00 PM PT", "Private address, San Francisco", "House of AI and Synthefy", "A practitioner panel examines where tabular foundation models outperform classical methods, how teams evaluate them, and what production adoption actually requires.", "Attendance is hidden, but named speakers from Google, Synthefy, Cisco, and Walmart plus an approval gate indicate a strong applied-ML room.", "Registration is open with approval.", "https://luma.com/houseof-9uok", "9.2/10", "Sign up now"),
+        card("AI Credits & Metering Workshop", "5:45 PM - 8:00 PM PT", "Private address, Financial District", "Schematic", "A working session for PMs and engineers covers credit models, top-ups, enforcement, migrations, and implementation of usage-based AI billing.", "48 visible attendees, a bring-your-laptop format, and a promised working pricing model make this a focused small room.", "Registration is open; two spots remain. The topic is product infrastructure rather than model engineering, but it is unusually practical.", "https://luma.com/29otrk4k", "8.8/10", "Sign up now"),
       ],
     },
     {
@@ -110,45 +86,46 @@ const scan = {
       verdict: "Three exceptional applied-AI rooms",
       note: "Production-agent failure modes lead, followed by rigorous embodied-AI research and an agentic-PM demo roundtable.",
       events: [
-        card("Software Factories Meet Production", "6:00 PM - 8:00 PM PT", "Datadog, 50 Fremont St", "Datadog, Cleric, and the Agentic AI Foundation", "Three compact practitioner talks dissect software-factory orchestration, performance testing, verification, security, and the failure modes that changed the final designs.", "Only 13 attendees are visible, but this is a newly listed room with Datadog hosting, named Humanlayer and Tensorlake founders, an explicit agent-builder gate, and an exact-profile war-story format.", "Registration is open with approval. Talks begin at 6:40 PM and stay deliberately short to preserve detailed Q&A.", "https://luma.com/87no10np", "9.5/10", "Sign up now"),
-        card("Bay Area Frontier Research Club #22 — Robotics & Embodied AI", "5:30 PM - 8:30 PM PT", "Private address, Mission District", "Frontier Research Club and Mission Robotics", "A curated research forum reserves most of the evening for critique of robotics papers, methods, evaluation, failure modes, and real-hardware deployment.", "The approval gate, advance paper materials, Mission Robotics venue, and explicit researcher and research-engineer audience are exceptional hidden-room signals.", "Registration is open with approval. The talk titles are still TBA, but presenter submissions are screened for rigor.", "https://luma.com/7wv4khq9", "9.5/10", "Sign up now"),
-        card("Agentic PM Kickoff with PostHog, Linear, Supabase & Dreambase", "6:00 PM - 9:00 PM PT", "Hogpatch, 2360 3rd St", "PostHog, Linear, Supabase, and Dreambase", "Four product teams will demo agents automating PM work from bug triage to spec writing, then open the room for a practical roundtable.", "Direct hosting by an unusually strong product-tool stack, limited capacity, and a no-slides rule are excellent PM and builder signals.", "Registration is open with approval. This takes place the night before Lenny's Summit.", "https://luma.com/posthog-tpmz", "9.4/10", "Sign up now"),
+        card("Software Factories Meet Production", "6:00 PM - 8:00 PM PT", "Datadog, 50 Fremont St", "Datadog, Cleric, and the Agentic AI Foundation", "Practitioner talks dissect software-factory orchestration, verification, security, performance testing, and the failure modes that changed the final designs.", "46 visible attendees, Datadog hosting, named Humanlayer and Tensorlake founders, and an explicit agent-builder gate create an unusually strong room.", "Registration is open with approval. Talks begin at 6:40 PM and stay compact to preserve detailed Q&A.", "https://luma.com/87no10np", "9.6/10", "Sign up now"),
+        card("Bay Area Frontier Research Club #22 — Robotics & Embodied AI", "5:30 PM - 8:30 PM PT", "Private address, Mission District", "Frontier Research Club and Mission Robotics", "A curated research forum reserves most of the evening for critique of robotics papers, methods, evaluation, failure modes, and real-hardware deployment.", "The approval gate, advance paper materials, Mission Robotics venue, and explicit researcher and research-engineer audience are exceptional hidden-room signals.", "Registration is open with approval. Talk titles are still TBA, but presenter submissions are screened for rigor.", "https://luma.com/7wv4khq9", "9.5/10", "Sign up now"),
+        card("Agentic PM Kickoff with PostHog, Linear, Supabase & Dreambase", "6:00 PM - 9:00 PM PT", "Hogpatch, 2360 3rd St", "PostHog, Linear, Supabase, and Dreambase", "Four product teams demo agents automating PM work from bug triage to spec writing, then open the room for a practical roundtable.", "Direct hosting by an unusually strong product-tool stack, limited capacity, and a no-slides rule are excellent PM and builder signals.", "Registration is open with approval. This takes place the night before Lenny's Summit.", "https://luma.com/posthog-tpmz", "9.4/10", "Sign up now"),
       ],
     },
     {
       date: "Thursday, September 10",
-      verdict: "Three distinct physical-AI, PM, and design rooms",
-      note: "The marquee hardware room is waitlist-only; the curated AI-PM dinner and Amplitude's senior-design program remain open with approval.",
+      verdict: "Three exceptional model, database, and robotics rooms",
+      note: "RL post-training infrastructure narrowly leads a deep sharded-Postgres meetup and the waitlisted flagship hardware room.",
       events: [
-        card("137th SF Hardware Meetup: Physical AI Robotics", "6:30 PM - 9:30 PM PT", "Private address, Mission District", "SF Hardware Meetup and Mission Robotics", "A talk-and-demo program pairs physical-AI founders and Zoox hardware leadership with a community open mic for working prototypes.", "251 visible attendees, the 137th edition of a 10,500-member hardware community, Mission Robotics hosting, and New Theory AI sponsorship are exceptional signals.", "Event full; join the waitlist. The program includes two featured talks, prototype demos, and a long technical mingle.", "https://luma.com/84lattht", "9.4/10", "Sign up now"),
-        card("Designing with AI: Panel hosted by Amplitude", "5:30 PM - 8:30 PM PT", "Private address, Yerba Buena", "Amplitude", "Quick-fire live demos and a design-leader panel examine how senior teams are changing workflows, shipping their own designs, and bringing AI into daily product work.", "A 100-person cap, approval gate, and speakers from SpaceXAI, Slack, Ramp, and Eve provide strong hidden-attendance and practitioner signals.", "Registration is open with approval. The room is curated for senior designers; demos begin at 6:00 PM.", "https://luma.com/hc9mndo1", "9.0/10", "Sign up now"),
-        card("humans in the loop", "6:30 PM - 8:30 PM PT", "Private address, San Francisco", "Hardik Mittal, Denise Teng, Manoj Soundararajan, and JPMorgan Innovation Economy", "A capped dinner is designed specifically for AI product managers and forward-deployed engineers at top-tier companies.", "Capacity is 30, admission is approval-gated, and the hosts include a Decagon agent PM plus a former Meta PM now at Gradient; the exact peer mix fits the taste profile unusually well.", "Registration is open with approval. This is a curated peer dinner rather than a structured technical program.", "https://luma.com/islaag11", "8.7/10", "Sign up now"),
+        card("Baseten × NVIDIA Dynamo × SGLang: RL Post-Training", "6:00 PM - 9:00 PM PT", "Private address, San Francisco", "Baseten, NVIDIA Dynamo, and SGLang", "A technical evening examines the systems behind reinforcement-learning post-training, from inference orchestration and throughput to Dynamo and SGLang.", "210 visible attendees, an approval gate, and direct participation from three core infrastructure teams make this an exceptional model-systems room.", "Registration is open with approval.", "https://luma.com/BaseDynSGL", "9.7/10", "Sign up now"),
+        card("SF Database Meetup: Neki Edition", "5:30 PM - 9:00 PM PT", "PlanetScale, 108 Natoma St", "PlanetScale and Neki", "Five technical talks go deep on sharded Postgres, database architecture, distributed execution, operational tradeoffs, and lessons from production.", "100 visible attendees, PlanetScale hosting, and a dense multi-talk program provide excellent infrastructure signals.", "Registration is open with approval.", "https://luma.com/tym2h9zq", "9.6/10", "Sign up now"),
+        card("137th SF Hardware Meetup: Physical AI Robotics", "6:30 PM - 9:30 PM PT", "Private address, Mission District", "SF Hardware Meetup and Mission Robotics", "A talk-and-demo program pairs physical-AI founders and Zoox hardware leadership with a community open mic for working prototypes.", "277 visible attendees, the 137th edition of a 10,500-member hardware community, Mission Robotics hosting, and named robotics operators are exceptional signals.", "Event full; join the waitlist.", "https://luma.com/84lattht", "9.4/10", "Sign up now"),
       ],
     },
     {
       date: "Friday, September 11",
-      verdict: "One exceptional agent-systems lecture",
-      note: "Gray Area hosts the only evening room that clears the technical, attendance, timing, and topic filters.",
+      verdict: "A systems lecture plus a civic build",
+      note: "Gray Area's agent-society double lecture is the clear first choice; an overnight civic buildathon is the credible alternative.",
       events: [
-        card("Agentworld x Superdark Factory", "6:30 PM - 9:00 PM PT", "Gray Area Grand Theater, 2665 Mission St", "Gray Area, Antikythera, and Disintegrator", "A seated double lecture examines hybrid human-AI societies and software production when fully automated agent systems move people outside the loop.", "163 visible attendees, Gray Area hosting, Antikythera research, MIT Press ties, and named talks from Benjamin Bratton and LaunchDarkly AI head Marek Poliks make this a high-signal intellectual room.", "$10 tickets are available. The all-ages program is seated and focused on research and systems thinking rather than networking.", "https://luma.com/fawtwq0b", "9.0/10", "Sign up now"),
+        card("Agentworld × Superdark Factory", "6:30 PM - 9:00 PM PT", "Gray Area Grand Theater, 2665 Mission St", "Gray Area, Antikythera, and Disintegrator", "A seated double lecture examines hybrid human-AI societies and software production when fully automated agent systems move people outside the loop.", "203 visible attendees, Gray Area hosting, Antikythera research, MIT Press ties, and named talks from Benjamin Bratton and Marek Poliks make this a high-signal intellectual room.", "$10 tickets are available. The program is seated and focused on research and systems thinking.", "https://luma.com/fawtwq0b", "9.1/10", "Sign up now"),
+        card("Building for SF", "6:00 PM Fri - 5:00 PM Sat PT", "Yes SF HQ, 220 Montgomery St", "Abundant and Yes SF", "Builders, designers, and policy practitioners form teams around practical civic projects, work through Saturday, and present functioning demos.", "Attendance is hidden, but the concrete build requirement, central venue, and two-day schedule distinguish it from generic civic networking.", "Registration is open. Friday runs 6:00-8:00 PM; the build resumes Saturday at 10:00 AM.", "https://luma.com/abundant-3yz7", "7.8/10", "Consider"),
       ],
     },
     {
       date: "Saturday, September 12",
       verdict: "Three exceptional all-day AI hackathons",
-      note: "Agent loops and open-model evaluation lead; a 142-person agentic-coding build is the strongest open-attendance alternative.",
+      note: "Agent loops and open-model evaluation lead; a large agentic-coding build is the strongest open-attendance alternative.",
       events: [
-        card("CoreWeave Hacks: Agent Loops Hackathon", "9:00 AM Sat - 5:00 PM Sun PT", "CoreWeave, 400 Alabama St", "Weights & Biases, CoreWeave, and AGI House", "A two-day build focuses on agents that reason, act, catch mistakes, trace and evaluate their own iterations, and improve over repeated loops.", "Attendance is hidden, but the approval gate, full CoreWeave agent stack, W&B Weave lineage, expert judging, and production-readiness prize create an exceptional builder room.", "Registration is open with approval. This is a substantive weekend exception and runs through Sunday afternoon; meals and workstations are provided.", "https://luma.com/coreweavehacks", "9.8/10", "Sign up now"),
-        card("Open Model Hack — Gradient x Google DeepMind", "9:30 AM - 7:30 PM PT", "Private address, Northern Waterfront", "tokens&, Gradient, Google DeepMind, Lambda, Nango, and Respan", "AI engineers and researchers will compare current open models on real problems spanning inference, fine-tuning, serving, evaluation, and production tradeoffs.", "Attendance is hidden, but the application gate, Google DeepMind Gemma participation, oversubscribed organizer history, technical partner stack, and live demos are exceptional signals.", "Registration is open with approval. Teams are capped at four; the all-day schedule is a substantive weekend exception.", "https://luma.com/openmodelhack", "9.6/10", "Sign up now"),
-        card("Qoder AI Hackathon", "9:00 AM - 9:00 PM PT", "Private address, Rincon Hill", "B.E.L.L.E Community and Qoder", "A full-day agentic-engineering build asks teams to plan, implement, test, and ship a working product with autonomous coding workflows.", "142 visible attendees, a twelve-hour build, live demos, and $4,500 in cash prizes provide strong room and execution signals.", "Registration is open with approval; six volunteer tickets remain and donation-priced tickets are available. The early start earns a substantive weekend exception.", "https://luma.com/l74b4u7b", "8.8/10", "Sign up now"),
+        card("CoreWeave Hacks: Agent Loops Hackathon", "9:00 AM Sat - 5:00 PM Sun PT", "CoreWeave, 400 Alabama St", "Weights & Biases, CoreWeave, and AGI House", "A two-day build focuses on agents that reason, act, catch mistakes, trace and evaluate their own iterations, and improve over repeated loops.", "The event caps at 200 and combines CoreWeave infrastructure, W&B lineage, expert judging, production-readiness prizes, and more than $20,000 in awards.", "Registration is open with approval. This is a substantive weekend exception and runs through Sunday afternoon.", "https://luma.com/coreweavehacks", "9.8/10", "Sign up now"),
+        card("Open Model Hack — Gradient × Google DeepMind", "9:30 AM - 7:30 PM PT", "Private address, Northern Waterfront", "tokens&, Gradient, Google DeepMind, Lambda, Nango, and Respan", "AI engineers and researchers compare current open models on real problems spanning inference, fine-tuning, serving, evaluation, and production tradeoffs.", "Attendance is hidden, but the application gate, Google DeepMind Gemma participation, technical partner stack, and live-demo requirement are exceptional signals.", "Registration is open with approval. Teams are capped at four.", "https://luma.com/openmodelhack", "9.6/10", "Sign up now"),
+        card("Qoder AI Hackathon", "9:00 AM - 9:00 PM PT", "Private address, Rincon Hill", "B.E.L.L.E Community and Qoder", "A full-day agentic-engineering build asks teams to plan, implement, test, and ship a working product with autonomous coding workflows.", "155 visible attendees, a twelve-hour build, live demos, and $4,500 in cash prizes provide strong room and execution signals.", "Registration is open with approval; volunteer and donation-priced tickets remain. The early start earns a substantive weekend exception.", "https://luma.com/l74b4u7b", "8.8/10", "Sign up now"),
       ],
     },
     {
       date: "Sunday, September 13",
       verdict: "One substantive multimodal-AI build",
-      note: "The only SF option clearing the hard filters combines professional instruction, hands-on production, and a same-day film showcase.",
+      note: "The only SF option clearing the filters combines professional instruction, hands-on production, and a same-day film showcase.",
       events: [
-        card("AI Filmmaking Masterclass + Hackathon", "9:00 AM - 7:00 PM PT", "Private address, Financial District", "The Multimodal Society, Roan Weigert, and Bond AI", "A practical masterclass on direction, consistency, editing, sound, and delivery leads into a four-hour build and big-screen short-film showcase.", "177 visible attendees, application-based admission, a professional director with 1,600-plus videos, frontier-lab partners, tool credits, and a finished-film requirement are strong signals.", "Standard $49 tickets remain available. The all-day schedule is a substantive weekend exception.", "https://luma.com/pw54q8np", "8.8/10", "Sign up now"),
+        card("AI Filmmaking Masterclass + Hackathon", "9:00 AM - 7:00 PM PT", "Private address, Financial District", "The Multimodal Society, Roan Weigert, and Bond AI", "A practical masterclass on direction, consistency, editing, sound, and delivery leads into a four-hour build and big-screen short-film showcase.", "184 visible attendees, application-based admission, frontier-lab partners, tool credits, and a finished-film requirement are strong signals.", "Standard $49 tickets remain available. The all-day schedule is a substantive weekend exception.", "https://luma.com/pw54q8np", "8.8/10", "Sign up now"),
       ],
     },
     {
@@ -156,17 +133,45 @@ const scan = {
       verdict: "One exceptional builder demo night",
       note: "WorkOS's recurring no-slides, no-pitches format is the clear best room on a Dreamforce-heavy Monday.",
       events: [
-        card("Demo Night @ WorkOS (September)", "5:30 PM - 8:00 PM PT", "WorkOS, 660 Market St", "WorkOS and Michael Grinich", "Builders show live side projects, internal tools, open-source work, and startups, with feedback and discussion replacing decks or company pitches.", "368 visible attendees, direct WorkOS hosting, a recurring format, and strict live-demo rules make this an exceptional builder room.", "Registration is open. The demo lineup has not yet been announced.", "https://luma.com/demo-night-sept2026", "9.7/10", "Sign up now"),
+        card("Demo Night @ WorkOS (September)", "5:30 PM - 8:00 PM PT", "WorkOS, 660 Market St", "WorkOS and Michael Grinich", "Builders show live side projects, internal tools, open-source work, and startups, with feedback and discussion replacing decks or company pitches.", "399 visible attendees, a recurring builder audience, and a strict live-demo format make this an exceptional broad technical room.", "Registration is open; one spot remains. No slides and no pitches.", "https://luma.com/demo-night-sept2026", "9.7/10", "Sign up now"),
       ],
     },
     {
       date: "Tuesday, September 15",
-      verdict: "Three excellent agent and voice-AI rooms",
-      note: "Sentry's lightning-demo room leads, followed by a production-grade durable-agent architecture session and a newly listed voice-plus-robotics panel.",
+      verdict: "Three strong agent-engineering rooms",
+      note: "A massive practitioner showcase leads, followed by a durable-agent architecture deep dive and a new voice-plus-robotics program.",
       events: [
-        card("All Things Agent Setups", "5:30 PM - 8:30 PM PT", "Sentry, 45 Fremont St", "All Things Web, Sentry, Andre Landgraf, and Erik Thorelli", "Three-minute lightning demos expose the harnesses, local and remote environments, workflows, and practical choices behind agentic setups people actually use.", "280 visible attendees, direct Sentry hosting, a show-your-work format, and a concentrated agent-builder audience make this an unusually strong practical room.", "Registration is open. The agenda favors many concise working demos over panels or pitches.", "https://luma.com/allthings-kj2x", "9.5/10", "Sign up now"),
-        card("Builder After Hours: Durable Agents with MongoDB & Temporal", "5:30 PM - 8:30 PM PT", "Avotoasty, 101 California St", "MongoDB and Temporal", "An end-to-end reference architecture follows data through durable ingestion, embeddings, vector search, agent orchestration, retries, checkpointing, resumability, and zero-downtime migrations.", "Attendance is hidden, but direct MongoDB and Temporal hosting, named senior developer advocates, an approval gate, and a released reference implementation are exceptional technical signals.", "Registration is open with approval. The structured demo and deep dive run from 6:05 PM to 7:00 PM, followed by networking.", "https://luma.com/hu0e1aks", "9.4/10", "Sign up now"),
-        card("The Audio Layer 3.0: Voice x Robotics", "6:00 PM - 9:00 PM PT", "Tavus, 35 Stillman St", "Audio Layer, Tavus, ai-coustics, LiveKit, Gradium, and Lightberry", "Live demos and a technical panel connect full-duplex interfaces, audio isolation, real-time agent infrastructure, perception, and interactive robotics under real-world noise and latency constraints.", "Only four attendees are visible, but this is a newly listed room with named Tavus, LiveKit, ai-coustics, Gradium, and Lightberry leaders plus a concrete demo-and-panel program.", "Registration is open with approval. The tentative program begins with demos at 6:30 PM and the panel at 7:00 PM.", "https://luma.com/uxmg18ib", "8.8/10", "Consider"),
+        card("All Things Agent Setups", "5:30 PM - 8:30 PM PT", "Sentry, 45 Fremont St", "Sentry and All Things AI", "Practitioners compare the stacks, tools, observability, and workflow choices behind agents that operate reliably in production.", "347 visible attendees, Sentry hosting, and an explicit production-agent focus create a strong builder room.", "Registration is open.", "https://luma.com/allthings-kj2x", "9.5/10", "Sign up now"),
+        card("Building Durable Agents: MongoDB × Temporal", "5:30 PM - 8:30 PM PT", "Avotoasty, 101 California St", "MongoDB and Temporal", "An end-to-end reference architecture covers state, retries, orchestration, observability, and failure recovery for long-running AI agents.", "Attendance is hidden, but the unusually concrete technical scope and direct MongoDB and Temporal involvement are excellent signals.", "Registration is open with approval.", "https://luma.com/hu0e1aks", "9.4/10", "Sign up now"),
+        card("Audio Layer 3.0: Voice × Robotics", "6:00 PM - 9:00 PM PT", "Tavus, 35 Stillman St", "Tavus, ai-coustics, LiveKit, Gradium, and Lightberry", "Live demos and a technical panel explore low-latency speech, expressive voice, embodied interfaces, and the audio layer for robotics.", "Only 20 attendees are visible, but the listing is new and the named voice-infrastructure and robotics partners justify the exception.", "Registration is open with approval.", "https://luma.com/uxmg18ib", "8.9/10", "Sign up now"),
+      ],
+    },
+    {
+      date: "Wednesday, September 16",
+      verdict: "Three strong production-engineering rooms",
+      note: "Hands-on customer-experience demos lead, with forward-looking inference planning and a well-established Rust graphics meetup.",
+      events: [
+        card("Customer Experience & AI Demo Night", "5:30 PM - 8:00 PM PT", "Private address, San Francisco", "Plain and Persona", "Support engineers and forward-deployed teams show live systems for AI-assisted customer operations, with practical implementation discussion after each demo.", "Attendance is hidden, but direct Plain and Persona participation, an approval gate, and a technical support-engineering audience are strong signals.", "Registration is open with approval.", "https://luma.com/cxdemonight", "9.3/10", "Sign up now"),
+        card("The Next AI Stack: Planning Models and Infrastructure", "6:00 PM - 9:00 PM PT", "Private address, San Francisco", "Enrich, Baseten, and Cotality", "A technical program examines how teams should plan inference capacity, architecture, and serving strategy as models and NVIDIA's Vera Rubin platform evolve.", "36 visible attendees and named infrastructure practitioners from Baseten and Cotality create a focused room above the normal floor.", "Registration is open with approval.", "https://luma.com/enrich-15lm", "9.1/10", "Sign up now"),
+        card("Bay Area Rust Graphics Meetup", "6:00 PM - 8:30 PM PT", "Atuin office, San Francisco", "Bay Area Rust and Zed", "Three talks cover graphics engineering in Rust, with space for technical questions and discussion among systems practitioners.", "90 visible attendees, Zed organizer involvement, and a focused three-talk agenda make this a credible non-AI technical alternative.", "Registration is open with approval.", "https://luma.com/9oiujuyw", "8.5/10", "Consider"),
+      ],
+    },
+    {
+      date: "Thursday, September 17",
+      verdict: "Three exceptional AI research and implementation rooms",
+      note: "A Google-and-NVIDIA journal club leads a spotlight-paper reading group and a practical internal-AI show-and-tell.",
+      events: [
+        card("AI Journal Club ft. Google + NVIDIA", "5:30 PM - 8:00 PM PT", "Workato, private SF address", "AI Journal Club and Workato", "Google DeepMind and NVIDIA researchers present work on reasoning search, reinforcement learning, post-training, and nondeterministic kernels, followed by technical discussion.", "Attendance is hidden, but two named frontier-lab research teams, an approval gate, and a paper-driven format make this an exceptional room.", "Registration is open with approval.", "https://luma.com/0460rgnq", "9.8/10", "Sign up now"),
+        card("Persona ML Reading Group: Federico Bianchi", "6:00 PM - 8:00 PM PT", "Private address, San Francisco", "Persona Machine Learning", "Federico Bianchi leads a close discussion of TTT-Discover, combining reinforcement learning and search to discover test-time training strategies.", "Attendance is hidden, but the ICML 2026 Spotlight paper, named research lead, and approval-gated reading-group format are exceptional signals.", "Registration is open with approval.", "https://luma.com/personabianchi", "9.6/10", "Sign up now"),
+        card("AI-Pilling Your Company: Builder Show & Tell", "5:00 PM - 8:00 PM PT", "Private address, South Beach", "Decagon, Accel, and Andreessen Horowitz", "Operators from Decagon, Ramp, Cursor, and Cognition show the internal AI workflows their own teams use, with implementation details rather than sales decks.", "41 visible attendees, a curated operator audience, and named builder teams create a strong practical room despite investor co-hosts.", "Registration is open with approval. The 5:00 PM start meets the weekday floor.", "https://luma.com/tewv4rbz", "9.3/10", "Sign up now"),
+      ],
+    },
+    {
+      date: "Friday, September 18",
+      verdict: "One strong voice-AI healthcare room",
+      note: "The SF finalist has live demos and named ML and clinical operators; the larger frontier-research panel was excluded because its venue is in Berkeley.",
+      events: [
+        card("The AI Future of Healthcare: Voice Edition", "6:00 PM - 9:30 PM PT", "Entrepreneurs First, 501 Folsom St", "Noah Labs and Entrepreneurs First", "Live demos and a fireside examine voice biomarkers, early disease detection, clinical evidence, regulatory clearance, and the path from ML research to deployment.", "The event targets 50-plus healthcare-AI operators and investors and names technical founders from Noah Labs and Amplifier Health.", "Registration is open with approval. The event page header confirms Friday, September 18 despite a stale weekday label in the body copy.", "https://luma.com/65hodpiq", "8.9/10", "Sign up now"),
       ],
     },
   ],
@@ -187,7 +192,6 @@ const scan = {
     ],
   },
 };
-
 
 function badgeClass(label) {
   const normalized = label.toLowerCase();
