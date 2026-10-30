@@ -12,9 +12,9 @@ const card = (
 ) => ({ title, time, venue, host, why, signal, notes, link, score, recommendation });
 
 const scan = {
-  checkedAt: "October 29, 2026",
-  updatedAt: "October 29, 2026",
-  windowLabel: "October 29, 2026 → November 12, 2026",
+  checkedAt: "October 30, 2026",
+  updatedAt: "October 30, 2026",
+  windowLabel: "October 30, 2026 → November 13, 2026",
   featured: [
     {
       title: "Night Hack by Founders, Inc.",
@@ -31,30 +31,20 @@ const scan = {
       link: "https://luma.com/pragmatic-engineer-unplugged",
     },
     {
-      title: "VapiCon 2026",
-      date: "Wed–Thu, Nov 11–12",
+      title: "SGLang Summit 2026",
+      date: "Thu–Fri, Nov 12–13",
       recommendation: "Sign up now",
-      summary: "A 1,200-plus-person voice-AI summit with OpenAI, Vercel, LangChain, Deepgram, WorkOS, Coval, and more.",
-      link: "https://vapi.ai/vapicon-2026",
+      summary: "Two days of frontier AI infrastructure with OpenAI, Thinking Machines, Perplexity, Intel, NVIDIA, Google, AWS, and Meta.",
+      link: "https://luma.com/sglang-summit",
     },
   ],
   days: [
-    {
-      date: "Thursday, October 29",
-      verdict: "Three focused rooms across AI security, machine design, and creative inference",
-      note: "Cloudflare's two-panel security program leads. Designers & Machines offers a much smaller demos-only room, while Modal and Gray Area remain worth the waitlist for creative-infrastructure depth.",
-      events: [
-        card("Zero Trust for AI: Securing Models, Data, and Autonomous Agents", "5:00 PM - 7:30 PM PT", "Cloudflare, 101 Townsend St", "Women in Cybersecurity — Silicon Valley", "Cloudflare, Locktivity, Sysdig, and Splunk speakers apply Zero Trust principles to AI governance, runtime security, attack-surface management, and autonomous agents.", "197 visible attendees, a first-party Cloudflare venue, and two detailed practitioner panels make this the strongest room tonight.", "Three spots remained at check time.", "https://luma.com/nydm47zd", "8.7/10", "Sign up now"),
-        card("Designers & Machines October 2026", "6:30 PM - 9:30 PM PT", "Private address, San Francisco", "Designers & Machines", "Five designers give five-minute, slides-free demos of current experiments at the intersection of design and machine intelligence, followed by dinner and discussion.", "65 visible attendees, a 50-designer target room, more than 500 monthly requests, and project-based approval create a compact, selective audience.", "Five spots remained at check time; registration requires approval.", "https://luma.com/u0l7j6iz", "8.0/10", "Sign up now"),
-        card("Inference as Instrument", "7:00 PM - 9:00 PM PT", "Gray Area / Grand Theater, 2665 Mission St", "Modal and Gray Area", "Runway, Modal, and working artists examine how inference-powered systems are becoming creative instruments across art, music, film, and design, followed by exhibition access.", "Named technical and creative practitioners, Modal's infrastructure perspective, and Gray Area's commissioned program make this more substantive than a generic AI-art panel.", "Event full; join the waitlist.", "https://luma.com/modal-48ev", "7.8/10", "Consider"),
-      ],
-    },
     {
       date: "Friday, October 30",
       verdict: "A standout late-week build, demo, and judging night",
       note: "Night Hack is the clear choice: a real five-hour build window, live demos instead of decks, and unusually strong developer-tool support.",
       events: [
-        card("Night Hack by Founders, Inc.", "4:15 PM - 11:00 PM PT; build starts 5:00 PM", "Private address, San Francisco", "Founders, Inc. with Anthropic, Firecrawl, Bolt, and Convex", "Builders form teams, ship for five hours, then exhibit working projects for live judging and finalist demos.", "104 visible attendees, $10,000 in Anthropic prize credits, per-builder API credits, and the prior edition's 120-plus projects signal serious builder density.", "Registration is open with approval. Arrive at 4:15 PM; the substantive build block runs 5:00-10:00 PM.", "https://luma.com/nighthack", "9.2/10", "Sign up now"),
+        card("Night Hack by Founders, Inc.", "4:15 PM - 11:00 PM PT; build starts 5:00 PM", "Private address, San Francisco", "Founders, Inc. with Anthropic, Firecrawl, Bolt, and Convex", "Builders form teams, ship for five hours, then exhibit working projects for live judging and finalist demos.", "374 visible attendees, $10,000 in Anthropic prize credits, per-builder API credits, and the prior edition's 120-plus projects signal serious builder density.", "Registration is open with approval. Arrive at 4:15 PM; the substantive build block runs 5:00-10:00 PM.", "https://luma.com/nighthack", "9.2/10", "Sign up now"),
       ],
     },
     {
@@ -87,8 +77,8 @@ const scan = {
       verdict: "An unusually strong night for building, decision models, and production voice AI",
       note: "Mistral and Elastic lead with a real build-and-demo format. Liquid AI's decision-model showcase and Coval's production fireside are excellent focused alternatives.",
       events: [
-        card("Make SF Better: A Hack Night with Mistral AI", "5:00 PM - 8:00 PM PT", "Elastic, 33 New Montgomery St", "Mistral AI and Elastic", "Builders use Mistral models, Elasticsearch, and San Francisco open data to prototype tools for transit, local businesses, public spaces, community needs, and city services.", "198 visible attendees, on-site mentors, a two-hour build block, and end-of-night demos create the strongest hands-on room of the evening.", "Registration is open.", "https://luma.com/mistral-elastic", "9.0/10", "Sign up now"),
-        card("Decision Models SF — Demo Night", "5:30 PM - 9:00 PM PT", "Private address, San Francisco", "Liquid AI", "Maxime Labonne explains purpose-built decision models for routing, agent actions, moderation, evaluation, and multimodal inspection before a full hour of builder demos.", "105 visible attendees, a named post-training expert, a tightly scoped technical talk, and a real showcase make this a high-signal model-systems room.", "Registration is open with approval; the exact address is disclosed to approved attendees.", "https://luma.com/ejl2hloq", "8.7/10", "Sign up now"),
+        card("Make SF Better: A Hack Night with Mistral AI", "5:00 PM - 8:00 PM PT", "Elastic, 33 New Montgomery St", "Mistral AI and Elastic", "Builders use Mistral models, Elasticsearch, and San Francisco open data to prototype tools for transit, local businesses, public spaces, community needs, and city services.", "256 visible attendees, on-site mentors, a two-hour build block, and end-of-night demos create the strongest hands-on room of the evening.", "Registration is open.", "https://luma.com/mistral-elastic", "9.0/10", "Sign up now"),
+        card("Decision Models SF — Demo Night", "5:30 PM - 9:00 PM PT", "Private address, San Francisco", "Liquid AI", "Maxime Labonne explains purpose-built decision models for routing, agent actions, moderation, evaluation, and multimodal inspection before a full hour of builder demos.", "133 visible attendees, a named post-training expert, a tightly scoped technical talk, and a real showcase make this a high-signal model-systems room.", "Registration is open with approval; the exact address is disclosed to approved attendees.", "https://luma.com/ejl2hloq", "8.7/10", "Sign up now"),
         card("Building Voice AI That Holds Up in Production", "5:30 PM - 8:00 PM PT", "Cloudflare, 101 Townsend St", "Coval and Cloudflare Developer", "Coval founder Brooke Hopkins and Cloudflare voice-AI PM Korinne Alpers examine latency, state, regression testing, monitoring, and human-review handoffs for production voice agents.", "34 visible attendees clear the room-size floor; Coval's evaluation work, Cloudflare's Agents SDK experience, and Brooke's former Waymo evaluation role add serious practitioner signal.", "Registration is open with approval.", "https://luma.com/iq4hna2x", "8.5/10", "Sign up now"),
       ],
     },
@@ -98,8 +88,8 @@ const scan = {
       note: "The Pragmatic Engineer leads on speaker quality; PlanetScale has the deepest technical agenda, and the Codex room is the most product-oriented.",
       events: [
         card("The Pragmatic Engineer Unplugged", "5:00 PM - 7:30 PM PT", "SFJAZZ, 201 Franklin St", "The Pragmatic Engineer and WorkOS", "Gergely Orosz hosts Oxide CTO Bryan Cantrill and Jev creator Diogo Almeida for a candid live conversation on how software is built and how AI is changing engineering craft.", "The speaker trio, WorkOS host, and SFJAZZ setting make this one of the window's strongest engineering rooms.", "Registration is free with approval; space is limited.", "https://luma.com/pragmatic-engineer-unplugged", "9.2/10", "Sign up now"),
-        card("Postgres Day SF Meetup", "5:30 PM - 9:00 PM PT", "PlanetScale, 108 Natoma St", "PlanetScale and Bruce Momjian", "Talks cover eBPF tracing for PostgreSQL performance, free-space maps, and a closing reflection from Postgres co-founder Bruce Momjian on the database's future.", "189 visible attendees, two core PlanetScale engineers, Bruce Momjian, and a ninety-minute technical talk block create a high-signal database room.", "Registration is open with approval.", "https://luma.com/haxfnzo1", "8.9/10", "Sign up now"),
-        card("Self-Improving Products with Codex", "5:30 PM - 8:30 PM PT", "Amplitude, 201 3rd St", "Amplitude Community and Peter Yang", "Peter Yang and the Amplitude team demo Codex-driven product workflows and AI-assisted customer understanding, followed by audience Q&A.", "99 visible attendees and live demos at a first-party product venue make this credible, though the room is broader and less technical than the top two.", "Registration is open with approval.", "https://luma.com/7a9oq3cy", "8.3/10", "Sign up now"),
+        card("Postgres Day SF Meetup", "5:30 PM - 9:00 PM PT", "PlanetScale, 108 Natoma St", "PlanetScale and Bruce Momjian", "Talks cover eBPF tracing for PostgreSQL performance, free-space maps, and a closing reflection from Postgres co-founder Bruce Momjian on the database's future.", "205 visible attendees, two core PlanetScale engineers, Bruce Momjian, and a ninety-minute technical talk block create a high-signal database room.", "Registration is open with approval.", "https://luma.com/haxfnzo1", "8.9/10", "Sign up now"),
+        card("Self-Improving Products with Codex", "5:30 PM - 8:30 PM PT", "Amplitude, 201 3rd St", "Amplitude Community and Peter Yang", "Peter Yang, OpenAI's Tony Deng, and the Amplitude team demo Codex-driven product workflows and AI-assisted customer understanding, followed by audience Q&A.", "122 visible attendees and live demos at a first-party product venue make this credible, though the room is broader and less technical than the top two.", "Registration is open with approval.", "https://luma.com/7a9oq3cy", "8.3/10", "Sign up now"),
       ],
     },
     {
@@ -117,15 +107,16 @@ const scan = {
       verdict: "A substantive developer workshop day, but much earlier than preferred",
       note: "BoxWorks is the only strong technical option that survives the content filters. Its Friday program ends at lunch, so this is visible as best available rather than promoted as an after-work pick.",
       events: [
-        card("BoxWorks Dev Summit — Friday Workshops", "9:00 AM - 1:00 PM PT", "San Francisco Marriott Marquis, 780 Mission St", "Box Devs with OpenAI, AWS, Docker, Meta, NVIDIA, and others", "Hands-on workshops and technical deep dives cover building with Box and leading AI tooling, including developer sessions on agents, MCP, and multi-agent applications.", "440 visible attendees on the two-day Luma listing and a serious partner roster signal a strong conference room; the Friday-only timing is the decisive drawback.", "Applications for limited developer passes are open. This is a daytime commitment with no Friday evening program advertised.", "https://luma.com/box-dev-summit-2026", "6.3/10", "Not recommended - best available"),
+        card("BoxWorks Dev Summit — Friday Workshops", "9:00 AM - 1:00 PM PT", "San Francisco Marriott Marquis, 780 Mission St", "Box Devs with OpenAI, AWS, Docker, Meta, NVIDIA, and others", "Hands-on workshops and technical deep dives cover building with Box and leading AI tooling, including developer sessions on agents, MCP, and multi-agent applications.", "451 visible attendees on the two-day Luma listing and a serious partner roster signal a strong conference room; the Friday-only timing is the decisive drawback.", "Applications for limited developer passes are open. This is a daytime commitment with no Friday evening program advertised.", "https://luma.com/box-dev-summit-2026", "6.3/10", "Not recommended - best available"),
       ],
     },
     {
       date: "Saturday, November 7",
-      verdict: "A credible agent build day with an evening-only path",
-      note: "The full build begins at noon, but a separate free ticket starts at 4:30 PM for demos, keynotes, dinner, and technical conversation, bringing the event inside the weekend timing rule.",
+      verdict: "An evening-accessible agent build leads a deeper all-day Anthropic-backed hack",
+      note: "Grok's separate 4:30 PM ticket fits the weekend window. Ship Happens is more technically demanding but starts at 10:00 AM, so it remains visible as best available rather than a recommendation.",
       events: [
         card("Grok Bot Build Day SF: Real-World Agents", "12:00 PM - 7:00 PM PT; evening ticket starts 4:30 PM", "Hippo Campus, 1050 Sansome St", "SpaceXSI San Francisco", "Builders put Grok Bot to work on real workflows, software, sensors, or on-device systems, then share experiments before an agents-and-robotics dinner.", "The event is capped around 100, provides build credits and prizes, and offers a separate 4:30 PM demos-and-keynotes ticket for people who cannot commit to the daytime build.", "Registration is free with approval. Choose the 4:30-7:00 PM ticket to stay within the weekend preference.", "https://luma.com/ba9sivsv", "7.7/10", "Consider"),
+        card("Ship Happens: A Seldon Hackathon", "10:00 AM - 8:00 PM PT", "Private address, SoMa", "Seldon with Anthropic", "Teams replace a paid software product in one day, then hand the product to Seldon's QA agent and a Seldon operator for live workflow testing before demos and prizes.", "Anthropic support, up to $5,000 in prizes, mandatory Wren test results, and a working-product requirement create strong builder signal; the 10:00 AM start is the decisive drawback.", "Registration is free with approval. This is an all-day commitment outside the preferred weekend window.", "https://luma.com/seldon-4b3d", "6.4/10", "Not recommended - best available"),
       ],
     },
     {
@@ -147,7 +138,7 @@ const scan = {
       verdict: "Agentic-AI demos at GitHub lead a strong infrastructure alternative",
       note: "Microsoft Foundry Live cleanly fits the after-work window. Terna's grid-and-data-center forum starts early, but its best panels run through 6:10 PM and are unusually specific.",
       events: [
-        card("Foundry Live: Agentic AI Demo Night", "5:00 PM - 8:00 PM PT", "GitHub, 88 Colin P Kelly Jr St", "Microsoft Foundry Live", "Bay Area startups give live agentic-AI demos and technical deep dives, followed by discussion and networking.", "74 visible attendees, a first-party GitHub venue, and Microsoft's recurring demo-night format create a credible room despite the still-unpublished startup lineup.", "Registration is open with approval.", "https://luma.com/vy6q8htj", "8.4/10", "Sign up now"),
+        card("Foundry Live: Agentic AI Demo Night", "5:00 PM - 8:00 PM PT", "GitHub, 88 Colin P Kelly Jr St", "Microsoft Foundry Live", "Bay Area startups give live agentic-AI demos and technical deep dives, followed by discussion and networking.", "80 visible attendees, a first-party GitHub venue, and Microsoft's recurring demo-night format create a credible room despite the still-unpublished startup lineup.", "Registration is open with approval.", "https://luma.com/vy6q8htj", "8.4/10", "Sign up now"),
         card("Terna Innovation Zone Forum: Power for AI and Data Centers", "4:00 PM - 8:00 PM PT", "Mind the Bridge, 450 Townsend St", "Terna and Mind the Bridge", "AWS, Google, EDF, EPRI, GridCare, Emerald AI, and FLUIX AI speakers examine how grids can connect new AI and data-center loads and move GridTech from research into deployment.", "The program has named infrastructure operators and two concrete panels on the connection race and production GridTech, but doors and opening remarks begin an hour earlier than preferred.", "Registration is open with approval. Best content runs 4:45-6:10 PM, followed by a showcase and aperitivo.", "https://luma.com/svtaeqxu", "7.0/10", "Consider"),
       ],
     },
@@ -157,16 +148,27 @@ const scan = {
       note: "VapiCon is the stronger room by a wide margin. SF Ruby is technically excellent but daytime-only, expensive, and AI-light on its second day.",
       events: [
         card("VapiCon 2026 — Day 1", "Full day; happy hour closes the program", "Festival Pavilion, Fort Mason, 2 Marina Blvd", "Vapi", "The frontier voice-AI summit brings product keynotes, technical builder and leader tracks, breakouts, demos, workshops, and a closing happy hour.", "The organizers advertise 1,200-plus attendees, 50-plus speakers, and leaders from OpenAI, Vercel, LangChain, Deepgram, WorkOS, Coval, Twilio, Cartesia, Daily, and Arize.", "Tickets are available through the official site and Luma approval flow. No evening-only admission or exact daily hours are published.", "https://luma.com/vapi-9sdp", "8.8/10", "Sign up now"),
-        card("San Francisco Ruby Conference — Day 2", "9:00 AM - 4:30 PM PT", "SFJAZZ, 201 Franklin St", "SF Ruby and Evil Martians", "A full day of technical talks covers Rails queues and concurrency, Kubernetes platforms, open-source search at scale, reactive views, background processing, and satellite command and control.", "Speakers come from 37signals, Shopify, Gusto, Persona, Typesense, and OpenC3, and the format alternates talks with focused engineering conversation groups.", "Paid conference ticket required. The program is daytime-only and explicitly AI-light, so it is visible as best available rather than an after-work recommendation.", "https://luma.com/sfrubyconf2026", "6.3/10", "Not recommended - best available"),
+        card("San Francisco Ruby Conference — Day 2", "9:00 AM - 4:30 PM PT", "SFJAZZ, 201 Franklin St", "SF Ruby and Evil Martians", "A full day of technical talks covers Rails queues and concurrency, Kubernetes platforms, open-source search at scale, reactive views, background processing, and satellite command and control.", "Speakers come from 37signals, Shopify, Gusto, Persona, Typesense, and OpenC3, and the format alternates talks with focused engineering conversation groups.", "All public ticket types currently show zero availability. The program is daytime-only and explicitly AI-light, so it is visible as best available rather than an after-work recommendation.", "https://luma.com/sfrubyconf2026", "6.3/10", "Not recommended - best available"),
       ],
     },
     {
       date: "Thursday, November 12",
-      verdict: "VapiCon's second day leads; SF Ruby offers a smaller evening community close",
-      note: "The voice-AI summit remains the strongest technical room. SF Ruby Wrapped is the after-work alternative, though its program is social rather than talk-driven.",
+      verdict: "Two major AI summits lead a smaller evening engineering-community close",
+      note: "SGLang has the deepest frontier-infrastructure roster; VapiCon is the stronger voice-AI room and closes with a happy hour. SF Ruby Wrapped is the after-work alternative.",
       events: [
+        card("SGLang Summit 2026 — Day 1", "10:00 AM - 4:00 PM PT", "Fort Mason Center, 2 Marina Blvd", "LMSYS and SGLang", "Main-stage sessions cover the SGLang roadmap, open models, recursive self-improvement, and AI hardware, alongside technical breakouts, hands-on labs, an expo, and an open demo stage.", "The 2,000-plus-person summit brings OpenAI's Lilian Weng, Thinking Machines CTO Soumith Chintala, Intel CEO Lip-Bu Tan, and senior leaders from NVIDIA, Google, AWS, Meta, and the open-model ecosystem.", "Full passes are sold out; paid expo passes remain available and include breakouts, hands-on labs, meals, and the expo floor. This is a daytime commitment.", "https://luma.com/sglang-summit", "9.1/10", "Sign up now"),
         card("VapiCon 2026 — Day 2", "Full day; happy hour closes the program", "Festival Pavilion, Fort Mason, 2 Marina Blvd", "Vapi", "Day two continues the frontier voice-AI summit with keynotes, technical and product breakouts, workshops, demos, a fireside chat, and a closing happy hour.", "The 1,200-plus-person summit concentrates voice-AI infrastructure and production leaders, including OpenAI's realtime team, Vercel, LangChain, Deepgram, WorkOS, Coval, Twilio, and Cartesia.", "Tickets include both days, meals, and happy hour. No evening-only admission or exact daily hours are published.", "https://vapi.ai/vapicon-2026", "8.8/10", "Sign up now"),
         card("SF Ruby 2026 Wrapped with MUX", "6:00 PM - 9:00 PM PT", "Mux HQ, Financial District", "SF Ruby and Mux", "SF Ruby closes its three-day conference with an evening gathering for local Ruby and Rails engineers at Mux.", "45 visible attendees and an established engineering community create a credible small room, but the listing promises conversation rather than talks or demos.", "Registration is open with approval; the exact address is disclosed to approved attendees.", "https://luma.com/sfruby2026-wrapped", "7.2/10", "Consider"),
+      ],
+    },
+    {
+      date: "Friday, November 13",
+      verdict: "A superb evening hack plus a frontier-infrastructure summit and an enterprise agent panel",
+      note: "Liquid AI and Qualcomm lead with a real on-device build-and-test format. SGLang offers the deepest daytime room; BAND is the lighter after-work option for engineering leaders.",
+      events: [
+        card("On-Device AI Hackathon: Cleared for Takeoff", "5:00 PM - 9:00 PM PT", "Private address, San Francisco", "Liquid AI and Qualcomm", "Teams build with Liquid Foundation Models and Qualcomm hardware, then the hosts switch off Wi-Fi and judge whether every project actually runs on-device.", "122 visible attendees, a technical workshop, two-hour build block, real hardware constraints, and an end-of-night showcase make this the strongest after-work room of the day.", "Registration is open with approval; the exact address is disclosed to approved attendees.", "https://luma.com/0nsdnkoa", "9.1/10", "Sign up now"),
+        card("SGLang Summit 2026 — Day 2", "9:30 AM - 5:00 PM PT", "Fort Mason Center, 2 Marina Blvd", "LMSYS and SGLang", "Day two focuses on AI agents, emerging research labs, AI applications, and physical intelligence, with technical breakouts, workshops, lightning talks, and an ending keynote.", "Aravind Srinivas, Igor Babuschkin, Eric Zelikman, Liam Fedus, and a broad frontier-infrastructure roster make this one of the window's strongest technical rooms.", "Full passes are sold out; paid expo passes remain available but omit main-stage talks. This is a daytime commitment.", "https://www.sglang.io/summit", "8.8/10", "Sign up now"),
+        card("AI Software Factories in the Enterprise", "5:30 PM - 8:00 PM PT", "AWS Builder Loft, 525 Market St", "HackerSquad, BAND, and AWS Builder Loft", "A focused panel examines multi-agent coding architecture, shared context, evaluation, code review, governance, access control, and how enterprises should measure coordinated-agent workflows.", "The topic is unusually specific and the AWS venue is credible, but the panelists are still unannounced and the listing hides attendance.", "Registration is free with approval. The final speaker lineup and required AWS venue-registration link are still pending.", "https://luma.com/band-buildathon-happy-hour-nov13", "7.1/10", "Consider"),
       ],
     },
   ],
