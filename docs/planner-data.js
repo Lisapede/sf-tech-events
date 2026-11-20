@@ -12,23 +12,16 @@ const card = (
 ) => ({ title, time, venue, host, why, signal, notes, link, score, recommendation });
 
 window.plannerData = {
-  checkedAt: "November 18, 2026 at 7:15 PM PT",
-  updatedAt: "November 18, 2026",
-  windowLabel: "November 18, 2026 → December 2, 2026",
+  checkedAt: "November 20, 2026 at 2:04 AM PT",
+  updatedAt: "November 20, 2026",
+  windowLabel: "November 20, 2026 → December 4, 2026",
   featured: [
     {
-      title: "Agentic + AI Night: AI Agents Across the App Stack",
-      date: "Thu, Nov 19",
+      title: "AI Tinkerers: Agent Infrastructure Night",
+      date: "Thu, Dec 3",
       recommendation: "Sign up now",
-      summary: "Six production-agent sessions bring Databricks, Neon, Vercel, OpenAI, Nimble, and WorkOS into one pitch-free technical room.",
-      link: "https://luma.com/Agentic_AI_Night-11-19",
-    },
-    {
-      title: "On-Device Agents with Liquid AI x AI Socratic",
-      date: "Wed, Nov 18",
-      recommendation: "Sign up now",
-      summary: "A capped technical room traces local agents from efficient models through NPUs, runtimes, deployment, and benchmarking.",
-      link: "https://luma.com/on-device-agents",
+      summary: "A screened 40-person room goes deep on agent runtimes, orchestration, state, evals, permissions, and production reliability.",
+      link: "https://sf.aitinkerers.org/p/ai-tinkerers-san-francisco-agent-infrastructure-night",
     },
     {
       title: "How to Train LLMs to Beat Frontier Models",
@@ -37,27 +30,15 @@ window.plannerData = {
       summary: "Phonely turns messy production calls into a fine-tuned model, then evaluates it against a frontier baseline at AWS.",
       link: "https://luma.com/skwlv4im",
     },
+    {
+      title: "GTM Engineering Demo Night: December Edition",
+      date: "Fri, Dec 4",
+      recommendation: "Sign up now",
+      summary: "AI Tinkerers puts live code, workflows, traces, evals, and learning loops on screen in a slide-free, no-pitch builder room.",
+      link: "https://sf.aitinkerers.org/p/gtm-engineering-demo-night-december-edition",
+    },
   ],
   days: [
-    {
-      date: "Wednesday, November 18",
-      verdict: "Two exceptional rooms spanning local agents and research tooling",
-      note: "Liquid AI and AI Socratic lead with a capped, five-speaker technical program. Snorkel AI's Paper2Agent reading group is the research-first alternative.",
-      events: [
-        card("On-Device Agents with Liquid AI x AI Socratic", "6:00 PM - 9:30 PM PT", "Private address, San Francisco", "Liquid AI and AI Socratic", "Technical talks trace local agents from efficient architectures through NPUs, runtimes, deployed apps, and benchmarks for quality, latency, memory, and power.", "99 visible attendees in a deliberately capped room, with speakers from Liquid AI, Cactus Compute, Qualcomm, Xybrid, and ZETIC.", "Event full; join the waitlist. Every request is reviewed, and the exact Liquid AI address is disclosed to approved attendees.", "https://luma.com/on-device-agents", "9.1/10", "Sign up now"),
-        card("Reading Group: Reimagining Research Papers as Interactive AI Agents", "4:30 PM - 7:00 PM PT; talk starts 5:00 PM", "Private address, SoMa", "Snorkel AI", "Stanford HAI postdoc Jiacheng Miao presents Paper2Agent, an open-source pipeline that turns papers and codebases into validated MCP agents that execute methods and collaborate across studies.", "The work is published in Nature, converted 74 of 100 computational-biology papers, and outperformed a general-purpose coding agent; Snorkel's recurring research community adds room quality despite hidden attendance.", "Registration is free with approval. Doors open before the weekday preference, but the technical talk begins at 5:00 PM.", "https://luma.com/d7u92w1l", "8.7/10", "Sign up now"),
-      ],
-    },
-    {
-      date: "Thursday, November 19",
-      verdict: "One of the window's strongest nights for production agents and AI infrastructure",
-      note: "The multi-track agent-stack program leads on breadth. Ode and Anthropic offer the most concentrated production-agent room; Neo4j and AWS provide the strongest structured engineering agenda.",
-      events: [
-        card("Agentic + AI Night: AI Agents Across the App Stack", "4:00 PM - 9:30 PM PT; keynote starts 5:30 PM", "Terra Gallery, 511 Harrison St", "Agentic + AI Observability", "A keynote and six breakout sessions cover agent-built apps, backend and data architecture, production failure modes, reviewability, testing, guardrails, and observability.", "Named participation from Databricks, Neon, Vercel, OpenAI, Nimble, and WorkOS plus a pitch-free practitioner format make this a top-tier agent-engineering room.", "Registration is open with approval. Arrive for the 5:30 PM keynote to stay within the weekday timing preference.", "https://luma.com/Agentic_AI_Night-11-19", "9.2/10", "Sign up now"),
-        card("Coffeehouse by Ode with Anthropic", "5:30 PM - 7:30 PM PT", "SHACK15, Ferry Building", "Ode with Anthropic", "Engineers show how Vercel's internal superagent is built, how stronger models change agent design, and what it takes to deploy agents inside large organizations, followed by a technical Anthropic/Ode panel.", "Named Ode and Vercel engineers, Anthropic participation, an invite-only room, and a recruiter-free practitioner format make this unusually well matched to the taste profile.", "Event full; join the waitlist. Capacity is hard-capped, there are no plus-ones, and doors close at 6:00 PM.", "https://luma.com/ode-coffeehouse", "8.9/10", "Sign up now"),
-        card("Graphs for Engineering, Part 2", "4:30 PM - 8:00 PM PT; talks start 5:30 PM", "AWS Builder Loft, 525 Market St", "Neo4j and AWS Builder Loft", "Four technical sessions cover context graphs, AWS AgentCore and Tavily, deterministic enforcement for agent actions, and ontologies for rules agents cannot forget, followed by group discussions.", "245 visible attendees, a first-party AWS venue, and named Neo4j, AWS, Arcade, and Reticular Semantics speakers create a strong engineering room.", "Registration is open. The Luma header ends at 8:00 PM while the agenda lists discussions through 8:15 PM and closing remarks through 8:30 PM; a physical government-issued ID and separate AWS Builder registration are required.", "https://luma.com/js68jbj1", "8.9/10", "Sign up now"),
-      ],
-    },
     {
       date: "Friday, November 20",
       verdict: "A serious personal-agent hackathon, but only as a full-day commitment",
@@ -111,7 +92,7 @@ window.plannerData = {
       verdict: "A broad maker-community Thanksgiving is the best available room",
       note: "Assembly SF is rooted in technology, robotics, wearables, and physical art, but this is a social holiday dinner rather than a technical program. It stays visible only as the day's marginal best available option.",
       events: [
-        card("Far from Home? There's a Place for You at Our Table", "5:00 PM - 10:00 PM PT", "Assembly SF, 270 14th St", "Assembly SF and Mission Dolores Manor", "A seated Thanksgiving dinner brings together researchers, makers, designers, tech professionals, artists, and founders in Assembly SF's emerging robotics and physical-technology community.", "Assembly SF's focus on physical AI, robotics, wearables, and maker culture provides some room signal, but the program itself is intentionally social and broad.", "Paid, approval-required tickets remain; one early-bird spot is shown. This is not a technical event and is listed only as best available.", "https://luma.com/utkabko4", "6.1/10", "Not recommended - best available"),
+        card("Far from Home? There's a Place for You at Our Table", "5:00 PM - 10:00 PM PT", "Assembly SF, 270 14th St", "Assembly SF and Mission Dolores Manor", "A seated Thanksgiving dinner brings together researchers, makers, designers, tech professionals, artists, and founders in Assembly SF's emerging robotics and physical-technology community.", "Assembly SF's focus on physical AI, robotics, wearables, and maker culture provides some room signal, but the program itself is intentionally social and broad.", "Sold out. This is not a technical event and is listed only as the day's marginal best available option.", "https://luma.com/utkabko4", "6.1/10", "Not recommended - best available"),
       ],
     },
     {
@@ -149,7 +130,7 @@ window.plannerData = {
       verdict: "A focused small-model training and evaluation deep dive leads the night",
       note: "Phonely and AWS offer the clear pick: a concrete walk-through from messy production phone data to fine-tuning, frontier-model comparison, failure analysis, and the next training iteration.",
       events: [
-        card("How to Train LLMs to Beat Frontier Models", "6:00 PM - 8:30 PM PT", "AWS Builder Loft, 525 Market St", "Phonely AI and AWS Builder Loft", "Phonely engineers show how they scrub real phone conversations, fine-tune a small model on AWS GPUs, and build evals that compare the base model, the fine-tuned model, and a stronger frontier model.", "48 visible attendees, named Phonely engineering and research speakers, an intermediate technical audience, and the first-party AWS venue create a strong practitioner room.", "Registration is open. Both the Luma RSVP and separate AWS Builder Center registration are required, along with a physical government-issued photo ID.", "https://luma.com/skwlv4im", "8.4/10", "Sign up now"),
+        card("How to Train LLMs to Beat Frontier Models", "6:00 PM - 8:30 PM PT", "AWS Builder Loft, 525 Market St", "Phonely AI and AWS Builder Loft", "Phonely engineers show how they scrub real phone conversations, fine-tune a small model on AWS GPUs, and build evals that compare the base model, the fine-tuned model, and a stronger frontier model.", "87 visible attendees, named Phonely engineering and research speakers, an intermediate technical audience, and the first-party AWS venue create a strong practitioner room.", "Registration is open. Both the Luma RSVP and separate AWS Builder Center registration are required, along with a physical government-issued photo ID.", "https://luma.com/skwlv4im", "8.4/10", "Sign up now"),
       ],
     },
     {
@@ -157,8 +138,25 @@ window.plannerData = {
       verdict: "Applied robotics and open-source agent workflows make this a strong tech night",
       note: "SF Hardware Meetup leads with deployed recycling robotics and industrial monitoring. Omarchy at Cloudflare is the hands-on open-source alternative for Linux workflows, plugins, hardware, and agents.",
       events: [
-        card("Hardware Fireside Chat @ Flux", "6:30 PM - 9:30 PM PT; talks start 7:00 PM", "Private address, San Francisco", "SF Hardware Meetup and Flux", "Three operator sessions cover Glacier's AI-powered recycling robots and vision systems at Recology, industrial equipment monitoring from EquipSight, and the infrastructure behind improving city water, waste, and energy systems.", "190 visible attendees, deployed physical-AI systems, named operators from Glacier, Recology, and EquipSight, and the 10,500-member SF Hardware Meetup create a high-signal room.", "Registration is open. The exact address is disclosed to registered guests; RSVPs may be shared with recurring sponsors under the host's stated policy.", "https://luma.com/lx81wh0i", "8.4/10", "Sign up now"),
+        card("Hardware Fireside Chat @ Flux", "6:30 PM - 9:30 PM PT; talks start 7:00 PM", "Private address, San Francisco", "SF Hardware Meetup and Flux", "Three operator sessions cover Glacier's AI-powered recycling robots and vision systems at Recology, industrial equipment monitoring from EquipSight, and the infrastructure behind improving city water, waste, and energy systems.", "200 visible attendees, deployed physical-AI systems, named operators from Glacier, Recology, and EquipSight, and the 10,500-member SF Hardware Meetup create a high-signal room.", "Event full; join the waitlist. The exact address is disclosed to accepted guests, and RSVPs may be shared with recurring sponsors under the host's stated policy.", "https://luma.com/lx81wh0i", "8.4/10", "Sign up now"),
         card("Omarchy SF", "5:00 PM - 8:00 PM PT", "Cloudflare, 101 Townsend St", "Steve Derico and the Omarchy SF community", "A tech talk and community demos cover Omarchy, Linux, open source, themes, plugins, workflows, agents, hardware, and hacks, with attendees encouraged to bring laptops and show working builds.", "The Cloudflare venue, demo-first format, and concrete open-source agent and developer-workflow focus provide credible room quality despite hidden attendance.", "Registration is open and free. This is a community-run event rather than an official Omarchy or Omacom Foundation program.", "https://luma.com/ejid15jm", "7.6/10", "Consider"),
+      ],
+    },
+    {
+      date: "Thursday, December 3",
+      verdict: "A screened, demo-first agent-infrastructure room is the clear pick",
+      note: "AI Tinkerers brings production-agent builders together for live code, short technical demos, and open hacking across runtimes, state, evals, permissions, and reliability.",
+      events: [
+        card("AI Tinkerers San Francisco: Agent Infrastructure Night", "6:00 PM - 9:00 PM PT", "Private address, San Francisco", "AI Tinkerers San Francisco and Omnara", "Six to eight short live demos and an open-hacking block cover sandboxes, runtimes, orchestration, memory, MCP integrations, evals, observability, auth, permissions, and production SLOs.", "A reviewed 40-person room, 22 current applications, no-sales-pitch rule, code-first demo format, and AI Tinkerers' 8,700-person SF technical community create exceptional room quality.", "Registration is open with organizer approval. The exact address is shared with accepted attendees; applicants should describe what they are building and one infrastructure problem they face.", "https://sf.aitinkerers.org/p/ai-tinkerers-san-francisco-agent-infrastructure-night", "8.8/10", "Sign up now"),
+      ],
+    },
+    {
+      date: "Friday, December 4",
+      verdict: "A technical AI Tinkerers room leads two after-work demo options",
+      note: "The GTM Engineering track is explicitly implementation-first and pitch-free. AWS Builder Loft offers a broader product-demo alternative with a structured 75-minute showcase block.",
+      events: [
+        card("GTM Engineering Demo Night: December Edition", "6:00 PM - 9:00 PM PT", "Private address, San Francisco", "AI Tinkerers San Francisco with Attio", "Builders demo AI systems that learn from outcomes across research, onboarding, growth, and revenue workflows, opening code, prompts, data models, traces, evals, approvals, and rollback paths.", "39 current applications, organizer screening for hands-on authorship, live five-minute slide-free demos, and an explicit no-vendor-pitches rule make this a technical room despite the GTM domain.", "Registration is open with organizer approval. The exact address is shared with accepted attendees, and applicants should describe what they have built or tested.", "https://sf.aitinkerers.org/p/gtm-engineering-demo-night-december-edition", "8.4/10", "Sign up now"),
+        card("AI Demo Night", "5:00 PM - 8:30 PM PT; demos start 5:45 PM", "AWS Builder Loft, 525 Market St", "Devnovate and AWS Builder Loft", "A 75-minute live showcase presents new AI products and builder projects, followed by community discussions and open demos.", "The first-party AWS venue, concrete demo agenda, approval gate, and new-listing exception provide credible room signal despite hidden attendance and a broader founder-and-investor audience.", "Registration is open with approval. Attendance is hidden on this new listing; the event begins at the earliest acceptable weekday time.", "https://luma.com/dwl3gurk", "7.1/10", "Consider"),
       ],
     },
   ],
